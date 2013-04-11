@@ -56,6 +56,48 @@ $messages['gl'] = array(
 	'nostalgia.js' => '/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Morriña */',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ * @author Darth Kule
+ */
+$messages['it'] = array(
+	'nostalgia-desc' => 'Una skin per mostrare come Wikipedia appariva nel 2001',
+	'skinname-nostalgia' => 'Nostalgia',
+	'nostalgia.css' => '/* Gli stili CSS inseriti qui si applicano agli utenti che usano la skin Nostalgia */',
+	'nostalgia.js' => '/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano la skin Nostalgia */',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ * @author 青子守歌
+ */
+$messages['ja'] = array(
+	'nostalgia-desc' => '2001年当時のウィキペディアの外観を再現する外装',
+	'skinname-nostalgia' => 'ノスタルジア',
+	'nostalgia.css' => '/* ここに記述したCSSはノスタルジア外装の利用者に影響します */',
+	'nostalgia.js' => '/* ここにあるすべてのJavaScriptは、ノスタルジア外装を使用している利用者に対して読み込まれます */',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'nostalgia-desc' => 'En Bovverfläsch, wi de Wikkipeedija vun 2001.',
+	'skinname-nostalgia' => 'Nostaljesch',
+	'nostalgia.css' => '/* CSS heh aan dä Stell wirrek nur op de Ovverflääsch „Nostaljesch“ */',
+	'nostalgia.js' => '/* De JavaSkrippte fun hee krijje alle Sigge met de Ovverflääsch "Nostaljesch" jescheck */',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'nostalgia-desc' => 'Een uiterlijk dat Wikipedia had in 2001',
+	'skinname-nostalgia' => 'Nostalgie',
+	'nostalgia.css' => '/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Nostalgie */',
+	'nostalgia.js' => '/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
