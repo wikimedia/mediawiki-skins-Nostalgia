@@ -24,6 +24,16 @@ $messages['qqq'] = array(
 	'nostalgia.js' => 'JS file for the nostalgia skin',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'nostalgia-desc' => "Un tema p'amosar l'aspeutu de la Uiquipedia en 2001",
+	'skinname-nostalgia' => 'Señardá',
+	'nostalgia.css' => '/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Nostalgia */',
+	'nostalgia.js' => '/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Nostalgia */',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -86,6 +96,17 @@ $messages['ksh'] = array(
 	'skinname-nostalgia' => 'Nostaljesch',
 	'nostalgia.css' => '/* CSS heh aan dä Stell wirrek nur op de Ovverflääsch „Nostaljesch“ */',
 	'nostalgia.js' => '/* De JavaSkrippte fun hee krijje alle Sigge met de Ovverflääsch "Nostaljesch" jescheck */',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Kaffi
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'nostalgia-desc' => 'En Ausgesinn fir ze weise wéi Wikipedia 2001 ausgesinn huet',
+	'skinname-nostalgia' => 'Nostalgie',
+	'nostalgia.css' => "/* Dës CSS huet nëmmen Afloss op de Skin ''Nostalgie''  */",
+	'nostalgia.js' => '/* Dëse JavaScript gëtt geluede fir Nostalgia ze benotzen */',
 );
 
 /** Dutch (Nederlands)
