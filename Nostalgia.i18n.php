@@ -109,6 +109,16 @@ $messages['lb'] = array(
 	'nostalgia.js' => '/* Dëse JavaScript gëtt geluede fir Nostalgia ze benotzen */',
 );
 
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'nostalgia-desc' => 'Рувото што покажува како изгледаше Википедија во 2001 г.',
+	'skinname-nostalgia' => 'Носталгија',
+	'nostalgia.css' => '/* Тука поставениот CSS ќе се применува врз корисниците на рувото „Носталгија“ */',
+	'nostalgia.js' => '/* Тука поставениот JavaScript  ќе им се вчитува на корисниците што го користат рувото „Носталгија“ */',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -117,6 +127,15 @@ $messages['nl'] = array(
 	'skinname-nostalgia' => 'Nostalgie',
 	'nostalgia.css' => '/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Nostalgie */',
 	'nostalgia.js' => '/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'skinname-nostalgia' => 'نوستالژي',
+	'nostalgia.css' => '/* د CSS هره بڼه چې دلته ځای پر ځای کېږي هغه به د نوستالجيا د پوښ ټولو کارنانو لپاره کار کوي */',
+	'nostalgia.js' => '/* د جاوا هر يو سکرېپټ چې دلته ځای پر ځای کېږي هغه به د نوستالجيا د پوښ ټولو کارنانو لپاره کار کوي */',
 );
 
 /** tarandíne (tarandíne)
