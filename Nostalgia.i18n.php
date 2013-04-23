@@ -133,6 +133,7 @@ $messages['nl'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'nostalgia-desc' => 'يو پوښ چې دا څرګندوي چې په 2001 کال کې ويکيپېډيا څنګه ښکارېده',
 	'skinname-nostalgia' => 'نوستالژي',
 	'nostalgia.css' => '/* د CSS هره بڼه چې دلته ځای پر ځای کېږي هغه به د نوستالجيا د پوښ ټولو کارنانو لپاره کار کوي */',
 	'nostalgia.js' => '/* د جاوا هر يو سکرېپټ چې دلته ځای پر ځای کېږي هغه به د نوستالجيا د پوښ ټولو کارنانو لپاره کار کوي */',
