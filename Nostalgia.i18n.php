@@ -34,6 +34,16 @@ $messages['ast'] = array(
 	'nostalgia.js' => '/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Nostalgia */',
 );
 
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'nostalgia-desc' => 'উইকিপিডিয়া 2001 সালে কি রকম ছিল তা একটি স্কিন দেখাচ্ছে',
+	'skinname-nostalgia' => 'নস্টালজিয়া',
+	'nostalgia.css' => '/* সিএসএস এখানে স্থাপন করা নস্টালজিয়া স্কিন ব্যবহারকারীদের প্রভাবিত করবে */',
+	'nostalgia.js' => '/* এখানে যেকোন কোন জাভাস্ক্রিপ্ট নস্টালজিয়া স্কিন ব্যবহার করা ব্যবহারকারীদের জন্য লোড করা হবে*/',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
