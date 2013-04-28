@@ -158,3 +158,14 @@ $messages['roa-tara'] = array(
 	'nostalgia.css' => "/* 'U CSS ca se iacchie aqquà 'u 'ndrucane le utinde d'a masckere Nostalgie */",
 	'nostalgia.js' => "/* Ogne JavaScript aqquà avène carecate pe le utinde ca ausane 'a masckere Nostalgie */",
 );
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ * @author Vinhtantran
+ */
+$messages['vi'] = array(
+	'nostalgia-desc' => 'Hình dạng phỏng theo bề ngoài của Wikipedia năm 2001',
+	'skinname-nostalgia' => 'Vọng cổ',
+	'nostalgia.css' => '/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng hình dạng Vọng cổ */',
+	'nostalgia.js' => '/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng hình dạng Vọng cổ */',
+);
