@@ -54,6 +54,19 @@ $messages['de'] = array(
 	'nostalgia.js' => '/* Das folgende JavaScript wird für Benutzer der Nostalgie-Benutzeroberfläche geladen. */',
 );
 
+/** Spanish (español)
+ * @author Fitoschido
+ * @author Manuelt15
+ * @author Sanbec
+ * @author TheBITLINK
+ */
+$messages['es'] = array(
+	'nostalgia-desc' => 'Una piel para mostrar cómo se veía Wikipedia en 2001',
+	'skinname-nostalgia' => 'Nostalgia',
+	'nostalgia.css' => '/* El CSS colocado en esta página afectará a los usuarios que usen la piel "Nostalgia" */',
+	'nostalgia.js' => '/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la piel Nostalgia. */',
+);
+
 /** French (français)
  * @author IAlex
  * @author Metroitendo
