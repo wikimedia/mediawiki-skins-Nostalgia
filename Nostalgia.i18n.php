@@ -24,6 +24,16 @@ $messages['qqq'] = array(
 	'nostalgia.js' => 'JS file for the nostalgia skin',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'nostalgia-desc' => "'n Omslag om te wys hoe Wikipedia in 2001 gelyk het",
+	'skinname-nostalgia' => 'Nostalgie',
+	'nostalgia.css' => '/* CSS wat hier geplaas word sal slegs die Nostalgie-omslag beïnvloed */',
+	'nostalgia.js' => '/* JavaScript wat hier geplaas word sal slegs gebruikers van die Nostalgie-omslag beïnvloed */',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
