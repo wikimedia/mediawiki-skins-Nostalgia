@@ -162,6 +162,17 @@ $messages['nl'] = array(
 	'nostalgia.js' => '/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */',
 );
 
+/** Polish (polski)
+ * @author Sp5uhe
+ * @author WTM
+ */
+$messages['pl'] = array(
+	'nostalgia-desc' => 'Skórka, która pokazuje jak Wikipedia wyglądała w 2001 roku',
+	'skinname-nostalgia' => 'Tęsknota',
+	'nostalgia.css' => '/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Tęsknota */',
+	'nostalgia.js' => '/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Tęsknota */',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
