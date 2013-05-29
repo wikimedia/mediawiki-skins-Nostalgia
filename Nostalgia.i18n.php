@@ -152,6 +152,16 @@ $messages['mk'] = array(
 	'nostalgia.js' => '/* Тука поставениот JavaScript  ќе им се вчитува на корисниците што го користат рувото „Носталгија“ */',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'nostalgia-desc' => 'Kulit untuk menampilkan rupa Wikipedia pada tahun 2001',
+	'skinname-nostalgia' => 'Nostalgia',
+	'nostalgia.css' => '/* CSS yang terletak di sini akan mempengaruhi pengguna kulit Nostalgia */',
+	'nostalgia.js' => '/* Sebarang unsur JavaScript di sini akan dimuatkan untuk pengguna yang memakaikan kulit Nostalgia */',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
