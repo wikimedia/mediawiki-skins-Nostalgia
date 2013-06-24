@@ -169,8 +169,10 @@ $messages['crh-latn'] = array(
 
 /** Czech (česky)
  * @author Li-sung
+ * @author Mormegil
  */
 $messages['cs'] = array(
+	'nostalgia-desc' => 'Vzhled vypadající jako Wikipedie v roce 2001',
 	'skinname-nostalgia' => 'Nostalgie',
 	'nostalgia.css' => '/* Zde uvedené CSS bude ovlivňovat pouze styl „Nostalgie“  */',
 	'nostalgia.js' => '/* JavaScript pro uživatele používající vzhled „Nostalgie“  */',
