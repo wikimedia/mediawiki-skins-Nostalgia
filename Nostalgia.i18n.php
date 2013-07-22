@@ -102,9 +102,13 @@ $messages['be'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
+	'nostalgia-desc' => 'Афармленьне Вікіпэдыі ў стылі 2001 году',
 	'skinname-nostalgia' => 'Настальгія',
+	'nostalgia.css' => '/* Зьмешчаны тут CSS будзе ўжыты ў тэме афармленьня Nostalgia */',
+	'nostalgia.js' => '/* Зьмешчаны тут JavaScript будзе ўжыты ў тэме афармленьня Nostalgia */',
 );
 
 /** Bulgarian (български)
