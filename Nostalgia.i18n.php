@@ -458,6 +458,7 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'nostalgia-desc' => '2001년에 위키백과의 모습을 재현하는 스킨',
 	'skinname-nostalgia' => '노스탤지아',
 	'nostalgia.css' => '/* 이 CSS 설정은 노스탤지아 스킨을 사용하는 사용자에게 적용됩니다 */',
 	'nostalgia.js' => '/* 이 자바스크립트 설정은 노스탤지아 스킨을 사용하는 사용자에게 적용됩니다 */',
