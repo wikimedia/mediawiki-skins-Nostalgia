@@ -873,9 +873,11 @@ $messages['ug-arab'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Dim Grits
  */
 $messages['uk'] = array(
+	'nostalgia-desc' => 'Оболонка, яка показує вигляд Вікіпедії у 2001',
 	'skinname-nostalgia' => 'Ностальгія',
 	'nostalgia.css' => '/* Розміщений тут CSS-код буде використаний для користувачів з налаштованою темою оформлення Ностальгія */',
 	'nostalgia.js' => '/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують тему оформлення Ностальгія */',
