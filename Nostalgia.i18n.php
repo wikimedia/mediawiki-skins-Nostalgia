@@ -16,9 +16,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'nostalgia-desc' => '{{desc}}',
+	'nostalgia-desc' => '{{desc|name=Nostalgia|url=http://www.mediawiki.org/wiki/Extension:Nostalgia}}',
 	'skinname-nostalgia' => 'Name of Nostalgia skin',
 	'nostalgia.css' => 'CSS file for the nostalgia skin',
 	'nostalgia.js' => 'JS file for the nostalgia skin',
