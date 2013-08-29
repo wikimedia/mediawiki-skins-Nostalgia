@@ -641,6 +641,7 @@ $messages['nn'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'nostalgia-desc' => 'Un abilhatge que fa veire a qué se semblava Wikipèdia en 2001',
 	'skinname-nostalgia' => 'Nostalgia',
 	'nostalgia.css' => '/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Nostalgia. */',
 	'nostalgia.js' => '/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Nostalgia unicament. */',
