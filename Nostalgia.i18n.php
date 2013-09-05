@@ -692,10 +692,13 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Diego Queiroz
  */
 $messages['pt-br'] = array(
+	'nostalgia-desc' => 'Um tema para demonstrar como a Wikipédia se parecia em 2001',
 	'skinname-nostalgia' => 'Nostalgia',
+	'nostalgia.css' => '/* O CSS colocado aqui terá efeito nos usuários do tema Nostalgia */',
 	'nostalgia.js' => '/* Qualquer JavaScript aqui colocado afetará os usuários do skin Nostalgia */',
 );
 
