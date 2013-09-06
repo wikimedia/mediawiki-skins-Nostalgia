@@ -33,10 +33,6 @@ class SkinLegacy extends SkinTemplate {
 		$out->addModuleStyles( 'mediawiki.legacy.oldshared' );
 	}
 
-	public function commonPrintStylesheet() {
-		return true;
-	}
-
 	/**
 	 * This was for the old skins and for users with 640x480 screen.
 	 * Please note old skins are still used and might prove useful for

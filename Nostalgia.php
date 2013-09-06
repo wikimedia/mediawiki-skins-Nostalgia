@@ -22,7 +22,10 @@ $wgAutoloadClasses['SkinNostalgia'] = "$dir/Nostalgia_body.php";
 $wgExtensionMessagesFiles['Nostalgia'] = "$dir/Nostalgia.i18n.php";
 $wgValidSkinNames['nostalgia'] = 'Nostalgia';
 $wgResourceModules['ext.nostalgia'] = array(
-	'styles' => 'screen.css',
+	'styles' => array(
+		'screen.css',
+		'print.css' => array( 'media' => 'print' ),
+	),
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Nostalgia',
 );
