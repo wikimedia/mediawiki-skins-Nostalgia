@@ -731,8 +731,10 @@ $messages['roa-tara'] = array(
 /** Russian (русский)
  * @author Alexandr Efremov
  * @author Kaganer
+ * @author Okras
  */
 $messages['ru'] = array(
+	'nostalgia-desc' => 'Тема оформления, показывающая, как Википедия выглядела в 2001 году',
 	'skinname-nostalgia' => 'Ностальгия',
 	'nostalgia.css' => '/* Размещённый здесь CSS будет применяться к теме оформления Nostalgia */',
 	'nostalgia.js' => '/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Nostalgia */',
