@@ -947,11 +947,12 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'skinname-nostalgia' => '怀旧',
-	'nostalgia.css' => '/* 此处的 CSS 将影响使用怀旧皮肤的用户 */',
-	'nostalgia.js' => '/* 此处的JavaScript将加载于使用怀旧皮肤的用户 */',
+	'nostalgia.css' => '/* 放置于这里的CSS将影响使用怀旧皮肤的用户 */',
+	'nostalgia.js' => '/* 这里的任何JavaScript将为使用怀旧皮肤的用户加载 */',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
