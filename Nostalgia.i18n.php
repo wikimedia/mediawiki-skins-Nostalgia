@@ -172,7 +172,7 @@ $messages['crh-latn'] = array(
 	'skinname-nostalgia' => 'Nostalgiya',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Li-sung
  * @author Mormegil
  */
