@@ -948,8 +948,10 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'nostalgia-desc' => '显示维基百科在2001年的样子的新皮肤',
 	'skinname-nostalgia' => '怀旧',
 	'nostalgia.css' => '/* 放置于这里的CSS将影响使用怀旧皮肤的用户 */',
 	'nostalgia.js' => '/* 这里的任何JavaScript将为使用怀旧皮肤的用户加载 */',
