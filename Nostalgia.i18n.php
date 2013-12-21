@@ -241,12 +241,13 @@ $messages['eo'] = array(
  * @author Manuelt15
  * @author Sanbec
  * @author TheBITLINK
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
-	'nostalgia-desc' => 'Una piel para mostrar cómo se veía Wikipedia en 2001',
+	'nostalgia-desc' => 'Una apariencia para mostrar cómo se veía Wikipedia en 2001',
 	'skinname-nostalgia' => 'Nostalgia',
-	'nostalgia.css' => '/* El CSS colocado en esta página afectará a los usuarios que usen la piel "Nostalgia" */',
-	'nostalgia.js' => '/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la piel Nostalgia. */',
+	'nostalgia.css' => '/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia "Nostalgia" */',
+	'nostalgia.js' => '/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Nostalgia. */',
 );
 
 /** Estonian (eesti)
