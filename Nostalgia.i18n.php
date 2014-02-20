@@ -263,8 +263,10 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  */
 $messages['fa'] = array(
+	'nostalgia-desc' => 'یک پوسته برای نمایش چگونگی دیده شدن ویکی‌پدیا در سال ۲۰۰۱',
 	'skinname-nostalgia' => 'نوستالژی',
 );
 
