@@ -336,8 +336,10 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Yona b
  */
 $messages['he'] = array(
+	'nostalgia-desc' => 'לבוש שמראה איך ויקיפדיה נראה ב־2001',
 	'skinname-nostalgia' => 'נוסטלגיה',
 	'nostalgia.css' => '/* הסגנונות הנכתבים כאן ישפיעו על העיצוב Nostalgia בלבד */',
 	'nostalgia.js' => '/* כל סקריפט JavaScript שנכתב כאן ירוץ רק עבור המשתמשים בעיצוב Nostalgia */',
