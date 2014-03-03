@@ -355,6 +355,7 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'nostalgia-desc' => 'Drasta, zo by pokazała, kak je Wikipedija w lěće 2001 wupadała',
 	'skinname-nostalgia' => 'Nostalgija',
 );
 
