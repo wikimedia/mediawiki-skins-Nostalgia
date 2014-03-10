@@ -360,6 +360,8 @@ $messages['hr'] = array(
 $messages['hsb'] = array(
 	'nostalgia-desc' => 'Drasta, zo by pokazała, kak je Wikipedija w lěće 2001 wupadała',
 	'skinname-nostalgia' => 'Nostalgija',
+	'nostalgia.css' => '/* CSS tu budźe so na wužiwarjow drasty Nostalgia wuskutkować */',
+	'nostalgia.js' => '/* JavaScript tu budźe so za wužiwarjow začitować, kotřiž drastu Nostalgia wužiwaja */',
 );
 
 /** Hungarian (magyar)
