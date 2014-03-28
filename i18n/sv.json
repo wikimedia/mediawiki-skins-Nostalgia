@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "M.M.S.",
+            "Skalman"
+        ]
+    },
+    "skinname-nostalgia": "Nostalgi",
+    "nostalgia.css": "/* CSS som skrivs här kommer att påverka alla användare av skalet Nostalgi */",
+    "nostalgia.js": "/* JavaScript här kommer att laddas för dem som använder skalet Nostalgi */"
+}

@@ -19,6 +19,7 @@ $dir = __DIR__;
 $wgAutoloadClasses['LegacyTemplate'] = "$dir/SkinLegacy.php";
 $wgAutoloadClasses['SkinLegacy'] = "$dir/SkinLegacy.php";
 $wgAutoloadClasses['SkinNostalgia'] = "$dir/Nostalgia_body.php";
+$wgMessagesDirs['Nostalgia'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Nostalgia'] = "$dir/Nostalgia.i18n.php";
 $wgValidSkinNames['nostalgia'] = 'Nostalgia';
 $wgResourceModules['ext.nostalgia'] = array(

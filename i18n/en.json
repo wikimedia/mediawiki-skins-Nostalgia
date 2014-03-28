@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": []
+    },
+    "nostalgia-desc": "A skin to show how Wikipedia looked in 2001",
+    "skinname-nostalgia": "Nostalgia",
+    "nostalgia.css": "/* CSS placed here will affect users of the Nostalgia skin */",
+    "nostalgia.js": "/* Any JavaScript here will be loaded for users using the Nostalgia skin */"
+}

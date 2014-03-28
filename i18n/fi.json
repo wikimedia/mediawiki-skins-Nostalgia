@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Crt",
+            "Nedergard"
+        ]
+    },
+    "skinname-nostalgia": "Nostalgia",
+    "nostalgia.css": "/* Tämä sivu sisältää Nostalgia-ulkoasua muuttavia tyylejä. */",
+    "nostalgia.js": "/* Tämän sivun JavaScript-koodi liitetään Nostalgia-tyyliin */"
+}

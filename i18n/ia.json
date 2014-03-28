@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "skinname-nostalgia": "Nostalgia",
+    "nostalgia.css": "/* Le CSS placiate hic afficera le usatores del apparentia Nostalgia */",
+    "nostalgia.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Nostalgia */"
+}
