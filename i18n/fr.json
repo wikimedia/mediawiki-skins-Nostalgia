@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "IAlex",
-            "Metroitendo",
-            "Zetud"
-        ]
-    },
-    "nostalgia-desc": "Un habillage montrant à quoi ressemblait Wikipédia en 2001",
-    "skinname-nostalgia": "Nostalgie",
-    "nostalgia.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Nostalgia. */",
-    "nostalgia.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Nostalgie uniquement */"
+	"@metadata": {
+		"authors": [
+			"IAlex",
+			"Metroitendo",
+			"Zetud"
+		]
+	},
+	"nostalgia-desc": "Un habillage montrant à quoi ressemblait Wikipédia en 2001",
+	"skinname-nostalgia": "Nostalgie",
+	"nostalgia.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Nostalgia. */",
+	"nostalgia.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Nostalgie uniquement */"
 }

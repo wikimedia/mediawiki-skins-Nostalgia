@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "AnakngAraw"
-        ]
-    },
-    "skinname-nostalgia": "Nostalhiya",
-    "nostalgia.css": "/* Ang CSS na inilagay dito ay makakaapekto sa mga tagagamit ng pabalat na Nostalgia */",
-    "nostalgia.js": "/* Ang anumang JavaScript dito ay ikakarga para sa mga tagagamit na gumagamit ng pabalat na Nostalgia */"
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"skinname-nostalgia": "Nostalhiya",
+	"nostalgia.css": "/* Ang CSS na inilagay dito ay makakaapekto sa mga tagagamit ng pabalat na Nostalgia */",
+	"nostalgia.js": "/* Ang anumang JavaScript dito ay ikakarga para sa mga tagagamit na gumagamit ng pabalat na Nostalgia */"
 }

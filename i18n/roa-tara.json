@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joetaras"
-        ]
-    },
-    "nostalgia-desc": "'Nu module pe fà vedè cumme Uicchipèdie se 'ndrucave jndr'à 'u 2001",
-    "skinname-nostalgia": "Nostalgie",
-    "nostalgia.css": "/* 'U CSS ca se iacchie aqquà 'u 'ndrucane le utinde d'a masckere Nostalgie */",
-    "nostalgia.js": "/* Ogne JavaScript aqquà avène carecate pe le utinde ca ausane 'a masckere Nostalgie */"
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"nostalgia-desc": "'Nu module pe fà vedè cumme Uicchipèdie se 'ndrucave jndr'à 'u 2001",
+	"skinname-nostalgia": "Nostalgie",
+	"nostalgia.css": "/* 'U CSS ca se iacchie aqquà 'u 'ndrucane le utinde d'a masckere Nostalgie */",
+	"nostalgia.js": "/* Ogne JavaScript aqquà avène carecate pe le utinde ca ausane 'a masckere Nostalgie */"
 }

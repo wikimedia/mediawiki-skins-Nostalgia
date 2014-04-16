@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "David1010"
-        ]
-    },
-    "skinname-nostalgia": "ნოსტალგია",
-    "nostalgia.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ნოსტალგიური გაფორმების თემაში */"
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"skinname-nostalgia": "ნოსტალგია",
+	"nostalgia.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ნოსტალგიური გაფორმების თემაში */"
 }

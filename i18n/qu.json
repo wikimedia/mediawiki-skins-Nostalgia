@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "AlimanRuna"
-        ]
-    },
-    "nostalgia.css": "/* Churamusqa CSS chantakunaqa ''Nostalgia skin'' nisqa qarata llamk'achiq ruraqkunapaq llamk'anqa */",
-    "nostalgia.js": "/* Ima kaypi qillqamusqa JavaScript nisqa wakichi qillqapas ''Nostalgia skin'' nisqa qarata llamk'achiq ruraqkunapaq chaqnasqa kanqa */"
+	"@metadata": {
+		"authors": [
+			"AlimanRuna"
+		]
+	},
+	"nostalgia.css": "/* Churamusqa CSS chantakunaqa ''Nostalgia skin'' nisqa qarata llamk'achiq ruraqkunapaq llamk'anqa */",
+	"nostalgia.js": "/* Ima kaypi qillqamusqa JavaScript nisqa wakichi qillqapas ''Nostalgia skin'' nisqa qarata llamk'achiq ruraqkunapaq chaqnasqa kanqa */"
 }

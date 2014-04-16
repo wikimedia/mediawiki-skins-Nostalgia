@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hamilton Abreu"
-        ]
-    },
-    "skinname-nostalgia": "Nostalgia",
-    "nostalgia.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Nostalgia */",
-    "nostalgia.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Nostalgia */"
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"skinname-nostalgia": "Nostalgia",
+	"nostalgia.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Nostalgia */",
+	"nostalgia.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Nostalgia */"
 }

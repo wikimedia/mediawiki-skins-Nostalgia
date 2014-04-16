@@ -1,8 +1,6 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "skinname-nostalgia": "懷古",
-    "nostalgia.css": "/* 此之 CSS 用於懷古面之簿也 */",
-    "nostalgia.js": "/* 此之JavaScript將載於用懷古面之簿 */"
+	"@metadata": [],
+	"skinname-nostalgia": "懷古",
+	"nostalgia.css": "/* 此之 CSS 用於懷古面之簿也 */",
+	"nostalgia.js": "/* 此之JavaScript將載於用懷古面之簿 */"
 }

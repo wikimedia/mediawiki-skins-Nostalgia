@@ -1,8 +1,6 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "skinname-nostalgia": "Nostalgija",
-    "nostalgia.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Nostalgija“ */",
-    "nostalgia.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Nostalgija“ */"
+	"@metadata": [],
+	"skinname-nostalgia": "Nostalgija",
+	"nostalgia.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Nostalgija“ */",
+	"nostalgia.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Nostalgija“ */"
 }

@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64"
-        ]
-    },
-    "nostalgia-desc": "Eine Benutzeroberfläche, die die Wikipedia wie im Jahr 2001 aussehen lässt",
-    "skinname-nostalgia": "Nostalgie",
-    "nostalgia.css": "/* Das folgende CSS wird für Benutzer der Nostalgie-Benutzeroberfläche geladen. */",
-    "nostalgia.js": "/* Das folgende JavaScript wird für Benutzer der Nostalgie-Benutzeroberfläche geladen. */"
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"nostalgia-desc": "Eine Benutzeroberfläche, die die Wikipedia wie im Jahr 2001 aussehen lässt",
+	"skinname-nostalgia": "Nostalgie",
+	"nostalgia.css": "/* Das folgende CSS wird für Benutzer der Nostalgie-Benutzeroberfläche geladen. */",
+	"nostalgia.js": "/* Das folgende JavaScript wird für Benutzer der Nostalgie-Benutzeroberfläche geladen. */"
 }

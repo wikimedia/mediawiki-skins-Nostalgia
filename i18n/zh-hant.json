@@ -1,8 +1,6 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "skinname-nostalgia": "懷舊",
-    "nostalgia.css": "/* 此處的 CSS 將影響使用懷舊面板的用戶 */",
-    "nostalgia.js": "/* 此處的JavaScript將載入於使用懷舊面板的用戶 */"
+	"@metadata": [],
+	"skinname-nostalgia": "懷舊",
+	"nostalgia.css": "/* 此處的 CSS 將影響使用懷舊面板的用戶 */",
+	"nostalgia.js": "/* 此處的JavaScript將載入於使用懷舊面板的用戶 */"
 }

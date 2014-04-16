@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Firilacroco"
-        ]
-    },
-    "skinname-nostalgia": "Nostalgie",
-    "nostalgia.css": "/* CSS plasate aici vor afecta utilizatorii stilului Nostalgia  */"
+	"@metadata": {
+		"authors": [
+			"Firilacroco"
+		]
+	},
+	"skinname-nostalgia": "Nostalgie",
+	"nostalgia.css": "/* CSS plasate aici vor afecta utilizatorii stilului Nostalgia  */"
 }

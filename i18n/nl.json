@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand"
-        ]
-    },
-    "nostalgia-desc": "Een uiterlijk dat Wikipedia had in 2001",
-    "skinname-nostalgia": "Nostalgie",
-    "nostalgia.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Nostalgie */",
-    "nostalgia.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */"
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"nostalgia-desc": "Een uiterlijk dat Wikipedia had in 2001",
+	"skinname-nostalgia": "Nostalgie",
+	"nostalgia.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Nostalgie */",
+	"nostalgia.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */"
 }

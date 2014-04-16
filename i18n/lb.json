@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kaffi",
-            "Robby"
-        ]
-    },
-    "nostalgia-desc": "En Ausgesinn fir ze weise wéi Wikipedia 2001 ausgesinn huet",
-    "skinname-nostalgia": "Nostalgie",
-    "nostalgia.css": "/* Dës CSS huet nëmmen Afloss op de Skin ''Nostalgie''  */",
-    "nostalgia.js": "/* Dëse JavaScript gëtt geluede fir Nostalgia ze benotzen */"
+	"@metadata": {
+		"authors": [
+			"Kaffi",
+			"Robby"
+		]
+	},
+	"nostalgia-desc": "En Ausgesinn fir ze weise wéi Wikipedia 2001 ausgesinn huet",
+	"skinname-nostalgia": "Nostalgie",
+	"nostalgia.css": "/* Dës CSS huet nëmmen Afloss op de Skin ''Nostalgie''  */",
+	"nostalgia.js": "/* Dëse JavaScript gëtt geluede fir Nostalgia ze benotzen */"
 }

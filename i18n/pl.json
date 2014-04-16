@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sp5uhe",
-            "WTM"
-        ]
-    },
-    "nostalgia-desc": "Skórka, która pokazuje jak Wikipedia wyglądała w 2001 roku",
-    "skinname-nostalgia": "Tęsknota",
-    "nostalgia.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Tęsknota */",
-    "nostalgia.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Tęsknota */"
+	"@metadata": {
+		"authors": [
+			"Sp5uhe",
+			"WTM"
+		]
+	},
+	"nostalgia-desc": "Skórka, która pokazuje jak Wikipedia wyglądała w 2001 roku",
+	"skinname-nostalgia": "Tęsknota",
+	"nostalgia.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Tęsknota */",
+	"nostalgia.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Tęsknota */"
 }

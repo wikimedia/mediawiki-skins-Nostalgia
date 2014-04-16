@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fulup"
-        ]
-    },
-    "skinname-nostalgia": "Melkoni",
-    "nostalgia.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Melkoni */",
-    "nostalgia.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur Melkoni */"
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"skinname-nostalgia": "Melkoni",
+	"nostalgia.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Melkoni */",
+	"nostalgia.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur Melkoni */"
 }
