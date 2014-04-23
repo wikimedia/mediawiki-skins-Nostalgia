@@ -1,6 +1,6 @@
 <?php
 /**
- * The ancient Nostalgia skin, plus SkinLegacy support.
+ * The ancient Nostalgia skin.
  */
 
 $wgExtensionCredits['skin'][] = array(
@@ -12,8 +12,6 @@ $wgExtensionCredits['skin'][] = array(
 	'license-name' => 'GPLv2+',
 );
 
-$wgAutoloadClasses['LegacyTemplate'] = __DIR__ . "/SkinLegacy.php";
-$wgAutoloadClasses['SkinLegacy'] = __DIR__ . "/SkinLegacy.php";
 $wgAutoloadClasses['SkinNostalgia'] = __DIR__ . "/Nostalgia_body.php";
 $wgMessagesDirs['Nostalgia'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Nostalgia'] = __DIR__ . "/Nostalgia.i18n.php";
