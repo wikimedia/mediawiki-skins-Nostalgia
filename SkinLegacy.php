@@ -510,8 +510,7 @@ class LegacyTemplate extends BaseTemplate {
 		$sub = $wgOut->getSubtitle();
 
 		if ( $sub == '' ) {
-			global $wgExtraSubtitle;
-			$sub = wfMessage( 'tagline' )->parse() . $wgExtraSubtitle;
+			$sub = wfMessage( 'tagline' )->parse();
 		}
 
 		$subpages = $this->getSkin()->subPageSubtitle();
