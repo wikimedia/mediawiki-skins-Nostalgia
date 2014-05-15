@@ -57,7 +57,10 @@ class SkinLegacy extends SkinTemplate {
 		return $this->mSuppressQuickbar;
 	}
 
-	function qbSetting() {
+	/**
+	 * @return int|string
+	 */
+	public function qbSetting() {
 		global $wgUser;
 		if ( $this->isQuickbarSuppressed() ) {
 			return 0;
@@ -79,6 +82,8 @@ class LegacyTemplate extends BaseTemplate {
 	// How many search boxes have we made?  Avoid duplicate id's.
 	protected $searchboxes = '';
 
+	protected $mWatchLinkNum;
+
 	function execute() {
 		$this->html( 'headelement' );
 		echo $this->beforeContent();
@@ -99,11 +104,12 @@ class LegacyTemplate extends BaseTemplate {
 		return $this->doBeforeContent();
 	}
 
+	/**
+	 * @return string
+	 */
 	function doBeforeContent() {
 		global $wgLang;
 		wfProfileIn( __METHOD__ );
-
-		$s = '';
 
 		$langlinks = $this->otherLanguages();
 		if ( $langlinks ) {
@@ -115,12 +121,12 @@ class LegacyTemplate extends BaseTemplate {
 			$borderhack = 'class="top"';
 		}
 
-		$s .= "\n<div id='content'>\n<div id='topbar'>\n" .
+		$s = "\n<div id='content'>\n<div id='topbar'>\n" .
 			"<table cellspacing='0' style='width: 100%;'>\n<tr>\n";
 
 		if ( $this->getSkin()->qbSetting() == 0 ) {
-			$s .= "<td class='top' style='text-align: left; vertical-align: top;' rowspan='{$rows}'>\n" .
-				$this->getSkin()->logoText( $wgLang->alignStart() ) . '</td>';
+			$s .= "<td class='top' style='text-align: left; vertical-align: top;' rowspan='{$rows}'>\n"
+				. $this->getSkin()->logoText( $wgLang->alignStart() ) . '</td>';
 		}
 
 		$l = $wgLang->alignStart();
@@ -169,6 +175,9 @@ class LegacyTemplate extends BaseTemplate {
 		return '</div></div>';
 	}
 
+	/**
+	 * @return string
+	 */
 	function searchForm() {
 		global $wgRequest, $wgUseTwoButtonsSearchForm;
 
@@ -189,11 +198,14 @@ class LegacyTemplate extends BaseTemplate {
 		$s .= '</form>';
 
 		// Ensure unique id's for search boxes made after the first
-		$this->searchboxes = $this->searchboxes == '' ? 2 : $this->searchboxes + 1;
+		$this->searchboxes = $this->searchboxes == '' ? 2 : $this->searchboxes++;
 
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 */
 	function pageStats() {
 		$ret = array();
 		$items = array( 'viewcount', 'credits', 'lastmod', 'numberofwatchingusers', 'copyright' );
@@ -207,6 +219,9 @@ class LegacyTemplate extends BaseTemplate {
 		return implode( ' ', $ret );
 	}
 
+	/**
+	 * @return string
+	 */
 	function topLinks() {
 		global $wgOut;
 
@@ -259,7 +274,9 @@ class LegacyTemplate extends BaseTemplate {
 				}
 				$s = $wgLang->pipeList( array(
 					$s,
-					'<a href="' . htmlspecialchars( $title->getLocalURL( 'variant=' . $code ) ) . '" lang="' . $code . '" hreflang="' . $code . '">' . htmlspecialchars( $varname ) . '</a>'
+					'<a href="' . htmlspecialchars( $title->getLocalURL( 'variant=' . $code ) )
+						. '" lang="' . $code . '" hreflang="' . $code . '">'
+						. htmlspecialchars( $varname ) . '</a>'
 				) );
 			}
 		}
@@ -295,6 +312,9 @@ class LegacyTemplate extends BaseTemplate {
 		return $out;
 	}
 
+	/**
+	 * @return string
+	 */
 	function bottomLinks() {
 		global $wgOut, $wgUser;
 		$sep = wfMessage( 'pipe-separator' )->escaped() . "\n";
@@ -356,6 +376,10 @@ class LegacyTemplate extends BaseTemplate {
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 * @throws MWException
+	 */
 	function otherLanguages() {
 		global $wgOut, $wgLang, $wgHideInterlanguageLinks;
 
@@ -418,6 +442,9 @@ class LegacyTemplate extends BaseTemplate {
 			$select->getHTML() . Xml::submitButton( wfMessage( 'go' )->text() ) );
 	}
 
+	/**
+	 * @return string
+	 */
 	function pageTitleLinks() {
 		global $wgOut, $wgUser, $wgRequest, $wgLang;
 
@@ -500,10 +527,12 @@ class LegacyTemplate extends BaseTemplate {
 	 */
 	function pageTitle() {
 		global $wgOut;
-		$s = '<h1 class="pagetitle"><span dir="auto">' . $wgOut->getPageTitle() . '</span></h1>';
-		return $s;
+		return '<h1 class="pagetitle"><span dir="auto">' . $wgOut->getPageTitle() . '</span></h1>';
 	}
 
+	/**
+	 * @return string
+	 */
 	function pageSubtitle() {
 		global $wgOut;
 
@@ -520,6 +549,9 @@ class LegacyTemplate extends BaseTemplate {
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 */
 	function printableLink() {
 		global $wgOut, $wgRequest, $wgLang;
 
@@ -543,14 +575,8 @@ class LegacyTemplate extends BaseTemplate {
 	}
 
 	/**
-	 * @deprecated in 1.19
 	 * @return string
 	 */
-	function getQuickbarCompensator( $rows = 1 ) {
-		wfDeprecated( __METHOD__, '1.19' );
-		return "<td style='width: 152px;' rowspan='{$rows}'>&#160;</td>";
-	}
-
 	function editThisPage() {
 		global $wgOut;
 
@@ -577,6 +603,9 @@ class LegacyTemplate extends BaseTemplate {
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 */
 	function deleteThisPage() {
 		global $wgUser, $wgRequest;
 
@@ -599,6 +628,9 @@ class LegacyTemplate extends BaseTemplate {
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 */
 	function protectThisPage() {
 		global $wgUser, $wgRequest;
 
@@ -627,6 +659,9 @@ class LegacyTemplate extends BaseTemplate {
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 */
 	function watchThisPage() {
 		global $wgOut, $wgUser;
 		++$this->mWatchLinkNum;
@@ -664,6 +699,9 @@ class LegacyTemplate extends BaseTemplate {
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 */
 	function moveThisPage() {
 		if ( $this->getSkin()->getTitle()->quickUserCan( 'move' ) ) {
 			return Linker::linkKnown(
@@ -678,6 +716,9 @@ class LegacyTemplate extends BaseTemplate {
 		}
 	}
 
+	/**
+	 * @return string
+	 */
 	function historyLink() {
 		return Linker::link(
 			$this->getSkin()->getTitle(),
@@ -687,6 +728,9 @@ class LegacyTemplate extends BaseTemplate {
 		);
 	}
 
+	/**
+	 * @return string
+	 */
 	function whatLinksHere() {
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Whatlinkshere', $this->getSkin()->getTitle()->getPrefixedDBkey() ),
@@ -694,6 +738,9 @@ class LegacyTemplate extends BaseTemplate {
 		);
 	}
 
+	/**
+	 * @return string
+	 */
 	function userContribsLink() {
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Contributions', $this->getSkin()->getTitle()->getDBkey() ),
@@ -701,6 +748,9 @@ class LegacyTemplate extends BaseTemplate {
 		);
 	}
 
+	/**
+	 * @return string
+	 */
 	function emailUserLink() {
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Emailuser', $this->getSkin()->getTitle()->getDBkey() ),
@@ -708,6 +758,9 @@ class LegacyTemplate extends BaseTemplate {
 		);
 	}
 
+	/**
+	 * @return string
+	 */
 	function watchPageLinksLink() {
 		global $wgOut;
 
@@ -721,6 +774,9 @@ class LegacyTemplate extends BaseTemplate {
 		}
 	}
 
+	/**
+	 * @return string
+	 */
 	function talkLink() {
 		$title = $this->getSkin()->getTitle();
 		if ( NS_SPECIAL == $title->getNamespace() ) {
@@ -773,6 +829,9 @@ class LegacyTemplate extends BaseTemplate {
 		return $s;
 	}
 
+	/**
+	 * @return string
+	 */
 	function commentLink() {
 		global $wgOut;
 
@@ -799,6 +858,9 @@ class LegacyTemplate extends BaseTemplate {
 		);
 	}
 
+	/**
+	 * @return string
+	 */
 	function getUploadLink() {
 		global $wgUploadNavigationUrl;
 
@@ -815,6 +877,10 @@ class LegacyTemplate extends BaseTemplate {
 		}
 	}
 
+	/**
+	 * @return string
+	 * @throws MWException
+	 */
 	function nameAndLogin() {
 		global $wgUser, $wgLang, $wgRequest;
 

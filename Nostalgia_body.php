@@ -40,7 +40,6 @@ class SkinNostalgia extends SkinLegacy {
 		parent::setupSkinUserCss( $out );
 		$out->addModuleStyles( 'ext.nostalgia' );
 	}
-
 }
 
 class NostalgiaTemplate extends LegacyTemplate {
@@ -84,11 +83,11 @@ class NostalgiaTemplate extends LegacyTemplate {
 		$sep = " |\n";
 
 		$s = $this->getSkin()->mainPageLink() . $sep
-		  . Linker::specialLink( 'Recentchanges' );
+			. Linker::specialLink( 'Recentchanges' );
 
 		if ( $this->data['isarticle'] ) {
-			$s .= $sep . '<strong>' . $this->editThisPage() . '</strong>' . $sep . $this->talkLink() .
-					$sep . $this->historyLink();
+			$s .= $sep . '<strong>' . $this->editThisPage() . '</strong>' . $sep . $this->talkLink()
+				. $sep . $this->historyLink();
 		}
 
 		/* show links to different language variants */
@@ -137,8 +136,8 @@ class NostalgiaTemplate extends LegacyTemplate {
 		$s .= $this->bottomLinks();
 		$s .= "\n<br />" . $this->pageStats();
 		$s .= "\n<br />" . $this->getSkin()->mainPageLink()
-				. ' | ' . $this->getSkin()->aboutLink()
-				. ' | ' . $this->searchForm();
+			. ' | ' . $this->getSkin()->aboutLink()
+			. ' | ' . $this->searchForm();
 
 		$s .= "\n</div>\n</div>\n";
 
