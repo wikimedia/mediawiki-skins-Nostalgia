@@ -7,7 +7,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( -1 );
 }
 
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['skins'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'Nostalgia',
 	'descriptionmsg' => 'nostalgia-desc',
