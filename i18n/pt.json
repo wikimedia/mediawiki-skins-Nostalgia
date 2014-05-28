@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Waldir"
 		]
 	},
+	"nostalgia-desc": "Um tema para demonstrar como a Wikipédia se parecia em 2001",
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Nostalgia */",
 	"nostalgia.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Nostalgia */"
