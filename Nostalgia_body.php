@@ -30,7 +30,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
  * @ingroup Skins
  */
 class SkinNostalgia extends SkinLegacy {
-	var $skinname = 'nostalgia', $stylename = 'nostalgia',
+	var $skinname = 'nostalgia',
 		$template = 'NostalgiaTemplate';
 
 	/**
