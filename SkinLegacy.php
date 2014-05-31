@@ -21,7 +21,6 @@
  */
 
 class SkinLegacy extends SkinTemplate {
-	var $useHeadElement = true;
 	protected $mWatchLinkNum = 0; // Appended to end of watch link id's
 
 	/**
