@@ -22,5 +22,5 @@ $wgResourceModules['ext.nostalgia'] = array(
 		'print.css' => array( 'media' => 'print' ),
 	),
 	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'Nostalgia',
+	'remoteBasePath' => $GLOBALS['wgStylePath'] . '/Nostalgia',
 );
