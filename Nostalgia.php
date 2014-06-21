@@ -6,8 +6,10 @@
 $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
 	'name' => 'Nostalgia',
+	'namemsg' => 'skinname-nostalgia',
 	'descriptionmsg' => 'nostalgia-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Nostalgia',
+	'license-name' => 'GPLv2+',
 );
 
 $wgAutoloadClasses['LegacyTemplate'] = __DIR__ . "/SkinLegacy.php";
