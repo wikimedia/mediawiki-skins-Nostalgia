@@ -26,7 +26,7 @@
  * @ingroup Skins
  */
 class SkinNostalgia extends SkinTemplate {
-	var $skinname = 'nostalgia',
+	public $skinname = 'nostalgia',
 		$template = 'NostalgiaTemplate';
 
 	/**
