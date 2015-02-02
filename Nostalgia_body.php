@@ -452,7 +452,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 */
 	function pageTitle() {
 		global $wgOut;
-		return '<h1 class="pagetitle"><span dir="auto">' . $wgOut->getPageTitle() . '</span></h1>';
+		return '<h1 class="pagetitle">' . $wgOut->getPageTitle() . '</h1>';
 	}
 
 	/**
