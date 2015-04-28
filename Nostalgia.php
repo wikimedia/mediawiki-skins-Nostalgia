@@ -18,6 +18,7 @@ $wgMessagesDirs['Nostalgia'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Nostalgia'] = __DIR__ . "/Nostalgia.i18n.php";
 $wgValidSkinNames['nostalgia'] = 'Nostalgia';
 $wgResourceModules['ext.nostalgia'] = array(
+	'position' => 'top',
 	'styles' => array(
 		'screen.css',
 		'print.css' => array( 'media' => 'print' ),
