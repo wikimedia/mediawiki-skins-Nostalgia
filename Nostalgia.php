@@ -1,27 +1,14 @@
 <?php
-/**
- * The ancient Nostalgia skin.
- */
 
-$wgExtensionCredits['skin'][] = array(
-	'path' => __FILE__,
-	'name' => 'Nostalgia',
-	'namemsg' => 'skinname-nostalgia',
-	'descriptionmsg' => 'nostalgia-desc',
-	'url' => 'https://www.mediawiki.org/wiki/Skin:Nostalgia',
-	'license-name' => 'GPLv2+',
-);
-
-$wgAutoloadClasses['SkinNostalgia'] = __DIR__ . "/Nostalgia_body.php";
-$wgAutoloadClasses['NostalgiaTemplate'] = __DIR__ . "/Nostalgia_body.php";
-$wgMessagesDirs['Nostalgia'] = __DIR__ . '/i18n';
-$wgValidSkinNames['nostalgia'] = 'Nostalgia';
-$wgResourceModules['ext.nostalgia'] = array(
-	'position' => 'top',
-	'styles' => array(
-		'screen.css',
-		'print.css' => array( 'media' => 'print' ),
-	),
-	'localBasePath' => __DIR__,
-	'remoteSkinPath' => 'Nostalgia',
-);
+if ( function_exists( 'wfLoadSkin' ) ) {
+	wfLoadSkin( 'Nostalgia' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['Nostalgia'] = __DIR__ . '/i18n';
+	/* wfWarn(
+		'Deprecated PHP entry point used for Nostalgia skin. Please use wfLoadSkin instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+	return true;
+} else {
+	die( 'This version of the Nostalgia skin requires MediaWiki 1.25+' );
+}

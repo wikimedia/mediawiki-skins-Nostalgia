@@ -1,0 +1,35 @@
+{
+	"name": "Nostalgia",
+	"url": "https://www.mediawiki.org/wiki/Skin:Nostalgia",
+	"descriptionmsg": "nostalgia-desc",
+	"namemsg": "skinname-nostalgia",
+	"license-name": "GPLv2+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"nostalgia": "Nostalgia"
+	},
+	"MessagesDirs": {
+		"Nostalgia": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.nostalgia": {
+			"position": "top",
+			"styles": {
+				"0": "screen.css",
+				"print.css": {
+					"media": "print"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Nostalgia"
+	},
+	"AutoloadClasses": {
+		"SkinNostalgia": "Nostalgia_body.php",
+		"NostalgiaTemplate": "Nostalgia_body.php"
+	}
+}
