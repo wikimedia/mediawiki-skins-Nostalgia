@@ -15,7 +15,6 @@ $wgExtensionCredits['skin'][] = array(
 $wgAutoloadClasses['SkinNostalgia'] = __DIR__ . "/Nostalgia_body.php";
 $wgAutoloadClasses['NostalgiaTemplate'] = __DIR__ . "/Nostalgia_body.php";
 $wgMessagesDirs['Nostalgia'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Nostalgia'] = __DIR__ . "/Nostalgia.i18n.php";
 $wgValidSkinNames['nostalgia'] = 'Nostalgia';
 $wgResourceModules['ext.nostalgia'] = array(
 	'styles' => array(
