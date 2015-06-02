@@ -31,5 +31,6 @@
 	"AutoloadClasses": {
 		"SkinNostalgia": "Nostalgia_body.php",
 		"NostalgiaTemplate": "Nostalgia_body.php"
-	}
+	},
+	"manifest_version": 1
 }
