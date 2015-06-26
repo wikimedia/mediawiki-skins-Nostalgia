@@ -4,10 +4,10 @@
 			"Shirayuki"
 		]
 	},
-	"nostalgia-desc": "{{desc|name=Nostalgia|url=http://www.mediawiki.org/wiki/Extension:Nostalgia}}",
-	"skinname-nostalgia": "Name of Nostalgia skin",
-	"nostalgia.css": "CSS file for the nostalgia skin",
-	"nostalgia.js": "JS file for the nostalgia skin",
+	"skinname-nostalgia": "{{optional}}",
+	"nostalgia-desc": "{{desc|name=Nostalgia|url=https://www.mediawiki.org/wiki/Skin:Nostalgia}}",
+	"nostalgia.css": "{{optional}}",
+	"nostalgia.js": "{{optional}}",
 	"newmessageslink": "Link text to the user's talk page when they have new messages",
 	"newmessagesdifflink": "Link text to a diff page with the last change to the uuser's talk page"
 }
