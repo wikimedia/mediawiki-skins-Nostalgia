@@ -419,14 +419,14 @@ class NostalgiaTemplate extends BaseTemplate {
 			if ( !$title->equals( $wgUser->getTalkPage() ) ) {
 				$tl = Linker::linkKnown(
 					$wgUser->getTalkPage(),
-					wfMessage( 'newmessageslink' )->escaped(),
+					wfMessage( 'nostalgia-newmessageslink' )->escaped(),
 					array(),
 					array( 'redirect' => 'no' )
 				);
 
 				$dl = Linker::linkKnown(
 					$wgUser->getTalkPage(),
-					wfMessage( 'newmessagesdifflink' )->escaped(),
+					wfMessage( 'nostalgia-newmessagesdifflink' )->escaped(),
 					array(),
 					array( 'diff' => 'cur' )
 				);
