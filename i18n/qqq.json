@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Matma Rex"
 		]
 	},
+	"nostalgia-desc": "{{desc|name=Nostalgia|url=https://www.mediawiki.org/wiki/Skin:Nostalgia|what=skin}}",
 	"skinname-nostalgia": "{{optional}}",
-	"nostalgia-desc": "{{desc|name=Nostalgia|url=https://www.mediawiki.org/wiki/Skin:Nostalgia}}",
 	"nostalgia.css": "{{optional}}",
 	"nostalgia.js": "{{optional}}",
 	"newmessageslink": "Link text to the user's talk page when they have new messages",
