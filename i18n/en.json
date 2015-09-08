@@ -6,6 +6,6 @@
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* CSS placed here will affect users of the Nostalgia skin */",
 	"nostalgia.js": "/* Any JavaScript here will be loaded for users using the Nostalgia skin */",
-	"newmessageslink": "new messages",
-	"newmessagesdifflink": "last change"
+	"nostalgia-newmessageslink": "new messages",
+	"nostalgia-newmessagesdifflink": "last change"
 }

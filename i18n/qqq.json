@@ -9,6 +9,6 @@
 	"skinname-nostalgia": "{{optional}}",
 	"nostalgia.css": "{{optional}}",
 	"nostalgia.js": "{{optional}}",
-	"newmessageslink": "Link text to the user's talk page when they have new messages",
-	"newmessagesdifflink": "Link text to a diff page with the last change to the uuser's talk page"
+	"nostalgia-newmessageslink": "Link text to the user's talk page when they have new messages",
+	"nostalgia-newmessagesdifflink": "Link text to a diff page with the last change to the uuser's talk page"
 }
