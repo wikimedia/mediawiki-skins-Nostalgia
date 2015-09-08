@@ -8,6 +8,6 @@
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Le CSS placiate hic afficera le usatores del apparentia Nostalgia */",
 	"nostalgia.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Nostalgia */",
-	"newmessageslink": "nove messages",
-	"newmessagesdifflink": "ultime modification"
+	"nostalgia-newmessageslink": "nove messages",
+	"nostalgia-newmessagesdifflink": "ultime modification"
 }
