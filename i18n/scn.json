@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Santu"
+			"Santu",
+			"Pippinu"
 		]
 	},
-	"skinname-nostalgia": "Nustargìa"
+	"nostalgia-desc": "Na peddi pi’ fari a’ vìdiri com’era Wikipedia ntô 2001",
+	"skinname-nostalgia": "Nustargìa",
+	"nostalgia-newmessageslink": "missaggi novi",
+	"nostalgia-newmessagesdifflink": "ùrtimi canciamenti"
 }
