@@ -5,8 +5,8 @@
 			"Matma Rex"
 		]
 	},
+	"nostalgia-skinname": "{{optional}}",
 	"nostalgia-desc": "{{desc|name=Nostalgia|url=https://www.mediawiki.org/wiki/Skin:Nostalgia|what=skin}}",
-	"skinname-nostalgia": "{{optional}}",
 	"nostalgia.css": "{{optional}}",
 	"nostalgia.js": "{{optional}}",
 	"nostalgia-newmessageslink": "Link text to the user's talk page when they have new messages",

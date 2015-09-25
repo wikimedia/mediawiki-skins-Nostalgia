@@ -1,8 +1,8 @@
 {
 	"name": "Nostalgia",
+	"namemsg": "nostalgia-skinname",
 	"url": "https://www.mediawiki.org/wiki/Skin:Nostalgia",
 	"descriptionmsg": "nostalgia-desc",
-	"namemsg": "skinname-nostalgia",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ValidSkinNames": {
