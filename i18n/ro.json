@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Firilacroco"
+			"Firilacroco",
+			"Minisarm"
 		]
 	},
+	"nostalgia-desc": "Un aspect care reamintește de Wikipedia din 2001",
 	"skinname-nostalgia": "Nostalgie",
-	"nostalgia.css": "/* CSS plasate aici vor afecta utilizatorii stilului Nostalgia  */"
+	"nostalgia.css": "/* CSS plasate aici vor afecta utilizatorii stilului Nostalgia  */",
+	"nostalgia-newmessageslink": "mesaje noi",
+	"nostalgia-newmessagesdifflink": "comparație cu versiunea precedentă"
 }

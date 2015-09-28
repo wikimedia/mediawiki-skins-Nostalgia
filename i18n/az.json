@@ -7,5 +7,7 @@
 	},
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Burada yerləşən CSS Nostalgia skin istifadəçilərinə tətbiq olunur */",
-	"nostalgia.js": "/* Burada Nostalgia skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */"
+	"nostalgia.js": "/* Burada Nostalgia skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
+	"nostalgia-newmessageslink": "yeni ismarıclar",
+	"nostalgia-newmessagesdifflink": "Sonuncu və əvvəlki versiya arasındakı fərq"
 }

@@ -6,5 +6,7 @@
 	},
 	"skinname-nostalgia": "Nostalgi",
 	"nostalgia.css": "/* CSS i denne fila vil gjelde alle som nyttar drakta Nostalgia */",
-	"nostalgia.js": "/* Javascript i denne fila vil gjelde for brukarar av drakta Nostalgia */"
+	"nostalgia.js": "/* Javascript i denne fila vil gjelde for brukarar av drakta Nostalgia */",
+	"nostalgia-newmessageslink": "nye meldingar",
+	"nostalgia-newmessagesdifflink": "sjå skilnad"
 }

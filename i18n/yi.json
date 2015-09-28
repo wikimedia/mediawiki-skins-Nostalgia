@@ -5,5 +5,7 @@
 		]
 	},
 	"skinname-nostalgia": "נאסטאלגיע",
-	"nostalgia.css": "/* CSS געשטעלט דא ווירקט נאר אויפן נאסטאלגיע סקין */"
+	"nostalgia.css": "/* CSS געשטעלט דא ווירקט נאר אויפן נאסטאלגיע סקין */",
+	"nostalgia-newmessageslink": "נייע מעלדונגען",
+	"nostalgia-newmessagesdifflink": "לעצטע ענדערונג"
 }

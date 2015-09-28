@@ -2,10 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"M.M.S.",
-			"Skalman"
+			"Skalman",
+			"Lokal Profil"
 		]
 	},
+	"nostalgia-desc": "Ett skal för att visa hur Wikipedia såg ut 2001",
 	"skinname-nostalgia": "Nostalgi",
 	"nostalgia.css": "/* CSS som skrivs här kommer att påverka alla användare av skalet Nostalgi */",
-	"nostalgia.js": "/* JavaScript här kommer att laddas för dem som använder skalet Nostalgi */"
+	"nostalgia.js": "/* JavaScript här kommer att laddas för dem som använder skalet Nostalgi */",
+	"nostalgia-newmessageslink": "nya meddelanden",
+	"nostalgia-newmessagesdifflink": "senaste ändringen"
 }

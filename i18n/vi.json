@@ -5,8 +5,10 @@
 			"Vinhtantran"
 		]
 	},
-	"nostalgia-desc": "Hình dạng phỏng theo bề ngoài của Wikipedia năm 2001",
+	"nostalgia-desc": "Giao diện phỏng theo bề ngoài của Wikipedia năm 2001",
 	"skinname-nostalgia": "Vọng cổ",
-	"nostalgia.css": "/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng hình dạng Vọng cổ */",
-	"nostalgia.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng hình dạng Vọng cổ */"
+	"nostalgia.css": "/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng giao diện Vọng cổ */",
+	"nostalgia.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng giao diện Vọng cổ */",
+	"nostalgia-newmessageslink": "tin nhắn mới",
+	"nostalgia-newmessagesdifflink": "thay đổi gần nhất"
 }

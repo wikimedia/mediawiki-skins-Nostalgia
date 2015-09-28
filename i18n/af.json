@@ -7,5 +7,7 @@
 	"nostalgia-desc": "'n Omslag om te wys hoe Wikipedia in 2001 gelyk het",
 	"skinname-nostalgia": "Nostalgie",
 	"nostalgia.css": "/* CSS wat hier geplaas word sal slegs die Nostalgie-omslag beïnvloed */",
-	"nostalgia.js": "/* JavaScript wat hier geplaas word sal slegs gebruikers van die Nostalgie-omslag beïnvloed */"
+	"nostalgia.js": "/* JavaScript wat hier geplaas word sal slegs gebruikers van die Nostalgie-omslag beïnvloed */",
+	"nostalgia-newmessageslink": "nuwe boodskappe",
+	"nostalgia-newmessagesdifflink": "die laaste wysiging"
 }

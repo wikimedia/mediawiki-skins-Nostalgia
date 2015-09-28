@@ -7,5 +7,7 @@
 	},
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* CSS li tpoġġa hawnhekk se jaffetwa l-utenti li jagħmlu użu mill-aspett grafiku Nostalgia */",
-	"nostalgia.js": "/* Kull ''JavaScript'' hawnhekk jiġi mniżżel għal dawk l-utenti li qegħdin jagħmlu użu mill-iskin ''Nostalgia'' */"
+	"nostalgia.js": "/* Kull ''JavaScript'' hawnhekk jiġi mniżżel għal dawk l-utenti li qegħdin jagħmlu użu mill-iskin ''Nostalgia'' */",
+	"nostalgia-newmessageslink": "messaġġi ġodda",
+	"nostalgia-newmessagesdifflink": "l-aħħar bidla"
 }

@@ -4,5 +4,7 @@
 			"Karduelis"
 		]
 	},
-	"skinname-nostalgia": "Nostaljik"
+	"skinname-nostalgia": "Nostaljik",
+	"nostalgia-newmessageslink": "mesajınız",
+	"nostalgia-newmessagesdifflink": "son değişiklik"
 }

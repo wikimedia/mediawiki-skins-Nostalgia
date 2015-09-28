@@ -7,5 +7,7 @@
 	"nostalgia-desc": "Een uiterlijk dat Wikipedia had in 2001",
 	"skinname-nostalgia": "Nostalgie",
 	"nostalgia.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Nostalgie */",
-	"nostalgia.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */"
+	"nostalgia.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */",
+	"nostalgia-newmessageslink": "nieuwe berichten",
+	"nostalgia-newmessagesdifflink": "laatste wijziging"
 }

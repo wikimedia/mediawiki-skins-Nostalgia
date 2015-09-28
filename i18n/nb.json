@@ -2,5 +2,7 @@
 	"@metadata": [],
 	"skinname-nostalgia": "Nostalgi",
 	"nostalgia.css": "/* CSS i denne fila vil gjelde alle som bruker drakta Nostalgia */",
-	"nostalgia.js": "/* Javascript i denne fila vil gjelde for brukere av drakta Nostalgia */"
+	"nostalgia.js": "/* Javascript i denne fila vil gjelde for brukere av drakta Nostalgia */",
+	"nostalgia-newmessageslink": "nye meldinger",
+	"nostalgia-newmessagesdifflink": "siste endring"
 }

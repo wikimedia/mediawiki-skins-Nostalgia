@@ -7,5 +7,7 @@
 	},
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Nostalgia */",
-	"nostalgia.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Nostalgia */"
+	"nostalgia.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Nostalgia */",
+	"nostalgia-newmessageslink": "nové správy",
+	"nostalgia-newmessagesdifflink": "posledná zmena"
 }

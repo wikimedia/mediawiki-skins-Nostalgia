@@ -6,5 +6,7 @@
 	},
 	"skinname-nostalgia": "Nostalgio",
 	"nostalgia.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Nostalgia temo. */",
-	"nostalgia.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Nostalgia temo. */"
+	"nostalgia.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Nostalgia temo. */",
+	"nostalgia-newmessageslink": "novaj mesaĝoj",
+	"nostalgia-newmessagesdifflink": "ŝanĝoj kompare kun antaŭlasta versio"
 }

@@ -6,5 +6,7 @@
 	},
 	"skinname-nostalgia": "Νοσταλγία",
 	"nostalgia.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του Nostalgia skin */",
-	"nostalgia.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Nostalgia skin */"
+	"nostalgia.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Nostalgia skin */",
+	"nostalgia-newmessageslink": "νέα μηνύματα",
+	"nostalgia-newmessagesdifflink": "τελευταία αλλαγή"
 }

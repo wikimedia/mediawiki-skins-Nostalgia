@@ -1,4 +1,6 @@
 {
 	"@metadata": [],
-	"skinname-nostalgia": "Nostalgi"
+	"skinname-nostalgia": "Nostalgi",
+	"nostalgia-newmessageslink": "nye beskeder",
+	"nostalgia-newmessagesdifflink": "ændringer siden sidste visning"
 }

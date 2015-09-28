@@ -7,5 +7,7 @@
 	},
 	"skinname-nostalgia": "Nostalgija",
 	"nostalgia.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Nostalgia skin */",
-	"nostalgia.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Nostalgia skin */"
+	"nostalgia.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Nostalgia skin */",
+	"nostalgia-newmessageslink": "nove poruke",
+	"nostalgia-newmessagesdifflink": "razlika od prethodne poruke"
 }

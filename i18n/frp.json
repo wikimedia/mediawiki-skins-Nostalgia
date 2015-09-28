@@ -6,5 +6,7 @@
 	},
 	"skinname-nostalgia": "Cafârd",
 	"nostalgia.css": "/* Lo code CSS betâ ique afècterat los usanciérs de l’habelyâjo « Cafârd ». */",
-	"nostalgia.js": "/* Tot code JavaScript betâ ique serat chargiê per los usanciérs de l’habelyâjo « Cafârd ». */"
+	"nostalgia.js": "/* Tot code JavaScript betâ ique serat chargiê per los usanciérs de l’habelyâjo « Cafârd ». */",
+	"nostalgia-newmessageslink": "mèssâjos novéls",
+	"nostalgia-newmessagesdifflink": "dèrriér changement"
 }

@@ -6,5 +6,7 @@
 	},
 	"skinname-nostalgia": "Nosztalgia",
 	"nostalgia.css": "/* Az ide elhelyezett CSS hatással lesz a Nosztalgia felület használóira */",
-	"nostalgia.js": "/* A Nosztalgia felületet használó szerkesztők számára betöltendő JavaScriptek */"
+	"nostalgia.js": "/* A Nosztalgia felületet használó szerkesztők számára betöltendő JavaScriptek */",
+	"nostalgia-newmessageslink": "új üzenet vár",
+	"nostalgia-newmessagesdifflink": "az utolsó üzenetet"
 }

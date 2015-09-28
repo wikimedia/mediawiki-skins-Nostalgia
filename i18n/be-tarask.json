@@ -7,5 +7,7 @@
 	"nostalgia-desc": "Афармленьне Вікіпэдыі ў стылі 2001 году",
 	"skinname-nostalgia": "Настальгія",
 	"nostalgia.css": "/* Зьмешчаны тут CSS будзе ўжыты ў тэме афармленьня Nostalgia */",
-	"nostalgia.js": "/* Зьмешчаны тут JavaScript будзе ўжыты ў тэме афармленьня Nostalgia */"
+	"nostalgia.js": "/* Зьмешчаны тут JavaScript будзе ўжыты ў тэме афармленьня Nostalgia */",
+	"nostalgia-newmessageslink": "новыя паведамленьні",
+	"nostalgia-newmessagesdifflink": "апошняя зьмена"
 }

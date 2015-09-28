@@ -5,5 +5,7 @@
 		]
 	},
 	"skinname-nostalgia": "ნოსტალგია",
-	"nostalgia.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ნოსტალგიური გაფორმების თემაში */"
+	"nostalgia.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ნოსტალგიური გაფორმების თემაში */",
+	"nostalgia-newmessageslink": "ახალი შეტყობინებები",
+	"nostalgia-newmessagesdifflink": "განსხვავება წინა ვერსიასთან"
 }

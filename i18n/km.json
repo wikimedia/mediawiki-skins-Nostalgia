@@ -5,5 +5,7 @@
 		]
 	},
 	"skinname-nostalgia": "អាឡោះអាល័យ",
-	"nostalgia.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក Nostalgia */"
+	"nostalgia.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក Nostalgia */",
+	"nostalgia-newmessageslink": "សារថ្មីៗ",
+	"nostalgia-newmessagesdifflink": "បន្លាស់ប្ដូរចុងក្រោយ"
 }

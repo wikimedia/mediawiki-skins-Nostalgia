@@ -7,5 +7,7 @@
 	},
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* CSS yang ada di sini akan diterapkan pada kulit Nostalgia. */",
-	"nostalgia.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Nostalgia */"
+	"nostalgia.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Nostalgia */",
+	"nostalgia-newmessageslink": "pesan baru",
+	"nostalgia-newmessagesdifflink": "perubahan terakhir"
 }
