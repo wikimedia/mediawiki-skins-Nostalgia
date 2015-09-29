@@ -599,14 +599,12 @@ class NostalgiaTemplate extends BaseTemplate {
 				$text = wfMessage( 'unwatchthispage' )->text();
 				$query = array(
 					'action' => 'unwatch',
-					'token' => UnwatchAction::getUnwatchToken( $title, $wgUser ),
 				);
 				$id = 'mw-unwatch-link' . $this->mWatchLinkNum;
 			} else {
 				$text = wfMessage( 'watchthispage' )->text();
 				$query = array(
 					'action' => 'watch',
-					'token' => WatchAction::getWatchToken( $title, $wgUser ),
 				);
 				$id = 'mw-watch-link' . $this->mWatchLinkNum;
 			}
