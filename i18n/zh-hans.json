@@ -3,12 +3,13 @@
 		"authors": [
 			"Xiaomingyan",
 			"Yfdyh000",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Reasno"
 		]
 	},
 	"nostalgia-desc": "显示维基百科在2001年的样子的新皮肤",
 	"skinname-nostalgia": "怀旧",
-	"nostalgia.css": "/* 这里放置的CSS将影响使用怀旧皮肤的用户 */",
+	"nostalgia.css": "/* 这里放置的CSS将影响使用Nostalgia皮肤的用户 */",
 	"nostalgia.js": "/* 这里的任何JavaScript将为使用怀旧皮肤的用户加载 */",
 	"nostalgia-newmessageslink": "新信息",
 	"nostalgia-newmessagesdifflink": "最后更改"
