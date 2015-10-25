@@ -1,5 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"nostalgia-desc": "Бикипиэдьийэ 2001 с. хайдах көстөр эбитин көрдөрөр тиэмэ",
 	"skinname-nostalgia": "Мунчаарыы",
 	"nostalgia-newmessageslink": "саҥа суруктар",
 	"nostalgia-newmessagesdifflink": "кэлиҥҥи уларытыы"
