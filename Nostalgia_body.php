@@ -612,7 +612,10 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s = Linker::linkKnown(
 				$title,
 				$text,
-				array( 'id' => $id ),
+				array(
+					'id' => $id,
+					'class' => 'mw-watchlink',
+				),
 				$query
 			);
 		} else {
