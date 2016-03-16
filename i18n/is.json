@@ -1,6 +1,13 @@
 {
-	"@metadata": [],
-	"skinname-nostalgia": "Gamaldags",
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"nostalgia-desc": "Skinn sem sýnir hvernig Wikipedia leit út árið 2001",
+	"skinname-nostalgia": "Fortíðarþrá (Nostalgia)",
+	"nostalgia.css": "/* Allt CSS sem sett er hér mun  hafa áhrif á alla notendur Nostalgia-skinnsins. */",
+	"nostalgia.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur Nostalgia-skinnsins. */",
 	"nostalgia-newmessageslink": "ný skilaboð",
 	"nostalgia-newmessagesdifflink": "síðasta breyting"
 }
