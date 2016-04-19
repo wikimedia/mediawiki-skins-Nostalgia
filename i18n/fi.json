@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Crt",
-			"Nedergard"
+			"Nedergard",
+			"01miki10"
 		]
 	},
+	"nostalgia-desc": "Ulkoasu, joka näyttää, millainen Wikipedia oli vuonna 2001",
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Tämä sivu sisältää Nostalgia-ulkoasua muuttavia tyylejä. */",
 	"nostalgia.js": "/* Tämän sivun JavaScript-koodi liitetään Nostalgia-tyyliin */",
