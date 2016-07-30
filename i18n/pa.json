@@ -1,5 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Tow"
+		]
+	},
+	"nostalgia-desc": "ਇੱਕ ਚਮੜੀ ਇਹ ਦਿਖਾਉਣ ਲਈ ਕਿ ਵਿਕੀਪੀਡੀਆ 2001 ਵਿਚ ਕਿਵੇੰ ਦਿਖਦਾ ਸੀ",
 	"nostalgia-newmessageslink": "ਨਵੇਂ ਸੁਨੇਹੇ",
 	"nostalgia-newmessagesdifflink": "ਆਖ਼ਰੀ ਤਬਦੀਲੀ"
 }
