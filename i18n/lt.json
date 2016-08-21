@@ -1,5 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"nostalgia-desc": "Išvaizda, kuri parodo kaip Vikipedija atrodė 2001 m.",
 	"skinname-nostalgia": "Nostalgija",
 	"nostalgia-newmessageslink": "naujų žinučių",
 	"nostalgia-newmessagesdifflink": "paskutinis pakeitimas"
