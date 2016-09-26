@@ -1,5 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"nostalgia-desc": "En drakt som viser hvordan Wikipedia så ut i 2001",
 	"skinname-nostalgia": "Nostalgi",
 	"nostalgia.css": "/* CSS i denne fila vil gjelde alle som bruker drakta Nostalgia */",
 	"nostalgia.js": "/* Javascript i denne fila vil gjelde for brukere av drakta Nostalgia */",
