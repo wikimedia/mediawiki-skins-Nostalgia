@@ -1,8 +1,12 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
 	"skinname-nostalgia": "Аңсау (nostalgia)",
 	"nostalgia.css": "/* Мында орналастырылған CSS тек «Аңсау» (nostalgia) мәнерін пайдаланушыларына ықпал етеді */",
-	"nostalgia.js": "/* Мындағы JavaScript тек «Аңсау» (nostalgia) мәнерін пайдаланушылар үшін жегіледі*/",
+	"nostalgia.js": "/* Мындағы қандай да бір JavaScript аңсау (nostalgia) мәнерін пайдаланушылар үшін жегіледі*/",
 	"nostalgia-newmessageslink": "жаңа хабарламалар",
 	"nostalgia-newmessagesdifflink": "соңғы өзгерiсіне"
 }
