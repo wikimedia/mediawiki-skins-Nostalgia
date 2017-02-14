@@ -1,5 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"nostalgia-desc": "Облик, показващ как изглеждаше Уикипедия през 2001 година",
 	"skinname-nostalgia": "Носталгия",
 	"nostalgia-newmessageslink": "нови съобщения",
 	"nostalgia-newmessagesdifflink": "разлика с предишната версия"
