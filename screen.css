@@ -1,6 +1,6 @@
 body {
 	/* background color is set separately on page type */
-	color: black;
+	color: #000;
 }
 
 #specialform {
@@ -8,7 +8,7 @@ body {
 }
 
 #powersearch {
-	background: #DDEEFF;
+	background: #def;
 	border-style: solid;
 	border-width: 1px;
 	padding: 2px;
@@ -20,7 +20,7 @@ a.new {
 
 a.interwiki,
 a.external {
-	color: #3366BB;
+	color: #36b;
 }
 
 a.printable {
@@ -28,7 +28,7 @@ a.printable {
 }
 
 a.stub {
-	color: #772233;
+	color: #723;
 	text-decoration: none;
 }
 
@@ -39,7 +39,11 @@ h1.pagetitle {
 	margin-bottom: 0;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin-bottom: 0;
 }
 

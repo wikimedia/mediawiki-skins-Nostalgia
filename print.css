@@ -1,6 +1,6 @@
 body {
-	color: #000000;
-	background: #ffffff;
+	color: #000;
+	background: #fff;
 }
 
 /* MSIE/Win doesn't understand 'inherit' */
@@ -8,7 +8,7 @@ a,
 a.external,
 a.new,
 a.stub {
-	color: black !important;
+	color: #000 !important;
 	text-decoration: none !important;
 }
 #article {
@@ -35,13 +35,12 @@ a.stub {
 	display: none;
 }
 
-/* */
 #article {
 	position: relative;
 	margin: inherit !important;
 }
 
 .printfooter {
-	border-top: solid 1px black;
+	border-top: solid 1px #000;
 	display: block !important;
 }
