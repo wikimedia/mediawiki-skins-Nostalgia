@@ -73,13 +73,13 @@ class NostalgiaTemplate extends BaseTemplate {
 		$s .= $this->topLinks() . "\n<br />";
 
 		$notice = $this->getSkin()->getSiteNotice();
-		if( $notice ) {
+		if ( $notice ) {
 			$s .= "\n<div id='siteNotice'>$notice</div>\n";
 		}
 		$s .= $this->pageTitleLinks();
 
 		$ol = $this->otherLanguages();
-		if( $ol ) {
+		if ( $ol ) {
 			$s .= '<br />' . $ol;
 		}
 
@@ -119,16 +119,21 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$search = $wgRequest->getText( 'search' );
 
-		$s = '<form id="searchform' . $this->searchboxes . '" name="search" class="inline" method="post" action="'
+		$s = '<form id="searchform' . $this->searchboxes
+			. '" name="search" class="inline" method="post" action="'
 			. $this->getSkin()->escapeSearchLink() . "\">\n"
-			. '<input type="text" id="searchInput' . $this->searchboxes . '" name="search" size="19" value="'
+			. '<input type="text" id="searchInput' . $this->searchboxes
+			. '" name="search" size="19" value="'
 			. htmlspecialchars( substr( $search, 0, 256 ) ) . "\" />\n"
-			. '<input type="submit" name="go" value="' . wfMessage( 'searcharticle' )->text() . '" />';
+			. '<input type="submit" name="go" value="' . wfMessage( 'searcharticle' )->text()
+			. '" />';
 
 		if ( $wgUseTwoButtonsSearchForm ) {
-			$s .= '&#160;<input type="submit" name="fulltext" value="' . wfMessage( 'searchbutton' )->text() . "\" />\n";
+			$s .= '&#160;<input type="submit" name="fulltext" value="'
+				. wfMessage( 'searchbutton' )->text() . "\" />\n";
 		} else {
-			$s .= ' <a href="' . $this->getSkin()->escapeSearchLink() . '" rel="search">' . wfMessage( 'powersearch-legend' )->text() . "</a>\n";
+			$s .= ' <a href="' . $this->getSkin()->escapeSearchLink() . '" rel="search">'
+				. wfMessage( 'powersearch-legend' )->text() . "</a>\n";
 		}
 
 		$s .= '</form>';
@@ -143,10 +148,10 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	function pageStats() {
-		$ret = array();
-		$items = array( 'viewcount', 'credits', 'lastmod', 'numberofwatchingusers', 'copyright' );
+		$ret = [];
+		$items = [ 'viewcount', 'credits', 'lastmod', 'numberofwatchingusers', 'copyright' ];
 
-		foreach( $items as $item ) {
+		foreach ( $items as $item ) {
 			if ( $this->data[$item] !== false ) {
 				$ret[] = $this->data[$item];
 			}
@@ -190,7 +195,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			/* show my preferences link */
 			$s .= $sep . Linker::specialLink( 'Preferences' );
 			/* show upload file link */
-			if( UploadBase::isEnabled() && UploadBase::isAllowed( $user ) === true ) {
+			if ( UploadBase::isEnabled() && UploadBase::isAllowed( $user ) === true ) {
 				$s .= $sep . $this->getUploadLink();
 			}
 
@@ -225,12 +230,12 @@ class NostalgiaTemplate extends BaseTemplate {
 				if ( $varname == 'disable' ) {
 					continue;
 				}
-				$s = $wgLang->pipeList( array(
+				$s = $wgLang->pipeList( [
 					$s,
 					'<a href="' . htmlspecialchars( $title->getLocalURL( 'variant=' . $code ) )
 						. '" lang="' . $code . '" hreflang="' . $code . '">'
 						. htmlspecialchars( $varname ) . '</a>'
-				) );
+				] );
 			}
 		}
 
@@ -336,7 +341,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$text = Language::fetchLanguageName( $nt->getInterwiki() );
 
 			$s .= Html::element( 'a',
-				array( 'href' => $nt->getFullURL(), 'title' => $nt->getText(), 'class' => "external" ),
+				[ 'href' => $nt->getFullURL(), 'title' => $nt->getText(), 'class' => 'external' ],
 				$text == '' ? $l : $text );
 		}
 
@@ -363,7 +368,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		}
 
 		return Html::rawElement( 'form',
-			array( 'id' => 'specialpages', 'method' => 'get', 'action' => $wgScript ),
+			[ 'id' => 'specialpages', 'method' => 'get', 'action' => $wgScript ],
 			$select->getHTML() . Xml::submitButton( wfMessage( 'go' )->text() ) );
 	}
 
@@ -399,8 +404,8 @@ class NostalgiaTemplate extends BaseTemplate {
 
 				if ( $image ) {
 					$href = $image->getURL();
-					$s[] = Html::element( 'a', array( 'href' => $href,
-						'title' => $href ), $title->getText() );
+					$s[] = Html::element( 'a', [ 'href' => $href,
+						'title' => $href ], $title->getText() );
 
 				}
 			}
@@ -420,15 +425,15 @@ class NostalgiaTemplate extends BaseTemplate {
 				$tl = Linker::linkKnown(
 					$wgUser->getTalkPage(),
 					wfMessage( 'nostalgia-newmessageslink' )->escaped(),
-					array(),
-					array( 'redirect' => 'no' )
+					[],
+					[ 'redirect' => 'no' ]
 				);
 
 				$dl = Linker::linkKnown(
 					$wgUser->getTalkPage(),
 					wfMessage( 'nostalgia-newmessagesdifflink' )->escaped(),
-					array(),
-					array( 'diff' => 'cur' )
+					[],
+					[ 'diff' => 'cur' ]
 				);
 				$s[] = '<strong>' . wfMessage( 'youhavenewmessages', $tl, $dl )->text() . '</strong>';
 				# disable caching
@@ -480,7 +485,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	function printableLink() {
 		global $wgOut, $wgRequest, $wgLang;
 
-		$s = array();
+		$s = [];
 
 		if ( !$wgOut->isPrintable() ) {
 			$printurl = htmlspecialchars( $this->getSkin()->getTitle()->getLocalURL(
@@ -520,7 +525,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s = Linker::linkKnown(
 				$title,
 				$t,
-				array(),
+				[],
 				$this->getSkin()->editUrlOptions()
 			);
 		}
@@ -543,8 +548,8 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s = Linker::linkKnown(
 				$title,
 				$t,
-				array(),
-				array( 'action' => 'delete' )
+				[],
+				[ 'action' => 'delete' ]
 			);
 		} else {
 			$s = '';
@@ -562,19 +567,21 @@ class NostalgiaTemplate extends BaseTemplate {
 		$diff = $wgRequest->getVal( 'diff' );
 		$title = $this->getSkin()->getTitle();
 
-		if ( $title->getArticleID() && ( ! $diff ) && $wgUser->isAllowed( 'protect' ) && $title->getRestrictionTypes() ) {
+		if ( $title->getArticleID() && ( ! $diff ) && $wgUser->isAllowed( 'protect' )
+			&& $title->getRestrictionTypes()
+		) {
 			if ( $title->isProtected() ) {
 				$text = wfMessage( 'unprotectthispage' )->text();
-				$query = array( 'action' => 'unprotect' );
+				$query = [ 'action' => 'unprotect' ];
 			} else {
 				$text = wfMessage( 'protectthispage' )->text();
-				$query = array( 'action' => 'protect' );
+				$query = [ 'action' => 'protect' ];
 			}
 
 			$s = Linker::linkKnown(
 				$title,
 				$text,
-				array(),
+				[],
 				$query
 			);
 		} else {
@@ -597,25 +604,25 @@ class NostalgiaTemplate extends BaseTemplate {
 		if ( $wgOut->isArticleRelated() ) {
 			if ( $wgUser->isWatched( $title ) ) {
 				$text = wfMessage( 'unwatchthispage' )->text();
-				$query = array(
+				$query = [
 					'action' => 'unwatch',
-				);
+				];
 				$id = 'mw-unwatch-link' . $this->mWatchLinkNum;
 			} else {
 				$text = wfMessage( 'watchthispage' )->text();
-				$query = array(
+				$query = [
 					'action' => 'watch',
-				);
+				];
 				$id = 'mw-watch-link' . $this->mWatchLinkNum;
 			}
 
 			$s = Linker::linkKnown(
 				$title,
 				$text,
-				array(
+				[
 					'id' => $id,
 					'class' => 'mw-watchlink',
-				),
+				],
 				$query
 			);
 		} else {
@@ -633,8 +640,8 @@ class NostalgiaTemplate extends BaseTemplate {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Movepage' ),
 				wfMessage( 'movethispage' )->text(),
-				array(),
-				array( 'target' => $this->getSkin()->getTitle()->getPrefixedDBkey() )
+				[],
+				[ 'target' => $this->getSkin()->getTitle()->getPrefixedDBkey() ]
 			);
 		} else {
 			// no message if page is protected - would be redundant
@@ -649,8 +656,8 @@ class NostalgiaTemplate extends BaseTemplate {
 		return Linker::link(
 			$this->getSkin()->getTitle(),
 			wfMessage( 'history' )->escaped(),
-			array( 'rel' => 'archives' ),
-			array( 'action' => 'history' )
+			[ 'rel' => 'archives' ],
+			[ 'action' => 'history' ]
 		);
 	}
 
@@ -694,7 +701,8 @@ class NostalgiaTemplate extends BaseTemplate {
 			return wfMessage( 'parentheses', wfMessage( 'notanarticle' )->text() )->escaped();
 		} else {
 			return Linker::linkKnown(
-				SpecialPage::getTitleFor( 'Recentchangeslinked', $this->getSkin()->getTitle()->getPrefixedDBkey() ),
+				SpecialPage::getTitleFor( 'Recentchangeslinked',
+					$this->getSkin()->getTitle()->getPrefixedDBkey() ),
 				wfMessage( 'recentchangeslinked-toolbox' )->escaped()
 			);
 		}
@@ -710,11 +718,11 @@ class NostalgiaTemplate extends BaseTemplate {
 			return '';
 		}
 
-		$linkOptions = array();
+		$linkOptions = [];
 
 		if ( $title->isTalkPage() ) {
 			$link = $title->getSubjectPage();
-			switch( $link->getNamespace() ) {
+			switch ( $link->getNamespace() ) {
 				case NS_MAIN:
 					$text = wfMessage( 'articlepage' );
 					break;
@@ -727,8 +735,9 @@ class NostalgiaTemplate extends BaseTemplate {
 				case NS_FILE:
 					$text = wfMessage( 'imagepage' );
 					# Make link known if image exists, even if the desc. page doesn't.
-					if ( wfFindFile( $link ) )
+					if ( wfFindFile( $link ) ) {
 						$linkOptions[] = 'known';
+					}
 					break;
 				case NS_MEDIAWIKI:
 					$text = wfMessage( 'mediawikipage' );
@@ -750,7 +759,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$text = wfMessage( 'talkpage' );
 		}
 
-		$s = Linker::link( $link, $text->text(), array(), array(), $linkOptions );
+		$s = Linker::link( $link, $text->text(), [], [], $linkOptions );
 
 		return $s;
 	}
@@ -765,7 +774,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			# Using an empty class attribute to avoid automatic setting of "external" class
 			return Linker::makeExternalLink( $wgUploadNavigationUrl,
 				wfMessage( 'upload' )->escaped(),
-				false, null, array( 'class' => '' ) );
+				false, null, [ 'class' => '' ] );
 		} else {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Upload' ),
