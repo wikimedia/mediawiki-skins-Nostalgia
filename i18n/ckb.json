@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Asoxor"
+			"Asoxor",
+			"Lost Whispers"
 		]
 	},
 	"skinname-nostalgia": "غەریبی",
-	"nostalgia-newmessageslink": "پەیامی نوێ",
+	"nostalgia-newmessageslink": "پەیامە نوێکان",
 	"nostalgia-newmessagesdifflink": "دوایین گۆڕانکاری"
 }
