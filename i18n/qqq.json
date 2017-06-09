@@ -11,6 +11,15 @@
 	"skinname-nostalgia": "{{optional}}\n{{Identical|Nostalgia}}",
 	"nostalgia.css": "{{optional}}",
 	"nostalgia.js": "{{optional}}",
+	"nostalgia-create-this-page": "This is the text for the link leading to the edit form on pages that have not yet been created. See {{msg-mw|nostalgia-editthispage}} for when the page already exists.\n{{Identical|Createpage}}",
+	"nostalgia-articlepage": "'Content page' is used for NS_MAIN and any other non-standard namespaces.\n\n{{Identical|Content page}}",
+	"nostalgia-deletethispage": "This is the text for link to delete the page in admin view, at the bottom of the page.\n{{Identical|Delete this page}}",
+	"nostalgia-editthispage": "This is the \"edit\" link as used in the Nostalgia skin.\n\n{{Identical|Edit this page}}",
 	"nostalgia-newmessageslink": "Link text to the user's talk page when they have new messages\n{{Identical|New messages}}",
-	"nostalgia-newmessagesdifflink": "Link text to a diff page with the last change to the uuser's talk page"
+	"nostalgia-newmessagesdifflink": "Link text to a diff page with the last change to the uuser's talk page",
+	"nostalgia-projectpage": "Used as link text in Talk page of project page.",
+	"nostalgia-protectthispage": "This is the text for link to protect the page in admin view.\n{{Identical|Protect this page}}",
+	"nostalgia-talkpage": "This is the text for link to discuss the page.",
+	"nostalgia-unprotectthispage": "This is the anchor text for the link to unprotect the page in admin view.\n{{Identical|Unprotect this page}}",
+	"nostalgia-userpage": "Used in user talk pages as the text of the link to the user page."
 }

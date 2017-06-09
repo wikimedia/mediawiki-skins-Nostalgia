@@ -515,9 +515,9 @@ class NostalgiaTemplate extends BaseTemplate {
 		} else {
 			$title = $this->getSkin()->getTitle();
 			if ( $title->quickUserCan( 'edit' ) && $title->exists() ) {
-				$t = wfMessage( 'editthispage' )->text();
+				$t = wfMessage( 'nostalgia-editthispage' )->text();
 			} elseif ( $title->quickUserCan( 'create' ) && !$title->exists() ) {
-				$t = wfMessage( 'create-this-page' )->text();
+				$t = wfMessage( 'nostalgia-create-this-page' )->text();
 			} else {
 				$t = wfMessage( 'viewsource' )->text();
 			}
@@ -543,7 +543,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$title = $this->getSkin()->getTitle();
 
 		if ( $title->getArticleID() && ( !$diff ) && $wgUser->isAllowed( 'delete' ) ) {
-			$t = wfMessage( 'deletethispage' )->text();
+			$t = wfMessage( 'nostalgia-deletethispage' )->text();
 
 			$s = Linker::linkKnown(
 				$title,
@@ -571,10 +571,10 @@ class NostalgiaTemplate extends BaseTemplate {
 			&& $title->getRestrictionTypes()
 		) {
 			if ( $title->isProtected() ) {
-				$text = wfMessage( 'unprotectthispage' )->text();
+				$text = wfMessage( 'nostalgia-unprotectthispage' )->text();
 				$query = [ 'action' => 'unprotect' ];
 			} else {
-				$text = wfMessage( 'protectthispage' )->text();
+				$text = wfMessage( 'nostalgia-protectthispage' )->text();
 				$query = [ 'action' => 'protect' ];
 			}
 
@@ -724,13 +724,13 @@ class NostalgiaTemplate extends BaseTemplate {
 			$link = $title->getSubjectPage();
 			switch ( $link->getNamespace() ) {
 				case NS_MAIN:
-					$text = wfMessage( 'articlepage' );
+					$text = wfMessage( 'nostalgia-articlepage' );
 					break;
 				case NS_USER:
-					$text = wfMessage( 'userpage' );
+					$text = wfMessage( 'nostalgia-userpage' );
 					break;
 				case NS_PROJECT:
-					$text = wfMessage( 'projectpage' );
+					$text = wfMessage( 'nostalgia-projectpage' );
 					break;
 				case NS_FILE:
 					$text = wfMessage( 'imagepage' );
@@ -752,11 +752,11 @@ class NostalgiaTemplate extends BaseTemplate {
 					$text = wfMessage( 'categorypage' );
 					break;
 				default:
-					$text = wfMessage( 'articlepage' );
+					$text = wfMessage( 'nostalgia-articlepage' );
 			}
 		} else {
 			$link = $title->getTalkPage();
-			$text = wfMessage( 'talkpage' );
+			$text = wfMessage( 'nostalgia-talkpage' );
 		}
 
 		$s = Linker::link( $link, $text->text(), [], [], $linkOptions );
