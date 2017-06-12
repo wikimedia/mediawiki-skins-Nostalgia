@@ -8,6 +8,15 @@
 	"skinname-nostalgia": "Nostalgie",
 	"nostalgia.css": "/* Das folgende CSS wird für Benutzer der Nostalgie-Benutzeroberfläche geladen. */",
 	"nostalgia.js": "/* Das folgende JavaScript wird für Benutzer der Nostalgie-Benutzeroberfläche geladen. */",
+	"nostalgia-articlepage": "Inhaltsseite ansehen",
+	"nostalgia-create-this-page": "Diese Seite erstellen",
+	"nostalgia-deletethispage": "Diese Seite löschen",
+	"nostalgia-editthispage": "Diese Seite bearbeiten",
 	"nostalgia-newmessageslink": "neue Nachrichten",
-	"nostalgia-newmessagesdifflink": "Letzte Änderung"
+	"nostalgia-newmessagesdifflink": "Letzte Änderung",
+	"nostalgia-projectpage": "Projektseite ansehen",
+	"nostalgia-protectthispage": "Diese Seite schützen",
+	"nostalgia-talkpage": "Über diese Seite diskutieren",
+	"nostalgia-unprotectthispage": "Seitenschutzstatus dieser Seite ändern",
+	"nostalgia-userpage": "Benutzerseite ansehen"
 }
