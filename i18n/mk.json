@@ -8,6 +8,15 @@
 	"skinname-nostalgia": "Носталгија",
 	"nostalgia.css": "/* Тука поставениот CSS ќе се применува врз корисниците на рувото „Носталгија“ */",
 	"nostalgia.js": "/* Тука поставениот JavaScript  ќе им се вчитува на корисниците што го користат рувото „Носталгија“ */",
+	"nostalgia-articlepage": "Погл. содржинска страница",
+	"nostalgia-create-this-page": "Создај ја страницава",
+	"nostalgia-deletethispage": "Избриши ја страницава",
+	"nostalgia-editthispage": "Уреди ја страницава",
 	"nostalgia-newmessageslink": "нови пораки",
-	"nostalgia-newmessagesdifflink": "скорешна промена"
+	"nostalgia-newmessagesdifflink": "скорешна промена",
+	"nostalgia-projectpage": "Преглед на проектната страница",
+	"nostalgia-protectthispage": "Заштити ја страницава",
+	"nostalgia-talkpage": "Разговор за страницава",
+	"nostalgia-unprotectthispage": "Измени заштита на страницава",
+	"nostalgia-userpage": "Преглед на корисничката страница"
 }

@@ -2,13 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Yona b",
-			"Guycn2"
+			"Guycn2",
+			"Amire80"
 		]
 	},
 	"nostalgia-desc": "לבוש שמראה איך ויקיפדיה נראה ב־2001",
 	"skinname-nostalgia": "נוסטלגיה",
 	"nostalgia.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"נוסטלגיה\" בלבד */",
 	"nostalgia.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"נוסטלגיה\" בלבד */",
+	"nostalgia-articlepage": "הצגת דף התוכן",
+	"nostalgia-create-this-page": "יצירת הדף הזה",
+	"nostalgia-deletethispage": "מחיקת הדף הזה",
+	"nostalgia-editthispage": "עריכת דף זה",
 	"nostalgia-newmessageslink": "הודעות חדשות",
-	"nostalgia-newmessagesdifflink": "השוואה לגרסה הקודמת"
+	"nostalgia-newmessagesdifflink": "השוואה לגרסה הקודמת",
+	"nostalgia-projectpage": "צפייה בדף המיזם",
+	"nostalgia-protectthispage": "הפעלת הגנה על דף זה",
+	"nostalgia-talkpage": "דיון על הדף הזה",
+	"nostalgia-unprotectthispage": "שינוי ההגנה על הדף הזה",
+	"nostalgia-userpage": "הצגת דף המשתמש"
 }

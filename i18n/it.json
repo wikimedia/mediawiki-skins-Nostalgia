@@ -9,6 +9,15 @@
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano la skin Nostalgia */",
 	"nostalgia.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano la skin Nostalgia */",
+	"nostalgia-articlepage": "Visualizza la voce",
+	"nostalgia-create-this-page": "Crea questa pagina",
+	"nostalgia-deletethispage": "Cancella questa pagina",
+	"nostalgia-editthispage": "Modifica questa pagina",
 	"nostalgia-newmessageslink": "nuovi messaggi",
-	"nostalgia-newmessagesdifflink": "ultima modifica"
+	"nostalgia-newmessagesdifflink": "ultima modifica",
+	"nostalgia-projectpage": "Visualizza la pagina di servizio",
+	"nostalgia-protectthispage": "Proteggi questa pagina",
+	"nostalgia-talkpage": "Pagina di discussione",
+	"nostalgia-unprotectthispage": "Modifica la protezione di questa pagina",
+	"nostalgia-userpage": "Visualizza la pagina utente"
 }

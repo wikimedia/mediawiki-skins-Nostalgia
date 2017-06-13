@@ -4,13 +4,15 @@
 			"Alexandr Efremov",
 			"Kaganer",
 			"Okras",
-			"Kareyac"
+			"Kareyac",
+			"Facenapalm"
 		]
 	},
 	"nostalgia-desc": "Тема оформления, показывающая, как Википедия выглядела в 2001 году",
 	"skinname-nostalgia": "Ностальгия",
 	"nostalgia.css": "/* Размещённый здесь CSS будет применяться к теме оформления Nostalgia */",
 	"nostalgia.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Nostalgia */",
+	"nostalgia-articlepage": "Просмотреть содержимое страницы.",
 	"nostalgia-create-this-page": "Создать эту страницу",
 	"nostalgia-deletethispage": "Удалить эту страницу",
 	"nostalgia-editthispage": "Редактировать данную страницу",

@@ -1,13 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"nostalgia-desc": "2001년에 위키백과의 모습을 재현하는 스킨",
 	"skinname-nostalgia": "노스탤지아",
 	"nostalgia.css": "/* 이 CSS 설정은 노스탤지아 스킨을 사용하는 사용자에게 적용됩니다 */",
 	"nostalgia.js": "/* 이 자바스크립트 설정은 노스탤지아 스킨을 사용하는 사용자에게 적용됩니다 */",
+	"nostalgia-articlepage": "문서 보기",
+	"nostalgia-create-this-page": "이 문서 만들기",
+	"nostalgia-deletethispage": "이 문서 삭제하기",
+	"nostalgia-editthispage": "이 문서 편집하기",
 	"nostalgia-newmessageslink": "새 메시지",
-	"nostalgia-newmessagesdifflink": "마지막으로 바뀐 내용"
+	"nostalgia-newmessagesdifflink": "마지막으로 바뀐 내용",
+	"nostalgia-projectpage": "프로젝트 문서 보기",
+	"nostalgia-protectthispage": "이 문서 보호하기",
+	"nostalgia-talkpage": "이 문서에 대해 토론하기",
+	"nostalgia-unprotectthispage": "이 문서의 보호 설정을 바꾸기",
+	"nostalgia-userpage": "사용자 문서 보기"
 }

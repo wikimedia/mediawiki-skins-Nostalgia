@@ -5,10 +5,19 @@
 			"Waldir"
 		]
 	},
-	"nostalgia-desc": "Um tema para demonstrar como a Wikipédia se parecia em 2001",
+	"nostalgia-desc": "Um tema para demonstrar o aspeto da Wikipédia em 2001",
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Nostalgia */",
 	"nostalgia.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Nostalgia */",
+	"nostalgia-articlepage": "Ver página de conteúdo",
+	"nostalgia-create-this-page": "Criar esta página",
+	"nostalgia-deletethispage": "Eliminar esta página",
+	"nostalgia-editthispage": "Editar esta página",
 	"nostalgia-newmessageslink": "mensagens novas",
-	"nostalgia-newmessagesdifflink": "comparar com a penúltima revisão"
+	"nostalgia-newmessagesdifflink": "comparar com a penúltima revisão",
+	"nostalgia-projectpage": "Ver página de projeto",
+	"nostalgia-protectthispage": "Proteger esta página",
+	"nostalgia-talkpage": "Discutir esta página",
+	"nostalgia-unprotectthispage": "Alterar a proteção desta página",
+	"nostalgia-userpage": "Ver página de utilizador"
 }

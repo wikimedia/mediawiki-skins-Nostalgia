@@ -8,6 +8,15 @@
 	"skinname-nostalgia": "Señardá",
 	"nostalgia.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Nostalgia */",
 	"nostalgia.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Nostalgia */",
+	"nostalgia-articlepage": "Ver la páxina de conteníu",
+	"nostalgia-create-this-page": "Crear esta páxina",
+	"nostalgia-deletethispage": "Desaniciar esta páxina",
+	"nostalgia-editthispage": "Editar esta páxina",
 	"nostalgia-newmessageslink": "mensaxes nuevos",
-	"nostalgia-newmessagesdifflink": "cambéu postreru"
+	"nostalgia-newmessagesdifflink": "cambéu postreru",
+	"nostalgia-projectpage": "Ver la páxina del proyeutu",
+	"nostalgia-protectthispage": "Protexer esta páxina",
+	"nostalgia-talkpage": "Aldericar sobre esta páxina",
+	"nostalgia-unprotectthispage": "Camudar la proteición d'esta páxina",
+	"nostalgia-userpage": "Ver la páxina d'usuariu"
 }

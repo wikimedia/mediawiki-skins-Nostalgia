@@ -4,7 +4,8 @@
 			"Shirayuki",
 			"Matma Rex",
 			"Raymond",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Hamilton Abreu"
 		]
 	},
 	"nostalgia-desc": "{{desc|name=Nostalgia|url=https://www.mediawiki.org/wiki/Skin:Nostalgia|what=skin}}",
@@ -16,7 +17,7 @@
 	"nostalgia-deletethispage": "This is the text for link to delete the page in admin view, at the bottom of the page.\n{{Identical|Delete this page}}",
 	"nostalgia-editthispage": "This is the \"edit\" link as used in the Nostalgia skin.\n\n{{Identical|Edit this page}}",
 	"nostalgia-newmessageslink": "Link text to the user's talk page when they have new messages\n{{Identical|New messages}}",
-	"nostalgia-newmessagesdifflink": "Link text to a diff page with the last change to the uuser's talk page",
+	"nostalgia-newmessagesdifflink": "Link text to a diff page with the last change to the user's talk page",
 	"nostalgia-projectpage": "Used as link text in Talk page of project page.",
 	"nostalgia-protectthispage": "This is the text for link to protect the page in admin view.\n{{Identical|Protect this page}}",
 	"nostalgia-talkpage": "This is the text for link to discuss the page.",
