@@ -4,13 +4,23 @@
 			"M.M.S.",
 			"Skalman",
 			"Lokal Profil",
-			"Jopparn"
+			"Jopparn",
+			"WikiPhoenix"
 		]
 	},
 	"nostalgia-desc": "Ett utseende för att visa hur Wikipedia såg ut 2001",
 	"skinname-nostalgia": "Nostalgi",
 	"nostalgia.css": "/* CSS som skrivs här kommer att påverka alla användare av skalet Nostalgi */",
 	"nostalgia.js": "/* JavaScript här kommer att laddas för dem som använder skalet Nostalgi */",
+	"nostalgia-articlepage": "Visa innehållssida",
+	"nostalgia-create-this-page": "Skapa denna sida",
+	"nostalgia-deletethispage": "Radera denna sida",
+	"nostalgia-editthispage": "Redigera denna sida",
 	"nostalgia-newmessageslink": "nya meddelanden",
-	"nostalgia-newmessagesdifflink": "senaste ändringen"
+	"nostalgia-newmessagesdifflink": "senaste ändringen",
+	"nostalgia-projectpage": "Visa projektsida",
+	"nostalgia-protectthispage": "Skrivskydda denna sida",
+	"nostalgia-talkpage": "Diskutera denna sida",
+	"nostalgia-unprotectthispage": "Ändra skyddet på denna sida",
+	"nostalgia-userpage": "Visa användarsida"
 }
