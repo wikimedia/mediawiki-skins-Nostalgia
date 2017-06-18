@@ -2,13 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
-			"Dim Grits"
+			"Dim Grits",
+			"Piramidion"
 		]
 	},
 	"nostalgia-desc": "Оболонка, яка показує вигляд Вікіпедії у 2001",
 	"skinname-nostalgia": "Ностальгія",
 	"nostalgia.css": "/* Розміщений тут CSS-код буде використаний для користувачів з налаштованою темою оформлення Ностальгія */",
 	"nostalgia.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують тему оформлення Ностальгія */",
+	"nostalgia-articlepage": "Переглянути сторінку основного простору",
+	"nostalgia-create-this-page": "Створити цю сторінку",
+	"nostalgia-deletethispage": "Вилучити цю сторінку",
+	"nostalgia-editthispage": "Редагувати цю сторінку",
 	"nostalgia-newmessageslink": "нові повідомлення",
-	"nostalgia-newmessagesdifflink": "остання зміна"
+	"nostalgia-newmessagesdifflink": "остання зміна",
+	"nostalgia-projectpage": "Переглянути сторінку проекту",
+	"nostalgia-protectthispage": "Захистити цю сторінку",
+	"nostalgia-talkpage": "Обговорити цю сторінку",
+	"nostalgia-unprotectthispage": "Змінити захист цієї сторінки",
+	"nostalgia-userpage": "Переглянути сторінку користувача"
 }

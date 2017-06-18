@@ -9,6 +9,12 @@
 	"skinname-nostalgia": "Nostalgie",
 	"nostalgia.css": "/* Dës CSS huet nëmmen Afloss op de Skin ''Nostalgie''  */",
 	"nostalgia.js": "/* Dëse JavaScript gëtt geluede fir Nostalgia ze benotzen */",
+	"nostalgia-articlepage": "Inhalt vun der Säit weisen",
+	"nostalgia-create-this-page": "Dës Säit uleeën",
+	"nostalgia-deletethispage": "Dës Säit läschen",
+	"nostalgia-editthispage": "Dës Säit änneren",
 	"nostalgia-newmessageslink": "nei Messagen",
-	"nostalgia-newmessagesdifflink": "Lescht Ännerung"
+	"nostalgia-newmessagesdifflink": "Lescht Ännerung",
+	"nostalgia-protectthispage": "Dës Säit spären",
+	"nostalgia-talkpage": "Dës Säit diskutéieren"
 }

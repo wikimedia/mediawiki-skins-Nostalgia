@@ -10,6 +10,8 @@
 	"nostalgia.css": "/* Зьмешчаны тут CSS будзе ўжыты ў тэме афармленьня Nostalgia */",
 	"nostalgia.js": "/* Зьмешчаны тут JavaScript будзе ўжыты ў тэме афармленьня Nostalgia */",
 	"nostalgia-articlepage": "Праглядзець старонку",
+	"nostalgia-create-this-page": "Стварыць гэтую старонку",
+	"nostalgia-deletethispage": "Выдаліць гэтую старонку",
 	"nostalgia-newmessageslink": "новыя паведамленьні",
 	"nostalgia-newmessagesdifflink": "апошняя зьмена"
 }
