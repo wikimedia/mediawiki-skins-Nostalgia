@@ -31,7 +31,7 @@ class SkinNostalgia extends SkinTemplate {
 
 	/**
 	 * Add skin specific stylesheets
-	 * @param $out OutputPage
+	 * @param OutputPage $out
 	 */
 	function setupSkinUserCss( OutputPage $out ) {
 		$out->addModuleStyles( 'mediawiki.legacy.shared' );
@@ -386,14 +386,16 @@ class NostalgiaTemplate extends BaseTemplate {
 		$title = $skin->getTitle();
 
 		$s[] = $this->printableLink();
-		$disclaimer = $skin->disclaimerLink(); # may be empty
+		$disclaimer = $skin->disclaimerLink();
 
+		# may be empty
 		if ( $disclaimer ) {
 			$s[] = $disclaimer;
 		}
 
-		$privacy = $skin->privacyLink(); # may be empty too
+		$privacy = $skin->privacyLink();
 
+		# may be empty too
 		if ( $privacy ) {
 			$s[] = $privacy;
 		}
