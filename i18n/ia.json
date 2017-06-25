@@ -8,6 +8,15 @@
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Le CSS placiate hic afficera le usatores del apparentia Nostalgia */",
 	"nostalgia.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Nostalgia */",
+	"nostalgia-articlepage": "Vider pagina de contento",
+	"nostalgia-create-this-page": "Crear iste pagina",
+	"nostalgia-deletethispage": "Deler iste pagina",
+	"nostalgia-editthispage": "Modificar iste pagina",
 	"nostalgia-newmessageslink": "nove messages",
-	"nostalgia-newmessagesdifflink": "ultime modification"
+	"nostalgia-newmessagesdifflink": "ultime modification",
+	"nostalgia-projectpage": "Vider pagina de projecto",
+	"nostalgia-protectthispage": "Proteger iste pagina",
+	"nostalgia-talkpage": "Discuter iste pagina",
+	"nostalgia-unprotectthispage": "Cambiar le protection de iste pagina",
+	"nostalgia-userpage": "Vider pagina del usator"
 }
