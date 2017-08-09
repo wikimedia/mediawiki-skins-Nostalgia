@@ -8,6 +8,15 @@
 	"skinname-nostalgia": "Nostalgi",
 	"nostalgia.css": "/* CSS i denne fila vil gjelde alle som bruker drakta Nostalgia */",
 	"nostalgia.js": "/* Javascript i denne fila vil gjelde for brukere av drakta Nostalgia */",
+	"nostalgia-articlepage": "Vis innholdsside",
+	"nostalgia-create-this-page": "Opprett denne siden",
+	"nostalgia-deletethispage": "Slett denne siden",
+	"nostalgia-editthispage": "Rediger denne siden",
 	"nostalgia-newmessageslink": "nye meldinger",
-	"nostalgia-newmessagesdifflink": "siste endring"
+	"nostalgia-newmessagesdifflink": "siste endring",
+	"nostalgia-projectpage": "Vis prosjektside",
+	"nostalgia-protectthispage": "Beskytt denne siden",
+	"nostalgia-talkpage": "Diskuter denne siden",
+	"nostalgia-unprotectthispage": "Endre beskyttelsen av denne siden",
+	"nostalgia-userpage": "Vis brukerside"
 }
