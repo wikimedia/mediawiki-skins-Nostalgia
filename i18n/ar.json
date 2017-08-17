@@ -1,12 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
+	"nostalgia-desc": "برنامج مساعد لإظهار كيف كانت ويكيبيديا تبدو في عام 2001",
 	"skinname-nostalgia": "نوستالجيا",
 	"nostalgia.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة نوستالشيا */",
 	"nostalgia.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة نوستالشيا */",
+	"nostalgia-articlepage": "اعرض صفحة المحتوى",
+	"nostalgia-create-this-page": "إنشاء هذه الصفحة",
+	"nostalgia-deletethispage": "احذف هذه الصفحة",
+	"nostalgia-editthispage": "عدل هذه الصفحة",
 	"nostalgia-newmessageslink": "رسائل جديدة",
-	"nostalgia-newmessagesdifflink": "أحدث تغيير"
+	"nostalgia-newmessagesdifflink": "أحدث تغيير",
+	"nostalgia-projectpage": "رؤية صفحة المشروع",
+	"nostalgia-protectthispage": "احمِ هذه الصفحة",
+	"nostalgia-talkpage": "ناقش هذه الصفحة",
+	"nostalgia-unprotectthispage": "غير حماية هذه الصفحة",
+	"nostalgia-userpage": "اعرض صفحة المستخدم"
 }
