@@ -1,6 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"MokaAkashiyaPT"
+		]
+	},
 	"skinname-nostalgia": "Suidade",
-	"nostalgia-newmessageslink": "nuobas mensaiges",
+	"nostalgia-newmessageslink": "mensaiges nuobas",
 	"nostalgia-newmessagesdifflink": "redadeira altaraçon"
 }
