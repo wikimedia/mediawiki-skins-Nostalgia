@@ -9,6 +9,15 @@
 	"skinname-nostalgia": "Vọng cổ",
 	"nostalgia.css": "/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng giao diện Vọng cổ */",
 	"nostalgia.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng giao diện Vọng cổ */",
+	"nostalgia-articlepage": "Xem trang nội dung",
+	"nostalgia-create-this-page": "Tạo trang này",
+	"nostalgia-deletethispage": "Xóa trang này",
+	"nostalgia-editthispage": "Sửa đổi trang này",
 	"nostalgia-newmessageslink": "tin nhắn mới",
-	"nostalgia-newmessagesdifflink": "thay đổi gần nhất"
+	"nostalgia-newmessagesdifflink": "thay đổi gần nhất",
+	"nostalgia-projectpage": "Xem trang dự án",
+	"nostalgia-protectthispage": "Khóa trang này",
+	"nostalgia-talkpage": "Thảo luận về trang này",
+	"nostalgia-unprotectthispage": "Thay đổi mức khóa của trang này",
+	"nostalgia-userpage": "Xem trang thành viên"
 }
