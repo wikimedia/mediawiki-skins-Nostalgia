@@ -1,6 +1,20 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Joedalton"
+		]
+	},
+	"nostalgia-desc": "Et tema til at vise hvordan Wikipedia så ud i 2001",
 	"skinname-nostalgia": "Nostalgi",
+	"nostalgia-articlepage": "Vis indholdsside",
+	"nostalgia-create-this-page": "Opret denne side",
+	"nostalgia-deletethispage": "Slet denne side",
+	"nostalgia-editthispage": "Rediger denne side",
 	"nostalgia-newmessageslink": "nye beskeder",
-	"nostalgia-newmessagesdifflink": "ændringer siden sidste visning"
+	"nostalgia-newmessagesdifflink": "ændringer siden sidste visning",
+	"nostalgia-projectpage": "Vis projektside",
+	"nostalgia-protectthispage": "Beskyt denne side",
+	"nostalgia-talkpage": "Diskuter denne side",
+	"nostalgia-unprotectthispage": "Ændre beskyttelsen af denne side",
+	"nostalgia-userpage": "Vis brugerside"
 }
