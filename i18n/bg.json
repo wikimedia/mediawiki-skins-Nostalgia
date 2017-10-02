@@ -1,11 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"ShockD"
 		]
 	},
 	"nostalgia-desc": "Облик, показващ как изглеждаше Уикипедия през 2001 година",
 	"skinname-nostalgia": "Носталгия",
+	"nostalgia-articlepage": "Преглед на страницата със съдържание",
+	"nostalgia-create-this-page": "Създаване на страницата",
+	"nostalgia-deletethispage": "Изтриване на страницата",
+	"nostalgia-editthispage": "Редактиране на страницата",
 	"nostalgia-newmessageslink": "нови съобщения",
-	"nostalgia-newmessagesdifflink": "разлика с предишната версия"
+	"nostalgia-newmessagesdifflink": "разлика с предишната версия",
+	"nostalgia-projectpage": "Преглед на проектната страница",
+	"nostalgia-protectthispage": "Защитаване на страницата",
+	"nostalgia-talkpage": "Дискусионна страница",
+	"nostalgia-unprotectthispage": "Промяна на защитата на тази страница",
+	"nostalgia-userpage": "Преглед на потребителската страница"
 }
