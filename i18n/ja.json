@@ -2,13 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"青子守歌"
+			"青子守歌",
+			"Hinaloe"
 		]
 	},
 	"nostalgia-desc": "2001年当時のウィキペディアの外観を再現する外装",
 	"skinname-nostalgia": "ノスタルジア",
 	"nostalgia.css": "/* ここに記述したCSSはノスタルジア外装の利用者に影響します */",
 	"nostalgia.js": "/* ここにあるすべてのJavaScriptは、ノスタルジア外装を使用している利用者に対して読み込まれます */",
+	"nostalgia-editthispage": "このページを編集",
 	"nostalgia-newmessageslink": "新着メッセージ",
-	"nostalgia-newmessagesdifflink": "最新の差分"
+	"nostalgia-newmessagesdifflink": "最新の差分",
+	"nostalgia-projectpage": "プロジェクトページを表示",
+	"nostalgia-protectthispage": "このページを保護"
 }
