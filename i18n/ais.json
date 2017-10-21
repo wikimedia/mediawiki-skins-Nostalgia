@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tokoabibi"
+			"Tokoabibi",
+			"Benel"
 		]
 	},
+	"nostalgia-articlepage": "ciwsace lacul a kasabelih",
 	"nostalgia-create-this-page": "patizeng tina kasabelih",
 	"nostalgia-deletethispage": "misipu tina kasabelih",
 	"nostalgia-protectthispage": "midiput tina kasabelih",
-	"nostalgia-talkpage": "matatengil tina kasabelih"
+	"nostalgia-talkpage": "matatengil tina kasabelih",
+	"nostalgia-userpage": "ciwsace misaungayay a kasabelih"
 }
