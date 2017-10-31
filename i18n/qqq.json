@@ -5,11 +5,12 @@
 			"Matma Rex",
 			"Raymond",
 			"Liuxinyu970226",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Umherirrender"
 		]
 	},
 	"nostalgia-desc": "{{desc|name=Nostalgia|url=https://www.mediawiki.org/wiki/Skin:Nostalgia|what=skin}}",
-	"skinname-nostalgia": "{{optional}}\n{{Identical|Nostalgia}}",
+	"skinname-nostalgia": "{{name}}\n{{Identical|Nostalgia}}",
 	"nostalgia.css": "{{optional}}",
 	"nostalgia.js": "{{optional}}",
 	"nostalgia-articlepage": "'Content page' is used for NS_MAIN and any other non-standard namespaces.\n\n{{Identical|Content page}}",
