@@ -439,7 +439,7 @@ class NostalgiaTemplate extends BaseTemplate {
 				);
 				$s[] = '<strong>' . wfMessage( 'youhavenewmessages', $tl, $dl )->text() . '</strong>';
 				# disable caching
-				$wgOut->setSquidMaxage( 0 );
+				$wgOut->setCdnMaxage( 0 );
 				$wgOut->enableClientCache( false );
 			}
 		}
