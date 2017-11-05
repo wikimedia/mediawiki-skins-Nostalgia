@@ -9,6 +9,7 @@
 	"skinname-nostalgia": "Nostalgie",
 	"nostalgia.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Nostalgie */",
 	"nostalgia.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Nostalgie gebruiken */",
+	"nostalgia-articlepage": "Inhoudspagina bekijken",
 	"nostalgia-create-this-page": "Deze pagina aanmaken",
 	"nostalgia-deletethispage": "Deze pagina verwijderen",
 	"nostalgia-editthispage": "Deze pagina bewerken",
