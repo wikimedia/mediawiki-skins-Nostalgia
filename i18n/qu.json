@@ -5,5 +5,7 @@
 		]
 	},
 	"nostalgia.css": "/* Churamusqa CSS chantakunaqa ''Nostalgia skin'' nisqa qarata llamk'achiq ruraqkunapaq llamk'anqa */",
-	"nostalgia.js": "/* Ima kaypi qillqamusqa JavaScript nisqa wakichi qillqapas ''Nostalgia skin'' nisqa qarata llamk'achiq ruraqkunapaq chaqnasqa kanqa */"
+	"nostalgia.js": "/* Ima kaypi qillqamusqa JavaScript nisqa wakichi qillqapas ''Nostalgia skin'' nisqa qarata llamk'achiq ruraqkunapaq chaqnasqa kanqa */",
+	"nostalgia-newmessageslink": "Musuq willaymi",
+	"nostalgia-newmessagesdifflink": "qayna hukchasqapi wakin kaynin"
 }

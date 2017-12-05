@@ -5,5 +5,7 @@
 		]
 	},
 	"nostalgia.css": "/* CSS opp dise Sted wirtjt opp daut Nostalgia-Skin */",
-	"nostalgia.js": "/* Daut neachste JavaScript woat fe Brucka mett Nostalgie-Skin jelode. */"
+	"nostalgia.js": "/* Daut neachste JavaScript woat fe Brucka mett Nostalgie-Skin jelode. */",
+	"nostalgia-newmessageslink": "Niee Norechte",
+	"nostalgia-newmessagesdifflink": "Latztet mol je'endat"
 }
