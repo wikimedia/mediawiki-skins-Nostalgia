@@ -4,7 +4,8 @@
 			"IAlex",
 			"Metroitendo",
 			"Zetud",
-			"Gomoko"
+			"Gomoko",
+			"Urhixidur"
 		]
 	},
 	"nostalgia-desc": "Un habillage montrant à quoi ressemblait Wikipédia en 2001",
@@ -21,5 +22,5 @@
 	"nostalgia-protectthispage": "Protéger cette page",
 	"nostalgia-talkpage": "Discuter cette page",
 	"nostalgia-unprotectthispage": "Modifier la protection de cette page",
-	"nostalgia-userpage": "Afficher la page utilisateur"
+	"nostalgia-userpage": "Afficher la page d’utilisateur"
 }
