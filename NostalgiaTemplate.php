@@ -18,28 +18,12 @@
  * http://www.gnu.org/copyleft/gpl.html
  *
  * @file
- * @ingroup Skins
  */
 
 /**
  * @todo document
  * @ingroup Skins
  */
-class SkinNostalgia extends SkinTemplate {
-	public $skinname = 'nostalgia',
-		$template = 'NostalgiaTemplate';
-
-	/**
-	 * Add skin specific stylesheets
-	 * @param OutputPage $out
-	 */
-	function setupSkinUserCss( OutputPage $out ) {
-		$out->addModuleStyles( 'mediawiki.legacy.shared' );
-		$out->addModuleStyles( 'mediawiki.legacy.oldshared' );
-		$out->addModuleStyles( 'ext.nostalgia' );
-	}
-}
-
 class NostalgiaTemplate extends BaseTemplate {
 
 	// How many search boxes have we made?  Avoid duplicate id's.

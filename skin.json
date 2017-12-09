@@ -29,8 +29,8 @@
 		"remoteSkinPath": "Nostalgia"
 	},
 	"AutoloadClasses": {
-		"SkinNostalgia": "Nostalgia_body.php",
-		"NostalgiaTemplate": "Nostalgia_body.php"
+		"SkinNostalgia": "SkinNostalgia.php",
+		"NostalgiaTemplate": "NostalgiaTemplate.php"
 	},
 	"manifest_version": 1
 }
