@@ -1,6 +1,19 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba"
+		]
+	},
 	"skinname-nostalgia": "Nostalgia",
+	"nostalgia-articlepage": "Eduki orrialdea ikusi",
+	"nostalgia-create-this-page": "Sortu orri hau",
+	"nostalgia-deletethispage": "Ezabatu orri hau",
+	"nostalgia-editthispage": "Orrialde hau aldatu",
 	"nostalgia-newmessageslink": "Mezu berriak",
-	"nostalgia-newmessagesdifflink": "azken aldaketa ikusi"
+	"nostalgia-newmessagesdifflink": "azken aldaketa ikusi",
+	"nostalgia-projectpage": "Proiektuaren orrialdea ikusi",
+	"nostalgia-protectthispage": "Orri hau babestu",
+	"nostalgia-talkpage": "Orrialde honi buruz eztabaidatu",
+	"nostalgia-unprotectthispage": "Orrialde honen babesa aldatu",
+	"nostalgia-userpage": "Erabiltzaile orrialdea ikusi"
 }
