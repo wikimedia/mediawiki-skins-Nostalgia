@@ -14,7 +14,7 @@
 	"nostalgia.css": "{{optional}}",
 	"nostalgia.js": "{{optional}}",
 	"nostalgia-articlepage": "'Content page' is used for NS_MAIN and any other non-standard namespaces.\n\n{{Identical|Content page}}",
-	"nostalgia-create-this-page": "This is the text for the link leading to the edit form on pages that have not yet been created. See {{msg-mw|nostalgia-editthispage}} for when the page already exists.\n{{Identical|Createpage}}",
+	"nostalgia-create-this-page": "This is the text for the link leading to the edit form on pages that have not yet been created. See {{msg-mw|nostalgia-editthispage}} for when the page already exists.\n{{Identical|Create page}}",
 	"nostalgia-deletethispage": "This is the text for link to delete the page in admin view, at the bottom of the page.\n{{Identical|Delete this page}}",
 	"nostalgia-editthispage": "This is the \"edit\" link as used in the Nostalgia skin.\n\n{{Identical|Edit this page}}",
 	"nostalgia-newmessageslink": "Link text to the user's talk page when they have new messages\n{{Identical|New messages}}",
