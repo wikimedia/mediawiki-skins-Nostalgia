@@ -353,7 +353,11 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		return Html::rawElement( 'form',
 			[ 'id' => 'specialpages', 'method' => 'get', 'action' => $wgScript ],
-			$select->getHTML() . Xml::submitButton( wfMessage( 'go' )->text() ) );
+			$select->getHTML() . Html::element(
+				'input',
+				[ 'type' => 'submit', 'value' => wfMessage( 'go' )->text() ]
+			)
+		);
 	}
 
 	/**
