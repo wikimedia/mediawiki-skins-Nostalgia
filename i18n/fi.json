@@ -3,13 +3,22 @@
 		"authors": [
 			"Crt",
 			"Nedergard",
-			"01miki10"
+			"01miki10",
+			"Pyscowicz"
 		]
 	},
 	"nostalgia-desc": "Ulkoasu, joka näyttää, millainen Wikipedia oli vuonna 2001",
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Tämä sivu sisältää Nostalgia-ulkoasua muuttavia tyylejä. */",
 	"nostalgia.js": "/* Tämän sivun JavaScript-koodi liitetään Nostalgia-tyyliin */",
+	"nostalgia-create-this-page": "Luo tämä sivu",
+	"nostalgia-deletethispage": "Poista tämä sivu",
+	"nostalgia-editthispage": "Muokkaa tätä sivua",
 	"nostalgia-newmessageslink": "uusia viestejä",
-	"nostalgia-newmessagesdifflink": "viimeisin muutos"
+	"nostalgia-newmessagesdifflink": "viimeisin muutos",
+	"nostalgia-projectpage": "Näytä projektisivu",
+	"nostalgia-protectthispage": "Suojaa tämä sivu",
+	"nostalgia-talkpage": "Keskustele tästä sivusta",
+	"nostalgia-unprotectthispage": "Muuta tämän sivun suojausta",
+	"nostalgia-userpage": "Näytä käyttäjäsivu"
 }
