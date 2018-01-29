@@ -1,11 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sfic"
+			"Sfic",
+			"Innocentbunny"
 		]
 	},
 	"nostalgia-desc": "एक त्वचा है, जो दिखाती है कि किस तरह विकिपीडिया 2001 में दिखता था।",
 	"skinname-nostalgia": "नोस्टाल्जिया",
+	"nostalgia-articlepage": "सामग्री पृष्ठ देखें",
+	"nostalgia-create-this-page": "यह पृष्ठ निर्मित करें",
+	"nostalgia-deletethispage": "पृष्ठ हटाएँ",
+	"nostalgia-editthispage": "पृष्ठ सम्पादन करें",
 	"nostalgia-newmessageslink": "नए सन्देश",
-	"nostalgia-newmessagesdifflink": "पिछला बदलाव"
+	"nostalgia-newmessagesdifflink": "पिछला बदलाव",
+	"nostalgia-projectpage": "परियोजना पृष्ठ देखें",
+	"nostalgia-protectthispage": "पृष्ठ अनुरक्षित करें",
+	"nostalgia-talkpage": "पृष्ठ संबंधित चर्चा करें",
+	"nostalgia-unprotectthispage": "इस पृष्ठ का प्रतिरक्षण बदलें",
+	"nostalgia-userpage": "सदस्य पृष्ठ देखें"
 }
