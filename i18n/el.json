@@ -1,12 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dead3y3"
+			"Dead3y3",
+			"Nikosgranturismogt"
 		]
 	},
 	"skinname-nostalgia": "Νοσταλγία",
 	"nostalgia.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του Nostalgia skin */",
 	"nostalgia.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Nostalgia skin */",
+	"nostalgia-articlepage": "Εμφάνιση σελίδας περιεχομένου",
+	"nostalgia-create-this-page": "Δημιουργία αυτής της σελίδας",
+	"nostalgia-deletethispage": "Διαγραφή αυτής της σελίδας",
+	"nostalgia-editthispage": "Επεξεργαστείτε αυτό το λήμμα",
 	"nostalgia-newmessageslink": "νέα μηνύματα",
-	"nostalgia-newmessagesdifflink": "τελευταία αλλαγή"
+	"nostalgia-newmessagesdifflink": "τελευταία αλλαγή",
+	"nostalgia-projectpage": "Προβολή σελίδας εγχειρήματος",
+	"nostalgia-protectthispage": "Προστασία αυτής της σελίδας",
+	"nostalgia-talkpage": "Συζήτηση για αυτήν τη σελίδα",
+	"nostalgia-unprotectthispage": "Αλλαγή προστασίας αυτής της σελίδας",
+	"nostalgia-userpage": "Προβολή σελίδας χρήστη"
 }
