@@ -15,7 +15,6 @@
 	},
 	"ResourceModules": {
 		"ext.nostalgia": {
-			"position": "top",
 			"styles": {
 				"0": "screen.css",
 				"print.css": {
