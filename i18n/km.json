@@ -1,11 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"វ័ណថារិទ្ធ"
+			"វ័ណថារិទ្ធ",
+			"គីមស៊្រុន"
 		]
 	},
 	"skinname-nostalgia": "អាឡោះអាល័យ",
 	"nostalgia.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក Nostalgia */",
+	"nostalgia-articlepage": "មើលខ្លឹមសារទំព័រ​",
+	"nostalgia-create-this-page": "បង្កើតទំព័រនេះ",
+	"nostalgia-deletethispage": "លុបទំព័រនេះចោល",
+	"nostalgia-editthispage": "កែប្រែទំព័រនេះ",
 	"nostalgia-newmessageslink": "សារថ្មីៗ",
-	"nostalgia-newmessagesdifflink": "បន្លាស់ប្ដូរចុងក្រោយ"
+	"nostalgia-newmessagesdifflink": "បន្លាស់ប្ដូរចុងក្រោយ",
+	"nostalgia-projectpage": "មើល​ទំព័រគម្រោង",
+	"nostalgia-protectthispage": "ការពារ​ទំព័រនេះ",
+	"nostalgia-talkpage": "ពិភាក្សាពីទំព័រនេះ",
+	"nostalgia-unprotectthispage": "ផ្លាស់ប្ដូរការការពារទំព័រនេះ",
+	"nostalgia-userpage": "មើលទំព័រអ្នកប្រើប្រាស់"
 }
