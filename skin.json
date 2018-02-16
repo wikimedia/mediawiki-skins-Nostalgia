@@ -3,7 +3,7 @@
 	"url": "https://www.mediawiki.org/wiki/Skin:Nostalgia",
 	"descriptionmsg": "nostalgia-desc",
 	"namemsg": "skinname-nostalgia",
-	"license-name": "GPL-2.0+",
+	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"ValidSkinNames": {
 		"nostalgia": "Nostalgia"
