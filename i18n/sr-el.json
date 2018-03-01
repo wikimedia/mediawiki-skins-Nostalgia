@@ -1,12 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Zoranzoki21"
 		]
 	},
 	"skinname-nostalgia": "Nostalgija",
 	"nostalgia.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Nostalgija“ */",
 	"nostalgia.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Nostalgija“ */",
+	"nostalgia-articlepage": "Pogledaj stranicu sa sadržajem",
+	"nostalgia-create-this-page": "Napravi ovu stranicu",
+	"nostalgia-deletethispage": "Obriši ovu stranicu",
+	"nostalgia-editthispage": "Uredi ovu stranicu",
 	"nostalgia-newmessageslink": "nove poruke",
-	"nostalgia-newmessagesdifflink": "poslednja izmena"
+	"nostalgia-newmessagesdifflink": "poslednja izmena",
+	"nostalgia-projectpage": "Pogledaj stranicu projekta",
+	"nostalgia-protectthispage": "Zaštiti ovu stranicu",
+	"nostalgia-talkpage": "Razgovor ove stranice",
+	"nostalgia-unprotectthispage": "Promeni zaštitu ove stranice",
+	"nostalgia-userpage": "Pogledaj korisničku stranicu"
 }
