@@ -1,6 +1,20 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"nostalgia-desc": "'t Uterlik det Wikipedia haw in 2001",
 	"skinname-nostalgia": "Nostalgie",
+	"nostalgia-articlepage": "Betrach inhawdspagina",
+	"nostalgia-create-this-page": "Maak dees pagina aan",
+	"nostalgia-deletethispage": "Sjaf dees pagina eweg",
+	"nostalgia-editthispage": "Bewirk dees pagina",
 	"nostalgia-newmessageslink": "nuuj berichte",
-	"nostalgia-newmessagesdifflink": "Lèste verangering"
+	"nostalgia-newmessagesdifflink": "Lèste verangering",
+	"nostalgia-projectpage": "Tuin projekpagina",
+	"nostalgia-protectthispage": "Besjirm dees pagina",
+	"nostalgia-talkpage": "Euverlèk dees pagina",
+	"nostalgia-unprotectthispage": "Veranger de beveiliging van dees pagina",
+	"nostalgia-userpage": "Betrach gebroekerspagina"
 }
