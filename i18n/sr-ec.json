@@ -3,9 +3,11 @@
 		"authors": [
 			"Rancher",
 			"Milicevic01",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
+	"nostalgia-desc": "Тема која приказује како је Википедија изгледала 2001.",
 	"skinname-nostalgia": "Носталгија",
 	"nostalgia.css": "/* CSS постављен овде ће утицати на све кориснике теме „Носталгија“ */",
 	"nostalgia.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему „Носталгија“ */",
