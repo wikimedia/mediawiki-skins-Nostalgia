@@ -3,19 +3,23 @@
 		"authors": [
 			"Sp5uhe",
 			"WTM",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"nostalgia-desc": "Skórka, która pokazuje jak Wikipedia wyglądała w 2001 roku",
 	"skinname-nostalgia": "Tęsknota",
 	"nostalgia.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Tęsknota */",
 	"nostalgia.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Tęsknota */",
+	"nostalgia-articlepage": "Pokaż zawartość strony",
 	"nostalgia-create-this-page": "Utwórz tę stronę",
 	"nostalgia-deletethispage": "Usuń tę stronę",
 	"nostalgia-editthispage": "Edytuj tę stronę",
 	"nostalgia-newmessageslink": "nowe wiadomości",
 	"nostalgia-newmessagesdifflink": "różnica z poprzednią wersją",
+	"nostalgia-projectpage": "Pokaż stronę projektu",
 	"nostalgia-protectthispage": "Zabezpiecz tę stronę",
+	"nostalgia-talkpage": "Dyskutuj nad tą stroną",
 	"nostalgia-unprotectthispage": "Zmień zabezpieczenie strony",
 	"nostalgia-userpage": "Zobacz stronę użytkownika"
 }
