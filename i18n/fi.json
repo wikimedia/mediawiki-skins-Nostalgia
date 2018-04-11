@@ -11,6 +11,7 @@
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* Tämä sivu sisältää Nostalgia-ulkoasua muuttavia tyylejä. */",
 	"nostalgia.js": "/* Tämän sivun JavaScript-koodi liitetään Nostalgia-tyyliin */",
+	"nostalgia-articlepage": "Näytä sisältösivu",
 	"nostalgia-create-this-page": "Luo tämä sivu",
 	"nostalgia-deletethispage": "Poista tämä sivu",
 	"nostalgia-editthispage": "Muokkaa tätä sivua",
