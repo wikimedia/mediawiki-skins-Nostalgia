@@ -4,13 +4,15 @@
 			"Shirayuki",
 			"青子守歌",
 			"Hinaloe",
-			"Otokoume"
+			"Otokoume",
+			"2nd-player"
 		]
 	},
 	"nostalgia-desc": "2001年当時のウィキペディアの外観を再現する外装",
 	"skinname-nostalgia": "ノスタルジア",
 	"nostalgia.css": "/* ここに記述したCSSはノスタルジア外装の利用者に影響します */",
 	"nostalgia.js": "/* ここにあるすべてのJavaScriptは、ノスタルジア外装を使用している利用者に対して読み込まれます */",
+	"nostalgia-articlepage": "本文を表示",
 	"nostalgia-create-this-page": "このページを作成",
 	"nostalgia-deletethispage": "このページを削除",
 	"nostalgia-editthispage": "このページを編集",
