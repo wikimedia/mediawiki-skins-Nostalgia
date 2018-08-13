@@ -344,7 +344,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		global $wgScript;
 
 		$select = new XmlSelect( 'title' );
-		$pages = SpecialPageFactory::getUsablePages();
+		$pages = SpecialPageFactory::getUsablePages( $this->getSkin()->getUser() );
 		array_unshift( $pages, SpecialPageFactory::getPage( 'SpecialPages' ) );
 		foreach ( $pages as $obj ) {
 			$select->addOption( $obj->getDescription(),
