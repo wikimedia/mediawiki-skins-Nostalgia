@@ -13,13 +13,13 @@
 	"nostalgia.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему „Носталгија“ */",
 	"nostalgia-articlepage": "Погледај страницу са садржајем",
 	"nostalgia-create-this-page": "Направи ову страницу",
-	"nostalgia-deletethispage": "Обриши ову страницу",
+	"nostalgia-deletethispage": "Избриши ову страницу",
 	"nostalgia-editthispage": "Уреди ову страницу",
 	"nostalgia-newmessageslink": "нове поруке",
-	"nostalgia-newmessagesdifflink": "последња измена",
+	"nostalgia-newmessagesdifflink": "последња промена",
 	"nostalgia-projectpage": "Погледај страницу пројекта",
 	"nostalgia-protectthispage": "Заштити ову страницу",
-	"nostalgia-talkpage": "Разговор ове странице",
+	"nostalgia-talkpage": "Дискутуј о овој страници",
 	"nostalgia-unprotectthispage": "Промени заштиту ове странице",
 	"nostalgia-userpage": "Погледај корисничку страницу"
 }
