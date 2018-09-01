@@ -11,13 +11,13 @@
 	"nostalgia.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Nostalgija“ */",
 	"nostalgia-articlepage": "Pogledaj stranicu sa sadržajem",
 	"nostalgia-create-this-page": "Napravi ovu stranicu",
-	"nostalgia-deletethispage": "Obriši ovu stranicu",
+	"nostalgia-deletethispage": "Izbriši ovu stranicu",
 	"nostalgia-editthispage": "Uredi ovu stranicu",
 	"nostalgia-newmessageslink": "nove poruke",
-	"nostalgia-newmessagesdifflink": "poslednja izmena",
+	"nostalgia-newmessagesdifflink": "poslednja promena",
 	"nostalgia-projectpage": "Pogledaj stranicu projekta",
 	"nostalgia-protectthispage": "Zaštiti ovu stranicu",
-	"nostalgia-talkpage": "Razgovor ove stranice",
+	"nostalgia-talkpage": "Diskutuj o ovoj stranici",
 	"nostalgia-unprotectthispage": "Promeni zaštitu ove stranice",
 	"nostalgia-userpage": "Pogledaj korisničku stranicu"
 }
