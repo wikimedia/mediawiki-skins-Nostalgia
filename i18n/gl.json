@@ -5,7 +5,7 @@
 			"Elisardojm"
 		]
 	},
-	"nostalgia-desc": "Unha aparencia para mostrar o aspecto da Wikipedia en 2001",
+	"nostalgia-desc": "Unha aparencia para amosar o aspecto da Wikipedia en 2001",
 	"skinname-nostalgia": "Morriña",
 	"nostalgia.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia Morriña */",
 	"nostalgia.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Morriña */",
