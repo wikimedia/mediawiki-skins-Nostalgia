@@ -8,6 +8,15 @@
 	"skinname-nostalgia": "Nostalgie",
 	"nostalgia.css": "/* 'U CSS ca se iacchie aqquà 'u 'ndrucane le utinde d'a masckere Nostalgie */",
 	"nostalgia.js": "/* Ogne JavaScript aqquà avène carecate pe le utinde ca ausane 'a masckere Nostalgie */",
+	"nostalgia-articlepage": "'Ndruche 'a pàgene de le condenute",
+	"nostalgia-create-this-page": "Ccreje 'a pàgene",
+	"nostalgia-deletethispage": "Scangille sta pàgene",
+	"nostalgia-editthispage": "Cange sta pàgene",
 	"nostalgia-newmessageslink": "messàgge nuève",
-	"nostalgia-newmessagesdifflink": "urteme cangiaminde"
+	"nostalgia-newmessagesdifflink": "urteme cangiaminde",
+	"nostalgia-projectpage": "'Ndruche 'a pàgene de le pruggette",
+	"nostalgia-protectthispage": "Prutegge sta pàgene",
+	"nostalgia-talkpage": "'Ngazzete pe sta pàgene",
+	"nostalgia-unprotectthispage": "Cange 'a protezione de sta pàgene",
+	"nostalgia-userpage": "'Ndruche 'a pàgene de l'utende"
 }
