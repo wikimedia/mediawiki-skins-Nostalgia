@@ -31,7 +31,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 	protected $mWatchLinkNum = 0;
 
-	function execute() {
+	public function execute() {
 		$this->html( 'headelement' );
 		echo $this->beforeContent();
 		$this->html( 'bodytext' );
@@ -46,7 +46,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * This will be called immediately after the "<body>" tag.
 	 * @return string
 	 */
-	function beforeContent() {
+	public function beforeContent() {
 		$s = "\n<div id='content'>\n<div id='top'>\n";
 		$s .= '<div id="logo">' . $this->getSkin()->logoText( 'right' ) . '</div>';
 
@@ -79,7 +79,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * This gets called shortly before the "</body>" tag.
 	 * @return String HTML to be put before "</body>"
 	 */
-	function afterContent() {
+	public function afterContent() {
 		$s = "\n</div><br clear='all' />\n";
 
 		$s .= "\n<div id='footer'><hr />";
@@ -98,7 +98,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function searchForm() {
+	private function searchForm() {
 		global $wgRequest, $wgUseTwoButtonsSearchForm;
 
 		$search = $wgRequest->getText( 'search' );
@@ -131,7 +131,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function pageStats() {
+	private function pageStats() {
 		$ret = [];
 		$items = [ 'viewcount', 'credits', 'lastmod', 'numberofwatchingusers', 'copyright' ];
 
@@ -147,7 +147,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function topLinks() {
+	private function topLinks() {
 		$sep = " |\n";
 
 		$s = $this->getSkin()->mainPageLink() . $sep
@@ -196,7 +196,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * Language/charset variant links for classic-style skins
 	 * @return string
 	 */
-	function variantLinks() {
+	private function variantLinks() {
 		$s = '';
 
 		/* show links to different language variants */
@@ -229,7 +229,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function bottomLinks() {
+	private function bottomLinks() {
 		global $wgOut, $wgUser;
 		$sep = wfMessage( 'pipe-separator' )->escaped() . "\n";
 
@@ -294,7 +294,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 * @throws MWException
 	 */
-	function otherLanguages() {
+	private function otherLanguages() {
 		global $wgOut, $wgLang, $wgHideInterlanguageLinks;
 
 		if ( $wgHideInterlanguageLinks ) {
@@ -340,7 +340,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * Show a drop-down box of special pages
 	 * @return string
 	 */
-	function specialPagesList() {
+	private function specialPagesList() {
 		global $wgScript;
 
 		$select = new XmlSelect( 'title' );
@@ -363,7 +363,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function pageTitleLinks() {
+	private function pageTitleLinks() {
 		global $wgOut, $wgUser, $wgRequest, $wgLang;
 
 		$oldid = $wgRequest->getVal( 'oldid' );
@@ -446,7 +446,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * Gets the h1 element with the page title.
 	 * @return string
 	 */
-	function pageTitle() {
+	private function pageTitle() {
 		global $wgOut;
 		return '<h1 class="pagetitle">' . $wgOut->getPageTitle() . '</h1>';
 	}
@@ -454,7 +454,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function pageSubtitle() {
+	private function pageSubtitle() {
 		global $wgOut;
 
 		$sub = $wgOut->getSubtitle();
@@ -473,7 +473,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function printableLink() {
+	private function printableLink() {
 		global $wgOut, $wgRequest, $wgLang;
 
 		$s = [];
@@ -498,7 +498,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function editThisPage() {
+	private function editThisPage() {
 		global $wgOut;
 
 		if ( !$wgOut->isArticleRelated() ) {
@@ -527,7 +527,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function deleteThisPage() {
+	private function deleteThisPage() {
 		global $wgUser, $wgRequest;
 
 		$diff = $wgRequest->getVal( 'diff' );
@@ -552,7 +552,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function protectThisPage() {
+	private function protectThisPage() {
 		global $wgUser, $wgRequest;
 
 		$diff = $wgRequest->getVal( 'diff' );
@@ -585,7 +585,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function watchThisPage() {
+	private function watchThisPage() {
 		global $wgOut, $wgUser;
 		++$this->mWatchLinkNum;
 
@@ -626,7 +626,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function moveThisPage() {
+	private function moveThisPage() {
 		if ( $this->getSkin()->getTitle()->quickUserCan( 'move' ) ) {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Movepage' ),
@@ -643,7 +643,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function historyLink() {
+	private function historyLink() {
 		return Linker::link(
 			$this->getSkin()->getTitle(),
 			wfMessage( 'history' )->escaped(),
@@ -655,7 +655,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function whatLinksHere() {
+	private function whatLinksHere() {
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Whatlinkshere', $this->getSkin()->getTitle()->getPrefixedDBkey() ),
 			wfMessage( 'whatlinkshere' )->escaped()
@@ -665,7 +665,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function userContribsLink() {
+	private function userContribsLink() {
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Contributions', $this->getSkin()->getTitle()->getDBkey() ),
 			wfMessage( 'contributions' )->escaped()
@@ -675,7 +675,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function emailUserLink() {
+	private function emailUserLink() {
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Emailuser', $this->getSkin()->getTitle()->getDBkey() ),
 			wfMessage( 'emailuser' )->escaped()
@@ -685,7 +685,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function watchPageLinksLink() {
+	private function watchPageLinksLink() {
 		global $wgOut;
 
 		if ( !$wgOut->isArticleRelated() ) {
@@ -702,7 +702,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function talkLink() {
+	private function talkLink() {
 		$title = $this->getSkin()->getTitle();
 		if ( NS_SPECIAL == $title->getNamespace() ) {
 			# No discussion links for special pages
@@ -758,7 +758,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function getUploadLink() {
+	private function getUploadLink() {
 		global $wgUploadNavigationUrl;
 
 		if ( $wgUploadNavigationUrl ) {
