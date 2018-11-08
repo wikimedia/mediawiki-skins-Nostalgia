@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"The Discoverer"
+		]
+	},
 	"nostalgia-newmessageslink": "nove sondex",
-	"nostalgia-newmessagesdifflink": "nimannem bodlop"
+	"nostalgia-newmessagesdifflink": "nimannem bodol"
 }
