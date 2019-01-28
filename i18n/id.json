@@ -2,12 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
-			"Iwan Novirion"
+			"Iwan Novirion",
+			"William Surya Permana"
 		]
 	},
+	"nostalgia-desc": "Kulit untuk menampilkan rupa Wikipedia pada tahun 2001",
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* CSS yang ada di sini akan diterapkan pada kulit Nostalgia. */",
 	"nostalgia.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Nostalgia */",
+	"nostalgia-articlepage": "Lihat halaman konten",
+	"nostalgia-create-this-page": "Buat halaman ini",
+	"nostalgia-deletethispage": "Hapus halaman ini",
+	"nostalgia-editthispage": "Sunting halaman ini",
 	"nostalgia-newmessageslink": "pesan baru",
-	"nostalgia-newmessagesdifflink": "perubahan terakhir"
+	"nostalgia-newmessagesdifflink": "perubahan terakhir",
+	"nostalgia-projectpage": "Lihat halaman proyek",
+	"nostalgia-protectthispage": "Lindungi halaman ini",
+	"nostalgia-talkpage": "Bicarakan halaman ini",
+	"nostalgia-unprotectthispage": "Ubah perlindungan halaman ini",
+	"nostalgia-userpage": "Lihat halaman pengguna"
 }
