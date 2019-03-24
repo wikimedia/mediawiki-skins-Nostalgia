@@ -20,6 +20,8 @@
  * @file
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * @todo document
  * @ingroup Skins
@@ -218,7 +220,7 @@ class NostalgiaTemplate extends BaseTemplate {
 					$s,
 					'<a href="' . htmlspecialchars( $title->getLocalURL( 'variant=' . $code ) )
 						. '" lang="' . $code . '" hreflang="' . $code . '">'
-						. htmlspecialchars( $varname ) . '</a>'
+						. htmlspecialchars( $varname ) . '</a>',
 				] );
 			}
 		}
@@ -344,11 +346,13 @@ class NostalgiaTemplate extends BaseTemplate {
 		global $wgScript;
 
 		$select = new XmlSelect( 'title' );
-		$pages = SpecialPageFactory::getUsablePages( $this->getSkin()->getUser() );
-		array_unshift( $pages, SpecialPageFactory::getPage( 'SpecialPages' ) );
+		$factory = MediaWikiServices::getInstance()->getSpecialPageFactory();
+		$pages = $factory->getUsablePages( $this->getSkin()->getUser() );
+		array_unshift( $pages, $factory->getPage( 'SpecialPages' ) );
+		/** @var SpecialPage[] $pages */
 		foreach ( $pages as $obj ) {
 			$select->addOption( $obj->getDescription(),
-				$obj->getTitle()->getPrefixedDBkey() );
+				$obj->getPageTitle()->getPrefixedDBkey() );
 		}
 
 		return Html::rawElement( 'form',
@@ -764,8 +768,8 @@ class NostalgiaTemplate extends BaseTemplate {
 		if ( $wgUploadNavigationUrl ) {
 			# Using an empty class attribute to avoid automatic setting of "external" class
 			return Linker::makeExternalLink( $wgUploadNavigationUrl,
-				wfMessage( 'upload' )->escaped(),
-				false, null, [ 'class' => '' ] );
+				wfMessage( 'upload' )->text(),
+				true, null, [ 'class' => '' ] );
 		} else {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Upload' ),

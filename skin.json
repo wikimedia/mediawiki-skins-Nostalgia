@@ -5,6 +5,9 @@
 	"namemsg": "skinname-nostalgia",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
 	"ValidSkinNames": {
 		"nostalgia": "Nostalgia"
 	},
