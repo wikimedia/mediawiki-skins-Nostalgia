@@ -107,7 +107,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$s = '<form id="searchform' . $this->searchboxes
 			. '" name="search" class="inline" method="post" action="'
-			. $this->getSkin()->escapeSearchLink() . "\">\n"
+			. htmlspecialchars( $this->data['searchaction'] ) . "\">\n"
 			. '<input type="text" id="searchInput' . $this->searchboxes
 			. '" name="search" size="19" value="'
 			. htmlspecialchars( substr( $search, 0, 256 ) ) . "\" />\n"
@@ -118,7 +118,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s .= '&#160;<input type="submit" name="fulltext" value="'
 				. wfMessage( 'searchbutton' )->escaped() . "\" />\n";
 		} else {
-			$s .= ' <a href="' . $this->getSkin()->escapeSearchLink() . '" rel="search">'
+			$s .= ' <a href="' . htmlspecialchars( $this->data['searchaction'] ) . '" rel="search">'
 				. wfMessage( 'powersearch-legend' )->escaped() . "</a>\n";
 		}
 
