@@ -1,12 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Objectivesea"
+			"Objectivesea",
+			"Mirin"
 		]
 	},
+	"nostalgia-desc": "Etoso por prezenti kiel Vikipedio aspektis en 2001",
 	"skinname-nostalgia": "Nostalgio",
 	"nostalgia.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Nostalgia temo. */",
 	"nostalgia.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Nostalgia temo. */",
+	"nostalgia-articlepage": "Vidi la enhavan paĝon",
+	"nostalgia-create-this-page": "Krei ĉi tiun paĝon",
+	"nostalgia-deletethispage": "Forigi ĉi tiun paĝon",
+	"nostalgia-editthispage": "Redakti ĉi tiun paĝon",
 	"nostalgia-newmessageslink": "novaj mesaĝoj",
-	"nostalgia-newmessagesdifflink": "ŝanĝoj kompare kun antaŭlasta versio"
+	"nostalgia-newmessagesdifflink": "ŝanĝoj kompare kun antaŭlasta versio",
+	"nostalgia-projectpage": "Vidi la projektopaĝon",
+	"nostalgia-protectthispage": "Protekti ĉi tiun paĝon",
+	"nostalgia-talkpage": "Pridiskuti ĉi tiun paĝon",
+	"nostalgia-unprotectthispage": "Ŝanĝi la protektadon de ĉi tiu paĝo",
+	"nostalgia-userpage": "Vidi la uzantopaĝon"
 }
