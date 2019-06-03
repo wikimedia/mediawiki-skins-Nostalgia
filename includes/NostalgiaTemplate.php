@@ -237,7 +237,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$s = '';
 		if ( $wgOut->isArticleRelated() ) {
-			$element[] = '<strong>' . $this->editThisPage() . '</strong>';
+			$element = [ '<strong>' . $this->editThisPage() . '</strong>' ];
 
 			if ( $wgUser->isLoggedIn() ) {
 				$element[] = $this->watchThisPage();
@@ -377,7 +377,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		$title = $skin->getTitle();
 
-		$s[] = $this->printableLink();
+		$s = [ $this->printableLink() ];
 		$disclaimer = $skin->disclaimerLink();
 
 		# may be empty
