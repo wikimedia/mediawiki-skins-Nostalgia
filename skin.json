@@ -31,8 +31,8 @@
 		"remoteSkinPath": "Nostalgia"
 	},
 	"AutoloadClasses": {
-		"SkinNostalgia": "SkinNostalgia.php",
-		"NostalgiaTemplate": "NostalgiaTemplate.php"
+		"SkinNostalgia": "includes/SkinNostalgia.php",
+		"NostalgiaTemplate": "includes/NostalgiaTemplate.php"
 	},
 	"manifest_version": 1
 }
