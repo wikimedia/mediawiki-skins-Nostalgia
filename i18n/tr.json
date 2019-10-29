@@ -1,10 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Karduelis"
+			"Karduelis",
+			"BaRaN6161 TURK"
 		]
 	},
+	"nostalgia-desc": "Vikipedi’nin 2001’de nasıl göründüğünü gösteren bir görünüm",
 	"skinname-nostalgia": "Nostaljik",
+	"nostalgia-articlepage": "İçerik sayfasını gör",
+	"nostalgia-create-this-page": "Bu sayfayı oluştur",
+	"nostalgia-deletethispage": "Bu sayfayı sil",
+	"nostalgia-editthispage": "Bu sayfayı düzenle",
 	"nostalgia-newmessageslink": "mesajınız",
-	"nostalgia-newmessagesdifflink": "son değişiklik"
+	"nostalgia-newmessagesdifflink": "son değişiklik",
+	"nostalgia-projectpage": "Proje sayfasını görüntüle",
+	"nostalgia-protectthispage": "Bu sayfayı koru",
+	"nostalgia-talkpage": "Bu sayfayı tartış",
+	"nostalgia-unprotectthispage": "Bu sayfanın korumasını değiştir",
+	"nostalgia-userpage": "Kullanıcı sayfasını görüntüle"
 }
