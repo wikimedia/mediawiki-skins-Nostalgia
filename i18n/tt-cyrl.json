@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ерней"
 		]
 	},
 	"nostalgia-desc": "2001 елда Википедия нинди булганын күрсәтүче бизәлеш",
@@ -11,7 +12,7 @@
 	"nostalgia-deletethispage": "Бу битне бетерү",
 	"nostalgia-editthispage": "Бу битне үзгәртү",
 	"nostalgia-newmessageslink": "яңа хәбәрләр",
-	"nostalgia-newmessagesdifflink": "бәхәс битегезнең соңгы үзгәртүе",
+	"nostalgia-newmessagesdifflink": "соңгы үзгәреш",
 	"nostalgia-projectpage": "Проект битен карау",
 	"nostalgia-protectthispage": "Бу битне яклау",
 	"nostalgia-talkpage": "Бит турында фикер алышу",

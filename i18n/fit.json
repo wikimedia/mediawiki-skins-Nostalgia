@@ -1,5 +1,14 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"nostalgia-desc": "Ulkoasu, joka näyttää, millainen Wikipeetia oli vuonna 2001",
+	"skinname-nostalgia": "Nostalgia",
+	"nostalgia-deletethispage": "Ota poies tämä sivu",
+	"nostalgia-editthispage": "Mookkaa tätä sivua",
 	"nostalgia-newmessageslink": "uusia meiliä",
-	"nostalgia-newmessagesdifflink": "viiminen muutos"
+	"nostalgia-newmessagesdifflink": "viimisin muutos",
+	"nostalgia-projectpage": "Näytä prujektisivu"
 }
