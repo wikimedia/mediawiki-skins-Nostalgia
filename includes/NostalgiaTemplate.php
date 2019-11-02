@@ -267,7 +267,7 @@ class NostalgiaTemplate extends BaseTemplate {
 				}
 			}
 
-			$s = implode( $element, $sep );
+			$s = implode( $sep, $element );
 
 			if ( $title->getArticleID() ) {
 				$s .= "\n<br />";
