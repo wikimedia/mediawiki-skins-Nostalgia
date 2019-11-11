@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
-	"nostalgia-newmessageslink": "méṣajaṫ jdad",
-	"nostalgia-newmessagesdifflink": "ṫ-ṫeġyir l-leĥĥer"
+	"@metadata": {
+		"authors": [
+			"SADIQUI"
+		]
+	},
+	"nostalgia-newmessageslink": "رسائل جداد",
+	"nostalgia-newmessagesdifflink": "آخر تعديل"
 }
