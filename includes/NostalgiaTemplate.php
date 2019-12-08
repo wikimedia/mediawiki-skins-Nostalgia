@@ -28,9 +28,13 @@ use MediaWiki\MediaWikiServices;
  */
 class NostalgiaTemplate extends BaseTemplate {
 
-	// How many search boxes have we made?  Avoid duplicate id's.
+	/**
+	 * How many search boxes have we made?  Avoid duplicate id's.
+	 * @var string|int
+	 */
 	protected $searchboxes = '';
 
+	/** @var int */
 	protected $mWatchLinkNum = 0;
 
 	public function execute() {
