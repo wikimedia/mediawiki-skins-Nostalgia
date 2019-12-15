@@ -266,7 +266,7 @@ class NostalgiaTemplate extends BaseTemplate {
 					$element[] = $this->userContribsLink();
 				}
 
-				if ( $this->getSkin()->showEmailUser( $id ) ) {
+				if ( $id && $this->getSkin()->showEmailUser( $id ) ) {
 					$element[] = $this->emailUserLink();
 				}
 			}
