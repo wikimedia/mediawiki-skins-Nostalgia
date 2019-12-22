@@ -773,7 +773,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			# Using an empty class attribute to avoid automatic setting of "external" class
 			return Linker::makeExternalLink( $wgUploadNavigationUrl,
 				wfMessage( 'upload' )->text(),
-				true, null, [ 'class' => '' ] );
+				true, '', [ 'class' => '' ] );
 		} else {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Upload' ),
