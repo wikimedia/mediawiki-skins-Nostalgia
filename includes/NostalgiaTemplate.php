@@ -236,14 +236,15 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function bottomLinks() {
-		global $wgOut, $wgUser;
 		$sep = wfMessage( 'pipe-separator' )->escaped() . "\n";
+		$out = $this->getSkin()->getOutput();
+		$user = $this->getSkin()->getUser();
 
 		$s = '';
-		if ( $wgOut->isArticleRelated() ) {
+		if ( $out->isArticleRelated() ) {
 			$element = [ '<strong>' . $this->editThisPage() . '</strong>' ];
 
-			if ( $wgUser->isLoggedIn() ) {
+			if ( $user->isLoggedIn() ) {
 				$element[] = $this->watchThisPage();
 			}
 
@@ -277,15 +278,15 @@ class NostalgiaTemplate extends BaseTemplate {
 				$s .= "\n<br />";
 
 				// Delete/protect/move links for privileged users
-				if ( $wgUser->isAllowed( 'delete' ) ) {
+				if ( $user->isAllowed( 'delete' ) ) {
 					$s .= $this->deleteThisPage();
 				}
 
-				if ( $wgUser->isAllowed( 'protect' ) && $title->getRestrictionTypes() ) {
+				if ( $user->isAllowed( 'protect' ) && $title->getRestrictionTypes() ) {
 					$s .= $sep . $this->protectThisPage();
 				}
 
-				if ( $wgUser->isAllowed( 'move' ) ) {
+				if ( $user->isAllowed( 'move' ) ) {
 					$s .= $sep . $this->moveThisPage();
 				}
 			}
@@ -301,13 +302,13 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @throws MWException
 	 */
 	private function otherLanguages() {
-		global $wgOut, $wgLang, $wgHideInterlanguageLinks;
+		global $wgLang, $wgHideInterlanguageLinks;
 
 		if ( $wgHideInterlanguageLinks ) {
 			return '';
 		}
 
-		$a = $wgOut->getLanguageLinks();
+		$a = $this->getSkin()->getOutput()->getLanguageLinks();
 
 		if ( 0 == count( $a ) ) {
 			return '';
@@ -372,7 +373,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function pageTitleLinks() {
-		global $wgOut, $wgUser, $wgRequest, $wgLang;
+		global $wgRequest, $wgLang;
 
 		$oldid = $wgRequest->getVal( 'oldid' );
 		$diff = $wgRequest->getVal( 'diff' );
@@ -380,6 +381,8 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$skin = $this->getSkin();
 		$title = $skin->getTitle();
+		$out = $skin->getOutput();
+		$user = $skin->getUser();
 
 		$s = [ $this->printableLink() ];
 		$disclaimer = $skin->disclaimerLink();
@@ -396,7 +399,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s[] = $privacy;
 		}
 
-		if ( $wgOut->isArticleRelated() ) {
+		if ( $out->isArticleRelated() ) {
 			if ( $title->getNamespace() == NS_FILE ) {
 				$image = wfFindFile( $title );
 
@@ -416,19 +419,19 @@ class NostalgiaTemplate extends BaseTemplate {
 			);
 		}
 
-		if ( $wgUser->getNewtalk() ) {
+		if ( $user->getNewtalk() ) {
 			# do not show "You have new messages" text when we are viewing our
 			# own talk page
-			if ( !$title->equals( $wgUser->getTalkPage() ) ) {
+			if ( !$title->equals( $user->getTalkPage() ) ) {
 				$tl = Linker::linkKnown(
-					$wgUser->getTalkPage(),
+					$user->getTalkPage(),
 					wfMessage( 'nostalgia-newmessageslink' )->escaped(),
 					[],
 					[ 'redirect' => 'no' ]
 				);
 
 				$dl = Linker::linkKnown(
-					$wgUser->getTalkPage(),
+					$user->getTalkPage(),
 					wfMessage( 'nostalgia-newmessagesdifflink' )->escaped(),
 					[],
 					[ 'diff' => 'cur' ]
@@ -436,8 +439,8 @@ class NostalgiaTemplate extends BaseTemplate {
 				$s[] = '<strong>' . wfMessage( 'youhavenewmessages' )
 					->rawParams( $tl, $dl )->escaped() . '</strong>';
 				# disable caching
-				$wgOut->setCdnMaxage( 0 );
-				$wgOut->enableClientCache( false );
+				$out->setCdnMaxage( 0 );
+				$out->enableClientCache( false );
 			}
 		}
 
@@ -455,17 +458,16 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function pageTitle() {
-		global $wgOut;
-		return '<h1 class="pagetitle">' . $wgOut->getPageTitle() . '</h1>';
+		return '<h1 class="pagetitle">' .
+			$this->getSkin()->getOutput()->getPageTitle() .
+			'</h1>';
 	}
 
 	/**
 	 * @return string
 	 */
 	private function pageSubtitle() {
-		global $wgOut;
-
-		$sub = $wgOut->getSubtitle();
+		$sub = $this->getSkin()->getOutput()->getSubtitle();
 
 		if ( $sub == '' ) {
 			$sub = wfMessage( 'tagline' )->parse();
@@ -482,19 +484,20 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function printableLink() {
-		global $wgOut, $wgRequest, $wgLang;
+		global $wgRequest, $wgLang;
+		$out = $this->getSkin()->getOutput();
 
 		$s = [];
 
-		if ( !$wgOut->isPrintable() ) {
+		if ( !$out->isPrintable() ) {
 			$printurl = htmlspecialchars( $this->getSkin()->getTitle()->getLocalURL(
 				$wgRequest->appendQueryValue( 'printable', 'yes', true ) ) );
 			$s[] = "<a href=\"$printurl\" rel=\"alternate\">"
 				. wfMessage( 'printableversion' )->escaped() . '</a>';
 		}
 
-		if ( $wgOut->isSyndicated() ) {
-			foreach ( $wgOut->getSyndicationLinks() as $format => $link ) {
+		if ( $out->isSyndicated() ) {
+			foreach ( $out->getSyndicationLinks() as $format => $link ) {
 				$feedurl = htmlspecialchars( $link );
 				$s[] = "<a href=\"$feedurl\" rel=\"alternate\" type=\"application/{$format}+xml\""
 						. " class=\"feedlink\">" . wfMessage( "feed-$format" )->escaped() . "</a>";
@@ -507,9 +510,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function editThisPage() {
-		global $wgOut;
-
-		if ( !$wgOut->isArticleRelated() ) {
+		if ( !$this->getSkin()->getOutput()->isArticleRelated() ) {
 			$s = wfMessage( 'protectedpage' )->escaped();
 		} else {
 			$title = $this->getSkin()->getTitle();
@@ -536,12 +537,13 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function deleteThisPage() {
-		global $wgUser, $wgRequest;
+		global $wgRequest;
 
 		$diff = $wgRequest->getVal( 'diff' );
 		$title = $this->getSkin()->getTitle();
 
-		if ( $title->getArticleID() && ( !$diff ) && $wgUser->isAllowed( 'delete' ) ) {
+		if ( $title->getArticleID() && ( !$diff ) &&
+			$this->getSkin()->getUser()->isAllowed( 'delete' ) ) {
 			$t = wfMessage( 'nostalgia-deletethispage' )->escaped();
 
 			$s = Linker::linkKnown(
@@ -561,13 +563,14 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function protectThisPage() {
-		global $wgUser, $wgRequest;
+		global $wgRequest;
 
 		$diff = $wgRequest->getVal( 'diff' );
 		$title = $this->getSkin()->getTitle();
 
-		if ( $title->getArticleID() && ( !$diff ) && $wgUser->isAllowed( 'protect' )
-			&& $title->getRestrictionTypes()
+		if ( $title->getArticleID() && ( !$diff ) &&
+			$this->getSkin()->getUser()->isAllowed( 'protect' ) &&
+			$title->getRestrictionTypes()
 		) {
 			if ( $title->isProtected() ) {
 				$text = wfMessage( 'nostalgia-unprotectthispage' )->escaped();
@@ -594,14 +597,14 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function watchThisPage() {
-		global $wgOut, $wgUser;
 		++$this->mWatchLinkNum;
 
 		// Cache
-		$title = $this->getSkin()->getTitle();
+		$skin = $this->getSkin();
+		$title = $skin->getTitle();
 
-		if ( $wgOut->isArticleRelated() ) {
-			if ( $wgUser->isWatched( $title ) ) {
+		if ( $skin->getOutput()->isArticleRelated() ) {
+			if ( $skin->getUser()->isWatched( $title ) ) {
 				$text = wfMessage( 'unwatchthispage' )->escaped();
 				$query = [
 					'action' => 'unwatch',
@@ -694,9 +697,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function watchPageLinksLink() {
-		global $wgOut;
-
-		if ( !$wgOut->isArticleRelated() ) {
+		if ( !$this->getSkin()->getOutput()->isArticleRelated() ) {
 			return wfMessage( 'parentheses', wfMessage( 'notanarticle' )->text() )->escaped();
 		} else {
 			return Linker::linkKnown(
