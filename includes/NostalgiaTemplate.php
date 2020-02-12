@@ -514,9 +514,11 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s = wfMessage( 'protectedpage' )->escaped();
 		} else {
 			$title = $this->getSkin()->getTitle();
-			if ( $title->quickUserCan( 'edit' ) && $title->exists() ) {
+			$user = $this->getSkin()->getUser();
+			$permManager = MediaWikiServices::getInstance()->getPermissionManager();
+			if ( $permManager->quickUserCan( 'edit', $user, $title ) && $title->exists() ) {
 				$t = wfMessage( 'nostalgia-editthispage' )->escaped();
-			} elseif ( $title->quickUserCan( 'create' ) && !$title->exists() ) {
+			} elseif ( $permManager->quickUserCan( 'create', $user, $title ) && !$title->exists() ) {
 				$t = wfMessage( 'nostalgia-create-this-page' )->escaped();
 			} else {
 				$t = wfMessage( 'viewsource' )->escaped();
