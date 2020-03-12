@@ -18,8 +18,10 @@
 	},
 	"ResourceModules": {
 		"ext.nostalgia": {
+			"class": "ResourceLoaderSkinModule",
 			"styles": {
-				"0": "screen.css",
+				"0": "oldshared.css",
+				"1": "screen.css",
 				"print.css": {
 					"media": "print"
 				}

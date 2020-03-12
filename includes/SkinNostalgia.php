@@ -33,8 +33,6 @@ class SkinNostalgia extends SkinTemplate {
 	 * @param OutputPage $out
 	 */
 	public function setupSkinUserCss( OutputPage $out ) {
-		$out->addModuleStyles( 'mediawiki.legacy.shared' );
-		$out->addModuleStyles( 'mediawiki.legacy.oldshared' );
 		$out->addModuleStyles( 'ext.nostalgia' );
 	}
 }
