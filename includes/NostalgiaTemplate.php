@@ -640,12 +640,16 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function moveThisPage() {
-		if ( $this->getSkin()->getTitle()->quickUserCan( 'move' ) ) {
+		$title = $this->getSkin()->getTitle();
+		$permManager = MediaWikiServices::getInstance()->getPermissionManager();
+		$user = $this->getSkin()->getUser();
+
+		if ( $permManager->quickUserCan( 'move', $user, $title ) ) {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Movepage' ),
 				wfMessage( 'movethispage' )->escaped(),
 				[],
-				[ 'target' => $this->getSkin()->getTitle()->getPrefixedDBkey() ]
+				[ 'target' => $title->getPrefixedDBkey() ]
 			);
 		} else {
 			// no message if page is protected - would be redundant
