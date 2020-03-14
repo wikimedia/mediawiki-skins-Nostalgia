@@ -401,7 +401,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		if ( $out->isArticleRelated() ) {
 			if ( $title->getNamespace() == NS_FILE ) {
-				$image = wfFindFile( $title );
+				$image = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $title );
 
 				if ( $image ) {
 					$href = $image->getURL();
@@ -741,7 +741,7 @@ class NostalgiaTemplate extends BaseTemplate {
 				case NS_FILE:
 					$text = wfMessage( 'imagepage' );
 					# Make link known if image exists, even if the desc. page doesn't.
-					if ( wfFindFile( $link ) ) {
+					if ( MediaWikiServices::getInstance()->getRepoGroup()->findFile( $link ) ) {
 						$linkOptions[] = 'known';
 					}
 					break;
