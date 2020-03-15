@@ -29,8 +29,8 @@
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteSkinPath": "Nostalgia"
+		"localBasePath": "modules",
+		"remoteSkinPath": "Nostalgia/modules"
 	},
 	"AutoloadClasses": {
 		"SkinNostalgia": "includes/SkinNostalgia.php",
