@@ -83,7 +83,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 	/**
 	 * This gets called shortly before the "</body>" tag.
-	 * @return String HTML to be put before "</body>"
+	 * @return string HTML to be put before "</body>"
 	 */
 	public function afterContent() {
 		$s = "\n</div><br clear='all' />\n";
