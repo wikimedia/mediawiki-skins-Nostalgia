@@ -386,7 +386,7 @@ body.ns-0 {
  * left-floated objects in an RTL layout.
  */
 /* @noflip */
-html > body.rtl div#article ul {
+html > body.rtl #article ul {
 	display: table;
 }
 
