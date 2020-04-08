@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "Te mau poro’i ’āpī",
 	"nostalgia-newmessagesdifflink": "fa’ahuru-’ē-ra’a hope’a"
 }

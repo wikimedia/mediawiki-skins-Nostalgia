@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "vahtsit sõnomiid",
 	"nostalgia-newmessagesdifflink": "perämäne muutminõ"
 }

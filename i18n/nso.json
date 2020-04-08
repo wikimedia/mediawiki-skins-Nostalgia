@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "ya melaetša ye mefsa",
 	"nostalgia-newmessagesdifflink": "phetogo ya mafelelo"
 }

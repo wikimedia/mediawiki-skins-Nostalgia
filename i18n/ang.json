@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "nīwu ǣrendgewritu",
 	"nostalgia-newmessagesdifflink": "nīwost andwendung"
 }

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "ಹೊಸ ಸಂದೇಶಗಳು",
 	"nostalgia-newmessagesdifflink": "ಕೊನೆಯ ಬದಲಾವಣೆ"
 }

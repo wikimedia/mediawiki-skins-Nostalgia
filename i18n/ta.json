@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinname-nostalgia": "பசுமை நினைவு (Nostalgia)",
 	"nostalgia-newmessageslink": "புதிய செய்திகள்",
 	"nostalgia-newmessagesdifflink": "கடைசி மாற்றம்"

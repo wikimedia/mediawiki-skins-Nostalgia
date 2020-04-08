@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "naujū žėnotiu",
 	"nostalgia-newmessagesdifflink": "paskotinis pakeitėms"
 }

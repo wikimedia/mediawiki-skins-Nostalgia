@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinname-nostalgia": "Հայրենաբաղձություն",
 	"nostalgia-newmessageslink": "Նոր հաղորդագրություն",
 	"nostalgia-newmessagesdifflink": "վերջին փոփոխությունը"

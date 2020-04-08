@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "નવીન સંદેશાઓ",
 	"nostalgia-newmessagesdifflink": "છેલ્લો ફેરફાર"
 }

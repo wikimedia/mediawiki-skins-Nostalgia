@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinname-nostalgia": "रम्य",
 	"nostalgia-newmessageslink": "नवीन संदेश",
 	"nostalgia-newmessagesdifflink": "ताजा बदल"

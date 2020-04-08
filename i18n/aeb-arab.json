@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "رسائل جديدة",
 	"nostalgia-newmessagesdifflink": "آخر تغيير"
 }

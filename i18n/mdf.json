@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "Од сёрмат",
 	"nostalgia-newmessagesdifflink": "мекольце полафтома"
 }

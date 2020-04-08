@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "mga bag-o nga mensahe",
 	"nostalgia-newmessagesdifflink": "katapusan nga pag-ilis"
 }

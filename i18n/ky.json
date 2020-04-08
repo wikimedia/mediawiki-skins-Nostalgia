@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "жаңы билдирүүлөр",
 	"nostalgia-newmessagesdifflink": "соңку өзгөрүү"
 }

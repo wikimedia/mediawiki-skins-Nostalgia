@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "ağani mesajepe",
 	"nostalgia-newmessagesdifflink": "çodinaşi oktiroba"
 }

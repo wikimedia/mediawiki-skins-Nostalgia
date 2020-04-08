@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinname-nostalgia": "Nostàlgia",
 	"nostalgia-newmessageslink": "nous missatges",
 	"nostalgia-newmessagesdifflink": "últims canvis"

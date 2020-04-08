@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "Peyamên nû",
 	"nostalgia-newmessagesdifflink": "cudayî ji guhertoya berê"
 }

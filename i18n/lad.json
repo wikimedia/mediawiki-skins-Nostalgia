@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "mesajes nuevos",
 	"nostalgia-newmessagesdifflink": "el trocamiento de alcabo"
 }

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "mau pulono hou",
 	"nostalgia-newmessagesdifflink": "loli houloa"
 }

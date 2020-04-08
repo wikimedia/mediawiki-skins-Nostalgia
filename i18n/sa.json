@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinname-nostalgia": "पुराण",
 	"nostalgia-newmessageslink": "नूतनाः सन्देशाः",
 	"nostalgia-newmessagesdifflink": "अन्तिमं परिवर्तनम्"

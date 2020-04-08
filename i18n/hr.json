@@ -1,6 +1,22 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
+	"nostalgia-desc": "Izgled/tema koja prikazuje kako je Wikipedija izgledala u 2001.",
 	"skinname-nostalgia": "Nostalgija",
+	"nostalgia.css": "/* Sav kôd CSS-a na ovoj stranici bit će učitan upotrebljavačima izgleda Nostalgia */",
+	"nostalgia.js": "/* Sav kôd JavaScripta na ovoj stranici bit će učitan upotrebljavačima izgleda Nostalgia */",
+	"nostalgia-articlepage": "Vidi sadržajnu stranicu",
+	"nostalgia-create-this-page": "Stvori stranicu",
+	"nostalgia-deletethispage": "Izbriši stranicu",
+	"nostalgia-editthispage": "Uredi stranicu",
 	"nostalgia-newmessageslink": "nove poruke",
-	"nostalgia-newmessagesdifflink": "zadnja promjena na stranici za razgovor"
+	"nostalgia-newmessagesdifflink": "zadnja promjena na stranici za razgovor",
+	"nostalgia-projectpage": "Vidi projektnu stranicu",
+	"nostalgia-protectthispage": "Zaštiti stranicu",
+	"nostalgia-talkpage": "Raspra o stranici",
+	"nostalgia-unprotectthispage": "Promijeni zaštitu stranice",
+	"nostalgia-userpage": "Vidi suradničku stranicu"
 }

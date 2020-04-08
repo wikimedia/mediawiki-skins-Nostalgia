@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "jauns vēstījums",
 	"nostalgia-newmessagesdifflink": "pēdējā izmaiņa"
 }

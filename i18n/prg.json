@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "nāunans waīstins",
 	"nostalgia-newmessagesdifflink": "Šlaitīntan ezze panzdaumai wersiōnin"
 }

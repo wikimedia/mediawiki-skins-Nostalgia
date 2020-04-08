@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "mesajes nova",
 	"nostalgia-newmessagesdifflink": "cambia presedente"
 }

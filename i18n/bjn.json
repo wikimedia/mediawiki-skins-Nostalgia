@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "pasan hanyar",
 	"nostalgia-newmessagesdifflink": "paubahan pauncitnya"
 }

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "näie Ättergjuchte",
 	"nostalgia-newmessagesdifflink": "Unnerskeed tou ju foarlääste Version"
 }

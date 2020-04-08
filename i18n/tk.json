@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "täze habar",
 	"nostalgia-newmessagesdifflink": "soňky üýtgeşme"
 }

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "messagg növ",
 	"nostalgia-newmessagesdifflink": "diferenza cun la versión de prima"
 }

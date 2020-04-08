@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "ⵜⵉⴱⵔⴰⵜⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ",
 	"nostalgia-newmessagesdifflink": "ⴰⴱⴷⴷⵍ ⴰⵏⴳⴳⴰⵔⵓ"
 }

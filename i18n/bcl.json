@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "bàgong mga mensahe",
 	"nostalgia-newmessagesdifflink": "huring kaliwatan"
 }

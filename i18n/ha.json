@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "sabbin saƙonni",
 	"nostalgia-newmessagesdifflink": "sauyin ƙarshe"
 }

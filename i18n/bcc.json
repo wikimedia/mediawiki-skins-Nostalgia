@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinname-nostalgia": "نوستالجیک",
 	"nostalgia-newmessageslink": "نوکین کوله یان",
 	"nostalgia-newmessagesdifflink": "اهری تغییر"

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinname-nostalgia": "Æнкъард",
 	"nostalgia-newmessageslink": "ног фыстæгтæ",
 	"nostalgia-newmessagesdifflink": "фæстаг ивд"

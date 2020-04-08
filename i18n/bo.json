@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "འཕྲིན་གསར།",
 	"nostalgia-newmessagesdifflink": "བཟོ་བཅོས་མཐའ་མ།"
 }

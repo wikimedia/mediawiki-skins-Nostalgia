@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "pesen anyar",
 	"nostalgia-newmessagesdifflink": "owahan keri dhewek"
 }

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "dagiti baro a mensahe",
 	"nostalgia-newmessagesdifflink": "naudi a sinukatan"
 }

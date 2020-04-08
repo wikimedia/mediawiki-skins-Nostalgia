@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "bansangu ya yimpa",
 	"nostalgia-newmessagesdifflink": "nsoba ya nsuka"
 }

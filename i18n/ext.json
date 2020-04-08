@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "nuevus mensahis",
 	"nostalgia-newmessagesdifflink": "úrtimu chambu"
 }

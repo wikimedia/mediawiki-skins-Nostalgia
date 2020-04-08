@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "نواں سنیآ",
 	"nostalgia-newmessagesdifflink": "آخری تبدیلی"
 }

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "peusan barô",
 	"nostalgia-newmessagesdifflink": "neuubah seuneulheuëh"
 }

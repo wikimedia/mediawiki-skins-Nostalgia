@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "নতুন সংবাদ",
 	"nostalgia-newmessagesdifflink": "শেহতীয়া সাল-সলনি"
 }

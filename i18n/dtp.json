@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "pason kawawagu",
 	"nostalgia-newmessagesdifflink": "naalanan kawawagu"
 }

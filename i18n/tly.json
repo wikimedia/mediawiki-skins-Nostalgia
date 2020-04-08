@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "нујә хәбон",
 	"nostalgia-newmessagesdifflink": "охонә дәгиши"
 }

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "ëd mëssagi neuv",
 	"nostalgia-newmessagesdifflink": "ùltima modìfica"
 }

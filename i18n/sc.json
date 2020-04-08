@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "messàgios noos",
 	"nostalgia-newmessagesdifflink": "ùrtima mudàntzia"
 }

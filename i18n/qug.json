@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"nostalgia-newmessageslink": "Mushuk willaymi",
 	"nostalgia-newmessagesdifflink": "yalli mushuk killkay"
 }
