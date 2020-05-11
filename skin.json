@@ -36,5 +36,5 @@
 		"SkinNostalgia": "includes/SkinNostalgia.php",
 		"NostalgiaTemplate": "includes/NostalgiaTemplate.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
