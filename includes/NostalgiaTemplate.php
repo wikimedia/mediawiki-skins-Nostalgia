@@ -413,7 +413,7 @@ class NostalgiaTemplate extends BaseTemplate {
 				$image = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $title );
 
 				if ( $image ) {
-					$href = $image->getURL();
+					$href = $image->getUrl();
 					$s[] = Html::element( 'a', [ 'href' => $href,
 						'title' => $href ], $title->getText() );
 
