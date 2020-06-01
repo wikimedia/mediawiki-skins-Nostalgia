@@ -39,6 +39,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 	public function execute() {
 		$this->html( 'headelement' );
+		// @phan-suppress-next-line SecurityCheck-XSS
 		echo $this->beforeContent();
 		$this->html( 'bodytext' );
 		echo "\n";
@@ -508,7 +509,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		if ( !$out->isPrintable() ) {
 			$printurl = htmlspecialchars( $this->getSkin()->getTitle()->getLocalURL(
-				$wgRequest->appendQueryValue( 'printable', 'yes', true ) ) );
+				$wgRequest->appendQueryValue( 'printable', 'yes' ) ) );
 			$s[] = "<a href=\"$printurl\" rel=\"alternate\">"
 				. wfMessage( 'printableversion' )->escaped() . '</a>';
 		}
