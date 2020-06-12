@@ -39,7 +39,6 @@ class NostalgiaTemplate extends BaseTemplate {
 
 	public function execute() {
 		$this->html( 'headelement' );
-		// @phan-suppress-next-line SecurityCheck-XSS
 		echo $this->beforeContent();
 		$this->html( 'bodytext' );
 		echo "\n";
