@@ -11,7 +11,7 @@
 	"skinname-nostalgia": "Носталгија",
 	"nostalgia.css": "/* CSS постављен овде ће утицати на све кориснике теме „Носталгија“ */",
 	"nostalgia.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему „Носталгија“ */",
-	"nostalgia-articlepage": "Погледај страницу са садржајем",
+	"nostalgia-articlepage": "Прикажи страницу садржаја",
 	"nostalgia-create-this-page": "Направи ову страницу",
 	"nostalgia-deletethispage": "Избриши ову страницу",
 	"nostalgia-editthispage": "Уреди ову страницу",
