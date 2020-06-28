@@ -105,8 +105,6 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function searchForm() {
-		global $wgUseTwoButtonsSearchForm;
-
 		$skin = $this->getSkin();
 		$search = $skin->getRequest()->getText( 'search' );
 
@@ -117,17 +115,10 @@ class NostalgiaTemplate extends BaseTemplate {
 			. '" name="search" size="19" value="'
 			. htmlspecialchars( substr( $search, 0, 256 ) ) . "\" />\n"
 			. '<input type="submit" name="go" value="' . $skin->msg( 'searcharticle' )->escaped()
-			. '" />';
-
-		if ( $wgUseTwoButtonsSearchForm ) {
-			$s .= '&#160;<input type="submit" name="fulltext" value="'
-				. $skin->msg( 'searchbutton' )->escaped() . "\" />\n";
-		} else {
-			$s .= ' <a href="' . htmlspecialchars( $this->data['searchaction'] ) . '" rel="search">'
-				. $skin->msg( 'powersearch-legend' )->escaped() . "</a>\n";
-		}
-
-		$s .= '</form>';
+			. '" />'
+			. '&#160;<input type="submit" name="fulltext" value="'
+			. $skin->msg( 'searchbutton' )->escaped() . "\" />\n"
+			. '</form>';
 
 		// Ensure unique id's for search boxes made after the first
 		$this->searchboxes = $this->searchboxes == '' ? 2 : $this->searchboxes + 1;
