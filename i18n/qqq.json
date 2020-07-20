@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Hamilton Abreu",
 			"Liuxinyu970226",
 			"Matma Rex",
@@ -10,7 +11,7 @@
 		]
 	},
 	"nostalgia-desc": "{{desc|name=Nostalgia|url=https://www.mediawiki.org/wiki/Skin:Nostalgia|what=skin}}",
-	"skinname-nostalgia": "{{name}}\n{{Identical|Nostalgia}}",
+	"skinname-nostalgia": "{{name}}",
 	"nostalgia.css": "{{optional}}",
 	"nostalgia.js": "{{optional}}",
 	"nostalgia-articlepage": "'Content page' is used for NS_MAIN and any other non-standard namespaces.\n\n{{Identical|Content page}}",
