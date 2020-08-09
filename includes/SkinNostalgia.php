@@ -21,18 +21,8 @@
  */
 
 /**
- * @todo document
  * @ingroup Skins
  */
 class SkinNostalgia extends SkinTemplate {
-	public $skinname = 'nostalgia',
-		$template = 'NostalgiaTemplate';
-
-	/**
-	 * Add skin specific stylesheets
-	 * @param OutputPage $out
-	 */
-	public function setupSkinUserCss( OutputPage $out ) {
-		$out->addModuleStyles( 'ext.nostalgia' );
-	}
+	public $template = 'NostalgiaTemplate';
 }
