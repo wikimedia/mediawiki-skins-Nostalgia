@@ -107,10 +107,11 @@ class NostalgiaTemplate extends BaseTemplate {
 	private function searchForm() {
 		$skin = $this->getSkin();
 		$search = $skin->getRequest()->getText( 'search' );
+		$searchaction = SpecialPage::getTitleFor( 'Search' )->getLocalURL();
 
 		$s = '<form id="searchform' . $this->searchboxes
 			. '" name="search" class="inline" method="post" action="'
-			. htmlspecialchars( $this->data['searchaction'] ) . "\">\n"
+			. htmlspecialchars( $searchaction ) . "\">\n"
 			. '<input type="text" id="searchInput' . $this->searchboxes
 			. '" name="search" size="19" value="'
 			. htmlspecialchars( substr( $search, 0, 256 ) ) . "\" />\n"
