@@ -93,7 +93,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$s .= $this->bottomLinks();
 		$s .= "\n<br />" . $this->pageStats();
 		$s .= "\n<br />" . $this->getSkin()->mainPageLink()
-			. ' | ' . $this->getSkin()->aboutLink()
+			. ' | ' . $this->getSkin()->footerLink( 'aboutsite', 'aboutpage' )
 			. ' | ' . $this->searchForm();
 
 		$s .= "\n</div>\n</div>\n";
@@ -394,14 +394,14 @@ class NostalgiaTemplate extends BaseTemplate {
 		$action = $request->getText( 'action' );
 
 		$s = [ $this->printableLink() ];
-		$disclaimer = $skin->disclaimerLink();
+		$disclaimer = $skin->footerLink( 'disclaimers', 'disclaimerpage' );
 
 		# may be empty
 		if ( $disclaimer ) {
 			$s[] = $disclaimer;
 		}
 
-		$privacy = $skin->privacyLink();
+		$privacy = $skin->footerLink( 'privacy', 'privacypage' );
 
 		# may be empty too
 		if ( $privacy ) {
