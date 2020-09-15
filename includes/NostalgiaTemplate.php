@@ -90,9 +90,14 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$s .= "\n<div id='footer'><hr />";
 
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 		$s .= $this->bottomLinks();
 		$s .= "\n<br />" . $this->pageStats();
-		$s .= "\n<br />" . $this->getSkin()->mainPageLink()
+		$s .= "\n<br />"
+			. $linkRenderer->makeKnownLink(
+				Title::newMainPage(),
+				$this->getMsg( 'mainpage' )->text()
+			)
 			. ' | ' . $this->getSkin()->footerLink( 'aboutsite', 'aboutpage' )
 			. ' | ' . $this->searchForm();
 
@@ -148,9 +153,13 @@ class NostalgiaTemplate extends BaseTemplate {
 	 */
 	private function topLinks() {
 		$sep = " |\n";
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 
 		$skin = $this->getSkin();
-		$s = $skin->mainPageLink() . $sep
+		$s = $linkRenderer->makeKnownLink(
+				Title::newMainPage(),
+				$this->getMsg( 'mainpage' )->text()
+			) . $sep
 			. Linker::specialLink( 'Recentchanges' );
 
 		if ( $this->data['isarticle'] ) {
