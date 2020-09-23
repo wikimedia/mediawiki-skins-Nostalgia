@@ -53,16 +53,17 @@ class NostalgiaTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	public function beforeContent() {
+		$skin = $this->getSkin();
 		$s = "\n<div id='content'>\n<div id='top'>\n";
-		$s .= '<div id="logo">' . $this->getSkin()->logoText( 'right' ) . '</div>';
+		$s .= '<div id="logo">' . $skin->logoText( 'right' ) . '</div>';
 
 		$s .= $this->pageTitle();
-		$s .= $this->pageSubtitle() . "\n";
+		$s .= "<p class='subtitle'>" . $skin->prepareSubtitle() . "</p>\n";
 
 		$s .= '<div id="topbar">';
 		$s .= $this->topLinks() . "\n<br />";
 
-		$notice = $this->getSkin()->getSiteNotice();
+		$notice = $skin->getSiteNotice();
 		if ( $notice ) {
 			$s .= "\n<div id='siteNotice'>$notice</div>\n";
 		}
@@ -73,7 +74,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s .= '<br />' . $ol;
 		}
 
-		$s .= $this->getSkin()->getCategories();
+		$s .= $skin->getCategories();
 
 		$s .= "<br clear='all' /></div><hr />\n</div>\n";
 		$s .= "\n<div id='article'>";
@@ -487,24 +488,6 @@ class NostalgiaTemplate extends BaseTemplate {
 		return '<h1 class="pagetitle">' .
 			$this->getSkin()->getOutput()->getPageTitle() .
 			'</h1>';
-	}
-
-	/**
-	 * @return string
-	 */
-	private function pageSubtitle() {
-		$skin = $this->getSkin();
-		$sub = $skin->getOutput()->getSubtitle();
-
-		if ( $sub == '' ) {
-			$sub = $skin->msg( 'tagline' )->parse();
-		}
-
-		$subpages = $skin->subPageSubtitle();
-		$sub .= !empty( $subpages ) ? "</p><p class='subpages'>$subpages" : '';
-		$s = "<p class='subtitle'>{$sub}</p>\n";
-
-		return $s;
 	}
 
 	/**
