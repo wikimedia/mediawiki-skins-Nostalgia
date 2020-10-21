@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Andriy.v",
 			"Andriykopanytsia",
 			"Dim Grits",
 			"Piramidion"
@@ -16,7 +17,7 @@
 	"nostalgia-editthispage": "Редагувати цю сторінку",
 	"nostalgia-newmessageslink": "нові повідомлення",
 	"nostalgia-newmessagesdifflink": "остання зміна",
-	"nostalgia-projectpage": "Переглянути сторінку проекту",
+	"nostalgia-projectpage": "Переглянути сторінку проєкту",
 	"nostalgia-protectthispage": "Захистити цю сторінку",
 	"nostalgia-talkpage": "Обговорити цю сторінку",
 	"nostalgia-unprotectthispage": "Змінити захист цієї сторінки",
