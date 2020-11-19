@@ -327,7 +327,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		$a = $skin->getOutput()->getLanguageLinks();
 
-		if ( 0 == count( $a ) ) {
+		if ( count( $a ) == 0 ) {
 			return '';
 		}
 
@@ -431,7 +431,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			}
 		}
 
-		if ( 'history' == $action || isset( $diff ) || isset( $oldid ) ) {
+		if ( $action == 'history' || isset( $diff ) || isset( $oldid ) ) {
 			$s[] .= Linker::linkKnown(
 				$title,
 				$skin->msg( 'currentrev' )->escaped()
