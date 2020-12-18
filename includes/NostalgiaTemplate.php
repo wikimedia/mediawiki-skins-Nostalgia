@@ -260,7 +260,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		if ( $out->isArticleRelated() ) {
 			$element = [ '<strong>' . $this->editThisPage() . '</strong>' ];
 
-			if ( $user->isLoggedIn() ) {
+			if ( $user->isRegistered() ) {
 				$element[] = $this->watchThisPage();
 			}
 
