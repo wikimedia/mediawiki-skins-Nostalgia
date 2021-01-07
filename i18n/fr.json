@@ -5,14 +5,15 @@
 			"IAlex",
 			"Metroitendo",
 			"Urhixidur",
+			"Verdy p",
 			"Wladek92",
 			"Zetud"
 		]
 	},
 	"nostalgia-desc": "Un habillage montrant à quoi ressemblait Wikipédia en 2001",
 	"skinname-nostalgia": "Nostalgie",
-	"nostalgia.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Nostalgia. */",
-	"nostalgia.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Nostalgie uniquement */",
+	"nostalgia.css": "/* Tout CSS placé ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Nostalgie */",
+	"nostalgia.js": "/* Tout JavaScript ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Nostalgie */",
 	"nostalgia-articlepage": "Afficher la page de contenu",
 	"nostalgia-create-this-page": "Créer cette page",
 	"nostalgia-deletethispage": "Supprimer cette page",
