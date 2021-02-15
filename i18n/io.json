@@ -1,7 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Joao Xavier"
+		]
 	},
+	"nostalgia-deletethispage": "Efacez ca pagino",
 	"nostalgia-newmessageslink": "nova mesaji",
 	"nostalgia-newmessagesdifflink": "lasta chanjo"
 }
