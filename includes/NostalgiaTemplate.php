@@ -224,7 +224,9 @@ class NostalgiaTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		$title = $skin->getTitle();
 		$lang = $title->getPageLanguage();
-		$variants = $lang->getVariants();
+		$variants = MediaWikiServices::getInstance()->getLanguageConverterFactory()
+			->getLanguageConverter( $lang )
+			->getVariants();
 		$userLang = $skin->getLanguage();
 
 		if ( !$wgDisableLangConversion && count( $variants ) > 1
