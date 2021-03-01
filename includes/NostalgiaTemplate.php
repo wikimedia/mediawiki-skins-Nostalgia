@@ -278,7 +278,8 @@ class NostalgiaTemplate extends BaseTemplate {
 				$title->getNamespace() == NS_USER_TALK
 			) {
 				$id = User::idFromName( $title->getText() );
-				$ip = User::isIP( $title->getText() );
+				$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+				$ip = $userNameUtils->isIP( $title->getText() );
 
 				# Both anons and non-anons have contributions list
 				if ( $id || $ip ) {
