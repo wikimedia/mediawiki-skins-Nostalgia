@@ -178,14 +178,8 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s .= $sep . Linker::link( $user->getUserPage(), $skin->msg( 'mypage' )->escaped() );
 			$s .= $sep . Linker::link( $user->getTalkPage(), $skin->msg( 'mytalk' )->escaped() );
 
-			if ( class_exists( 'MediaWiki\User\TalkPageNotificationManager' ) ) {
-				// MW 1.35+
-				$userHasNewMessages = MediaWikiServices::getInstance()
-					->getTalkPageNotificationManager()->userHasNewMessages( $user );
-			} else {
-				$userHasNewMessages = $user->getNewtalk();
-			}
-
+			$userHasNewMessages = MediaWikiServices::getInstance()
+				->getTalkPageNotificationManager()->userHasNewMessages( $user );
 			if ( $userHasNewMessages ) {
 				$s .= ' *';
 			}
@@ -441,14 +435,8 @@ class NostalgiaTemplate extends BaseTemplate {
 			);
 		}
 
-		if ( class_exists( 'MediaWiki\User\TalkPageNotificationManager' ) ) {
-			// MW 1.35+
-			$userHasNewMessages = MediaWikiServices::getInstance()
-				->getTalkPageNotificationManager()->userHasNewMessages( $user );
-		} else {
-			$userHasNewMessages = $user->getNewtalk();
-		}
-
+		$userHasNewMessages = MediaWikiServices::getInstance()
+			->getTalkPageNotificationManager()->userHasNewMessages( $user );
 		if ( $userHasNewMessages ) {
 			# do not show "You have new messages" text when we are viewing our
 			# own talk page
