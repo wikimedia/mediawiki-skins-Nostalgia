@@ -608,7 +608,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$title = $skin->getTitle();
 
 		if ( $skin->getOutput()->isArticleRelated() ) {
-			if ( $skin->getUser()->isWatched( $title ) ) {
+			if ( MediaWikiServices::getInstance()->getWatchlistManager()->isWatched( $skin->getUser(), $title ) ) {
 				$text = $skin->msg( 'unwatchthispage' )->escaped();
 				$query = [
 					'action' => 'unwatch',
