@@ -8,8 +8,6 @@
 	},
 	"nostalgia-desc": "לבוש שמראה איך ויקיפדיה נראה ב־2001",
 	"skinname-nostalgia": "נוסטלגיה",
-	"nostalgia.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"נוסטלגיה\" בלבד */",
-	"nostalgia.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"נוסטלגיה\" בלבד */",
 	"nostalgia-articlepage": "הצגת דף התוכן",
 	"nostalgia-create-this-page": "יצירת הדף הזה",
 	"nostalgia-deletethispage": "מחיקת הדף הזה",
