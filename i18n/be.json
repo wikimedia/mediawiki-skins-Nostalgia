@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mechanizatar"
+			"Mechanizatar",
+			"ZlyiLev"
 		]
 	},
 	"nostalgia-desc": "Афармленне, якое паказвае, як выглядала Вікіпедыя ў 2001 годзе",
 	"skinname-nostalgia": "Настальгія",
 	"nostalgia-newmessageslink": "новыя паведамленні",
-	"nostalgia-newmessagesdifflink": "розн. з найноўшай версіяй"
+	"nostalgia-newmessagesdifflink": "розн. з найноўшай версіяй",
+	"nostalgia-projectpage": "Праглядзець старонку праекта"
 }

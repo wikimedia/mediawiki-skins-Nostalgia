@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Батыр Комдошев"
+		]
 	},
 	"nostalgia-newmessageslink": "јаҥы самаралар",
-	"nostalgia-newmessagesdifflink": "калганчы солынта"
+	"nostalgia-newmessagesdifflink": "калганчы солынты"
 }

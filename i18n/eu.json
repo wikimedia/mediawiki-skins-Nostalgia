@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mikel Ibaiba"
+			"Mikel Ibaiba",
+			"Xabier Armendaritz"
 		]
 	},
 	"nostalgia-desc": "Wikipedia 2001ean nolakoa zen ikusteko azal bat",
@@ -13,7 +14,7 @@
 	"nostalgia-newmessageslink": "Mezu berriak",
 	"nostalgia-newmessagesdifflink": "azken aldaketa ikusi",
 	"nostalgia-projectpage": "Proiektuaren orrialdea ikusi",
-	"nostalgia-protectthispage": "Orri hau babestu",
+	"nostalgia-protectthispage": "Babestu orri hau",
 	"nostalgia-talkpage": "Orrialde honi buruz eztabaidatu",
 	"nostalgia-unprotectthispage": "Orrialde honen babesa aldatu",
 	"nostalgia-userpage": "Erabiltzaile orrialdea ikusi"

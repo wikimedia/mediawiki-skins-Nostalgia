@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Julio Nepote"
+		]
 	},
 	"nostalgia-newmessageslink": "nuevus mensahis",
-	"nostalgia-newmessagesdifflink": "úrtimu chambu"
+	"nostalgia-newmessagesdifflink": "últimu cambiu"
 }

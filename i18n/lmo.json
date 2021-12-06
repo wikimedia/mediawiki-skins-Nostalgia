@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Salvemm el lombard"
+		]
 	},
-	"nostalgia-newmessageslink": "messagg növ",
-	"nostalgia-newmessagesdifflink": "diferenza cun la versión de prima"
+	"nostalgia-newmessageslink": "messagg noeuv",
+	"nostalgia-newmessagesdifflink": "diferenza rispet a la version indree"
 }

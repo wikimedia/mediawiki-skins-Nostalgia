@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"PastelKos"
+		]
 	},
-	"nostalgia-newmessageslink": "νέας ἀγγελίας",
+	"nostalgia-newmessageslink": "Καιναὶ ἀγγελίαι",
 	"nostalgia-newmessagesdifflink": "ἐσχάτη μεταβολή"
 }

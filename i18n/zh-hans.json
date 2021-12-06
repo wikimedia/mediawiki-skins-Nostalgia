@@ -5,12 +5,13 @@
 			"Reasno",
 			"Sunny00217",
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"FakeGreenHand"
 		]
 	},
 	"nostalgia-desc": "显示维基百科在2001年的样子的皮肤",
 	"skinname-nostalgia": "怀旧",
-	"nostalgia.css": "/* 这里放置的CSS将影响使用怀旧皮肤的用户 / 此處的 CSS 將影響使用懷舊面板的用戶 */",
+	"nostalgia.css": "/* 这里的任何CSS将为使用怀旧皮肤的用户加载 */",
 	"nostalgia.js": "/* 这里的任何JavaScript将为使用怀旧皮肤的用户加载 */",
 	"nostalgia-articlepage": "查看内容页面",
 	"nostalgia-create-this-page": "创建本页",

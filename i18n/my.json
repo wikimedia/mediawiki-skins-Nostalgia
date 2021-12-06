@@ -1,7 +1,18 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Dr Lotus Black"
+		]
 	},
+	"nostalgia-articlepage": "မာတိကာ ကြည့်ရန်",
+	"nostalgia-create-this-page": "ဤစာမျက်နှာကို ဖန်တီးရန်",
+	"nostalgia-deletethispage": "ဤစာမျက်နှာကို ဖျက်ရန်",
+	"nostalgia-editthispage": "ဤစာမျက်နှာကို တည်းဖြတ်ရန်",
 	"nostalgia-newmessageslink": "မက်ဆေ့ အသစ်",
-	"nostalgia-newmessagesdifflink": "နောက်ဆုံးအပြောင်းအလဲ"
+	"nostalgia-newmessagesdifflink": "နောက်ဆုံးအပြောင်းအလဲ",
+	"nostalgia-projectpage": "ပရောဂျက်စာမျက်နှာကို ကြည့်ရန်",
+	"nostalgia-protectthispage": "ဤစာမျက်နှာကို ကာကွယ်ရန်",
+	"nostalgia-talkpage": "ဤစာမျက်နှာအား ဆွေးနွေးရန်",
+	"nostalgia-unprotectthispage": "စာမျက်နှာ ကာကွယ်ခြင်းကို ပြောင်းလဲရန်",
+	"nostalgia-userpage": "အသုံးပြုသူ၏ စာမျက်နှာကို ကြည့်ရန်"
 }
