@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karapananguasú Kururú Teremembé"
+		]
+	},
+	"nostalgia-desc": "Yepé çãgaçawa umukameẽ pirí mayé yãdé yamaãwera Wikipedia 2001 upé",
+	"skinname-nostalgia": "Mamiara",
+	"nostalgia.css": "/* All CSS here will be loaded for users of the Nostalgia skin */",
+	"nostalgia.js": "/* All JavaScript here will be loaded for users of the Nostalgia skin */",
+	"nostalgia-articlepage": "Umaã sowa pupepura",
+	"nostalgia-create-this-page": "Umunhã kuá sowa",
+	"nostalgia-deletethispage": "Umuçaká kuá sowa",
+	"nostalgia-editthispage": "Umurupiawa kuá sowa",
+	"nostalgia-newmessageslink": "pareçawa'etá piçaçú",
+	"nostalgia-newmessagesdifflink": "Sinimukaçawa kasikiriari",
+	"nostalgia-projectpage": "Umaã mumuekawaçawa sowa",
+	"nostalgia-protectthispage": "Uçupirũ kuá sowa",
+	"nostalgia-talkpage": "Unheẽ kuá sowa reçé",
+	"nostalgia-unprotectthispage": "Usinimuka kuá sowa çupirũgawa",
+	"nostalgia-userpage": "Umaã kuá sowa"
+}
