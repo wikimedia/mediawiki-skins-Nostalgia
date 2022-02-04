@@ -458,7 +458,7 @@ class NostalgiaTemplate extends BaseTemplate {
 					->rawParams( $tl, $dl )->escaped() . '</strong>';
 				# disable caching
 				$out->setCdnMaxage( 0 );
-				$out->enableClientCache( false );
+				$out->disableClientCache();
 			}
 		}
 
