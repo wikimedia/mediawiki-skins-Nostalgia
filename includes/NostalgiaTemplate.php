@@ -20,7 +20,19 @@
  * @file
  */
 
+namespace MediaWiki\Skin\Nostalgia;
+
+use BaseTemplate;
+use Html;
+use Language;
+use Linker;
 use MediaWiki\MediaWikiServices;
+use MWException;
+use SpecialPage;
+use Title;
+use UploadBase;
+use User;
+use XmlSelect;
 
 /**
  * @todo document
@@ -113,11 +125,11 @@ class NostalgiaTemplate extends BaseTemplate {
 	private function searchForm() {
 		$skin = $this->getSkin();
 		$search = $skin->getRequest()->getText( 'search' );
-		$searchaction = SpecialPage::getTitleFor( 'Search' )->getLocalURL();
+		$specialAction = SpecialPage::getTitleFor( 'Search' )->getLocalURL();
 
 		$s = '<form id="searchform' . $this->searchboxes
 			. '" name="search" class="inline" method="post" action="'
-			. htmlspecialchars( $searchaction ) . "\">\n"
+			. htmlspecialchars( $specialAction ) . "\">\n"
 			. '<input type="text" id="searchInput' . $this->searchboxes
 			. '" name="search" size="19" value="'
 			. htmlspecialchars( substr( $search, 0, 256 ) ) . "\" />\n"
@@ -324,7 +336,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		$a = $skin->getOutput()->getLanguageLinks();
 
-		if ( count( $a ) == 0 ) {
+		if ( count( $a ) === 0 ) {
 			return '';
 		}
 
@@ -415,16 +427,14 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s[] = $privacy;
 		}
 
-		if ( $out->isArticleRelated() ) {
-			if ( $title->getNamespace() == NS_FILE ) {
-				$image = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $title );
+		if ( $out->isArticleRelated() && $title->getNamespace() == NS_FILE ) {
+			$image = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $title );
 
-				if ( $image ) {
-					$href = $image->getUrl();
-					$s[] = Html::element( 'a', [ 'href' => $href,
-						'title' => $href ], $title->getText() );
+			if ( $image ) {
+				$href = $image->getUrl();
+				$s[] = Html::element( 'a', [ 'href' => $href,
+					'title' => $href ], $title->getText() );
 
-				}
 			}
 		}
 
@@ -437,29 +447,27 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$userHasNewMessages = MediaWikiServices::getInstance()
 			->getTalkPageNotificationManager()->userHasNewMessages( $user );
-		if ( $userHasNewMessages ) {
-			# do not show "You have new messages" text when we are viewing our
-			# own talk page
-			if ( !$title->equals( $user->getTalkPage() ) ) {
-				$tl = Linker::linkKnown(
-					$user->getTalkPage(),
-					$skin->msg( 'nostalgia-newmessageslink' )->escaped(),
-					[],
-					[ 'redirect' => 'no' ]
-				);
+		# do not show "You have new messages" text when we are viewing our
+		# own talk page
+		if ( $userHasNewMessages && !$title->equals( $user->getTalkPage() ) ) {
+			$tl = Linker::linkKnown(
+				$user->getTalkPage(),
+				$skin->msg( 'nostalgia-newmessageslink' )->escaped(),
+				[],
+				[ 'redirect' => 'no' ]
+			);
 
-				$dl = Linker::linkKnown(
-					$user->getTalkPage(),
-					$skin->msg( 'nostalgia-newmessagesdifflink' )->escaped(),
-					[],
-					[ 'diff' => 'cur' ]
-				);
-				$s[] = '<strong>' . $skin->msg( 'youhavenewmessages' )
-					->rawParams( $tl, $dl )->escaped() . '</strong>';
-				# disable caching
-				$out->setCdnMaxage( 0 );
-				$out->disableClientCache();
-			}
+			$dl = Linker::linkKnown(
+				$user->getTalkPage(),
+				$skin->msg( 'nostalgia-newmessagesdifflink' )->escaped(),
+				[],
+				[ 'diff' => 'cur' ]
+			);
+			$s[] = '<strong>' . $skin->msg( 'youhavenewmessages' )
+				->rawParams( $tl, $dl )->escaped() . '</strong>';
+			# disable caching
+			$out->setCdnMaxage( 0 );
+			$out->disableClientCache();
 		}
 
 		$undelete = $skin->getUndeleteLink();
@@ -501,8 +509,8 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		if ( $out->isSyndicated() ) {
 			foreach ( $out->getSyndicationLinks() as $format => $link ) {
-				$feedurl = htmlspecialchars( $link );
-				$s[] = "<a href=\"$feedurl\" rel=\"alternate\" type=\"application/{$format}+xml\""
+				$feedUrl = htmlspecialchars( $link );
+				$s[] = "<a href=\"$feedUrl\" rel=\"alternate\" type=\"application/{$format}+xml\""
 						. " class=\"feedlink\">" . $skin->msg( "feed-$format" )->escaped() . "</a>";
 			}
 		}
@@ -654,10 +662,10 @@ class NostalgiaTemplate extends BaseTemplate {
 				[],
 				[ 'target' => $title->getPrefixedDBkey() ]
 			);
-		} else {
-			// no message if page is protected - would be redundant
-			return '';
 		}
+
+		// no message if page is protected - would be redundant
+		return '';
 	}
 
 	/**
@@ -713,13 +721,13 @@ class NostalgiaTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		if ( !$skin->getOutput()->isArticleRelated() ) {
 			return $skin->msg( 'parentheses', $skin->msg( 'notanarticle' )->text() )->escaped();
-		} else {
-			return Linker::linkKnown(
-				SpecialPage::getTitleFor( 'Recentchangeslinked',
-					$skin->getTitle()->getPrefixedDBkey() ),
-				$skin->msg( 'recentchangeslinked-toolbox' )->escaped()
-			);
 		}
+
+		return Linker::linkKnown(
+			SpecialPage::getTitleFor( 'Recentchangeslinked',
+				$skin->getTitle()->getPrefixedDBkey() ),
+			$skin->msg( 'recentchangeslinked-toolbox' )->escaped()
+		);
 	}
 
 	/**
@@ -728,7 +736,7 @@ class NostalgiaTemplate extends BaseTemplate {
 	private function talkLink() {
 		$skin = $this->getSkin();
 		$title = $skin->getTitle();
-		if ( NS_SPECIAL == $title->getNamespace() ) {
+		if ( $title->isSpecialPage() ) {
 			# No discussion links for special pages
 			return '';
 		}
@@ -774,9 +782,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$text = $skin->msg( 'nostalgia-talkpage' );
 		}
 
-		$s = Linker::link( $link, $text->escaped(), [], [], $linkOptions );
-
-		return $s;
+		return Linker::link( $link, $text->escaped(), [], [], $linkOptions );
 	}
 
 	/**
@@ -790,11 +796,11 @@ class NostalgiaTemplate extends BaseTemplate {
 			return Linker::makeExternalLink( $wgUploadNavigationUrl,
 				$this->getSkin()->msg( 'upload' )->text(),
 				true, '', [ 'class' => '' ] );
-		} else {
-			return Linker::linkKnown(
-				SpecialPage::getTitleFor( 'Upload' ),
-				$this->getSkin()->msg( 'upload' )->escaped()
-			);
 		}
+
+		return Linker::linkKnown(
+			SpecialPage::getTitleFor( 'Upload' ),
+			$this->getSkin()->msg( 'upload' )->escaped()
+		);
 	}
 }

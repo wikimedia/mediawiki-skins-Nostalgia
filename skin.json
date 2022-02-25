@@ -10,7 +10,7 @@
 	},
 	"ValidSkinNames": {
 		"nostalgia": {
-			"class": "SkinNostalgia",
+			"class": "MediaWiki\\Skin\\Nostalgia\\SkinNostalgia",
 			"args": [
 				{
 					"name": "nostalgia",
@@ -42,9 +42,8 @@
 		"localBasePath": "modules",
 		"remoteSkinPath": "Nostalgia/modules"
 	},
-	"AutoloadClasses": {
-		"SkinNostalgia": "includes/SkinNostalgia.php",
-		"NostalgiaTemplate": "includes/NostalgiaTemplate.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Skin\\Nostalgia\\": "includes/"
 	},
 	"manifest_version": 2
 }

@@ -20,9 +20,13 @@
  * @file
  */
 
+namespace MediaWiki\Skin\Nostalgia;
+
+use SkinTemplate;
+
 /**
  * @ingroup Skins
  */
 class SkinNostalgia extends SkinTemplate {
-	public $template = 'NostalgiaTemplate';
+	public $template = NostalgiaTemplate::class;
 }
