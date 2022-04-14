@@ -307,7 +307,9 @@ class NostalgiaTemplate extends BaseTemplate {
 					$s .= $this->deleteThisPage();
 				}
 
-				if ( $user->isAllowed( 'protect' ) && $title->getRestrictionTypes() ) {
+				if ( $user->isAllowed( 'protect' ) &&
+					MediaWikiServices::getInstance()->getRestrictionStore()->listApplicableRestrictionTypes( $title )
+				) {
 					$s .= $sep . $this->protectThisPage();
 				}
 
@@ -579,12 +581,13 @@ class NostalgiaTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		$diff = $skin->getRequest()->getVal( 'diff' );
 		$title = $skin->getTitle();
+		$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
 
 		if ( $title->getArticleID() && ( !$diff ) &&
 			$skin->getUser()->isAllowed( 'protect' ) &&
-			$title->getRestrictionTypes()
+			$restrictionStore->listApplicableRestrictionTypes( $title )
 		) {
-			if ( $title->isProtected() ) {
+			if ( $restrictionStore->isProtected( $title ) ) {
 				$text = $skin->msg( 'nostalgia-unprotectthispage' )->escaped();
 				$query = [ 'action' => 'unprotect' ];
 			} else {
