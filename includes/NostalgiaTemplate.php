@@ -50,14 +50,11 @@ class NostalgiaTemplate extends BaseTemplate {
 	protected $mWatchLinkNum = 0;
 
 	public function execute() {
-		$this->html( 'headelement' );
 		echo $this->beforeContent();
 		$this->html( 'bodytext' );
 		echo "\n";
 		echo $this->afterContent();
 		$this->html( 'dataAfterContent' );
-		$this->printTrail();
-		echo "\n</body></html>";
 	}
 
 	/**
