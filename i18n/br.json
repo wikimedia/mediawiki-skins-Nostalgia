@@ -1,12 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fulup"
+			"Fulup",
+			"Huñvreüs"
 		]
 	},
 	"skinname-nostalgia": "Melkoni",
 	"nostalgia.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Melkoni */",
 	"nostalgia.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur Melkoni */",
+	"nostalgia-articlepage": "Sellet ouzh ar pennad",
+	"nostalgia-create-this-page": "Krouiñ ar bajenn-mañ",
+	"nostalgia-deletethispage": "Diverkañ ar bajenn-mañ",
+	"nostalgia-editthispage": "Kemmañ ar bajenn-mañ",
 	"nostalgia-newmessageslink": "Kemennadennoù nevez",
-	"nostalgia-newmessagesdifflink": "Diforc'hioù e-keñver ar stumm kent"
+	"nostalgia-newmessagesdifflink": "Diforc'hioù e-keñver ar stumm kent",
+	"nostalgia-projectpage": "Gwelet pajenn ar raktres",
+	"nostalgia-protectthispage": "Gwareziñ ar bajenn-mañ",
+	"nostalgia-talkpage": "Pajenn gaozeal",
+	"nostalgia-unprotectthispage": "Cheñch live gwareziñ ar bajenn-mañ",
+	"nostalgia-userpage": "Gwelet ar bajenn implijer"
 }
