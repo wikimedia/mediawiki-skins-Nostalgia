@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Nurlan"
+		]
 	},
-	"nostalgia-newmessageslink": "jan'a xabarlar",
-	"nostalgia-newmessagesdifflink": "aqırg'ı o'zgeris"
+	"nostalgia-newmessageslink": "jańa xabarlar",
+	"nostalgia-newmessagesdifflink": "aqırǵı ózgeris"
 }
