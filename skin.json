@@ -10,10 +10,11 @@
 	},
 	"ValidSkinNames": {
 		"nostalgia": {
-			"class": "MediaWiki\\Skin\\Nostalgia\\SkinNostalgia",
+			"class": "SkinTemplate",
 			"args": [
 				{
 					"name": "nostalgia",
+					"template": "MediaWiki\\Skin\\Nostalgia\\NostalgiaTemplate",
 					"styles": [
 						"ext.nostalgia"
 					],
