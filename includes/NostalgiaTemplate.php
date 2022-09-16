@@ -108,7 +108,7 @@ class NostalgiaTemplate extends BaseTemplate {
 				Title::newMainPage(),
 				$this->getMsg( 'mainpage' )->text()
 			)
-			. ' | ' . $this->getSkin()->footerLink( 'aboutsite', 'aboutpage' )
+			. ' | ' . $this->get( 'about', '' )
 			. ' | ' . $this->searchForm();
 
 		$s .= "\n</div>\n</div>\n";
@@ -412,14 +412,14 @@ class NostalgiaTemplate extends BaseTemplate {
 		$action = $request->getText( 'action' );
 
 		$s = [ $this->printableLink() ];
-		$disclaimer = $skin->footerLink( 'disclaimers', 'disclaimerpage' );
+		$disclaimer = $this->get( 'disclaimers', '' );
 
 		# may be empty
 		if ( $disclaimer ) {
 			$s[] = $disclaimer;
 		}
 
-		$privacy = $skin->footerLink( 'privacy', 'privacypage' );
+		$privacy = $this->get( 'privacy' );
 
 		# may be empty too
 		if ( $privacy ) {
