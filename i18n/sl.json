@@ -6,7 +6,15 @@
 		]
 	},
 	"nostalgia-desc": "Preobleka z videzom Wikipedije leta 2001",
+	"nostalgia-articlepage": "Ogled strani z vsebino",
+	"nostalgia-create-this-page": "Ustvari stran",
 	"nostalgia-deletethispage": "Izbriši to stran",
+	"nostalgia-editthispage": "Uredi stran",
 	"nostalgia-newmessageslink": "nova sporočila",
-	"nostalgia-newmessagesdifflink": "zadnja sprememba"
+	"nostalgia-newmessagesdifflink": "zadnja sprememba",
+	"nostalgia-projectpage": "Ogled projektne strani",
+	"nostalgia-protectthispage": "Zaščiti stran",
+	"nostalgia-talkpage": "Pogovor o strani",
+	"nostalgia-unprotectthispage": "Spremeni zaščito strani",
+	"nostalgia-userpage": "Ogled uporabniške strani"
 }
