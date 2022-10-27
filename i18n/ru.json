@@ -5,13 +5,14 @@
 			"Facenapalm",
 			"Kaganer",
 			"Kareyac",
-			"Okras"
+			"Okras",
+			"Pacha Tchernof"
 		]
 	},
 	"nostalgia-desc": "Тема оформления, показывающая, как Википедия выглядела в 2001 году",
 	"skinname-nostalgia": "Ностальгия",
-	"nostalgia.css": "/* Размещённый здесь CSS будет применяться к теме оформления Nostalgia */",
-	"nostalgia.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Nostalgia */",
+	"nostalgia.css": "/* Весь CSS отсюда будет загружен пользователям темы оформления Nostalgia */",
+	"nostalgia.js": "/* Весь JavaScript отсюда будет загружен пользователям темы оформления Nostalgia */",
 	"nostalgia-articlepage": "Просмотреть содержимое страницы.",
 	"nostalgia-create-this-page": "Создать эту страницу",
 	"nostalgia-deletethispage": "Удалить эту страницу",
