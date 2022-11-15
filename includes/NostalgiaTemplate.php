@@ -125,7 +125,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$specialAction = SpecialPage::getTitleFor( 'Search' )->getLocalURL();
 
 		$s = '<form id="searchform' . $this->searchboxes
-			. '" name="search" class="inline" method="post" action="'
+			. '" name="search" class="inline" method="get" action="'
 			. htmlspecialchars( $specialAction ) . "\">\n"
 			. '<input type="text" id="searchInput' . $this->searchboxes
 			. '" name="search" size="19" value="'
