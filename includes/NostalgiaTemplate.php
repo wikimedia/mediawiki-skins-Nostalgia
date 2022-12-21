@@ -31,7 +31,6 @@ use MWException;
 use SpecialPage;
 use Title;
 use UploadBase;
-use User;
 use XmlSelect;
 
 /**
@@ -280,16 +279,17 @@ class NostalgiaTemplate extends BaseTemplate {
 				$title->getNamespace() == NS_USER ||
 				$title->getNamespace() == NS_USER_TALK
 			) {
-				$id = User::idFromName( $title->getText() );
-				$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+				$services = MediaWikiServices::getInstance();
+				$userIdentity = $services->getUserIdentityLookup()->getUserIdentityByName( $title->getText() );
+				$userNameUtils = $services->getUserNameUtils();
 				$ip = $userNameUtils->isIP( $title->getText() );
 
 				# Both anons and non-anons have contributions list
-				if ( $id || $ip ) {
+				if ( ( $userIdentity && $userIdentity->isRegistered() ) || $ip ) {
 					$element[] = $this->userContribsLink();
 				}
 
-				if ( $id && $skin->showEmailUser( $id ) ) {
+				if ( $userIdentity && $userIdentity->isRegistered() && $skin->showEmailUser( $userIdentity ) ) {
 					$element[] = $this->emailUserLink();
 				}
 			}
