@@ -1,8 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Afalau"
+		]
 	},
 	"skinname-nostalgia": "Hiraeth",
-	"nostalgia-newmessageslink": "Neges(eueon) newydd",
+	"nostalgia-newmessageslink": "Negeseuon newydd",
 	"nostalgia-newmessagesdifflink": "y newid diweddaraf"
 }
