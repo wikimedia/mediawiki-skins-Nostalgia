@@ -24,7 +24,6 @@ namespace MediaWiki\Skin\Nostalgia;
 
 use BaseTemplate;
 use Html;
-use Language;
 use Linker;
 use MediaWiki\MediaWikiServices;
 use MWException;
@@ -347,6 +346,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$s .= '<span dir="ltr">';
 		}
 
+		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 		foreach ( $a as $l ) {
 			if ( !$first ) {
 				$s .= $skin->msg( 'pipe-separator' )->escaped();
@@ -355,7 +355,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			$first = false;
 
 			$nt = Title::newFromText( $l );
-			$text = Language::fetchLanguageName( $nt->getInterwiki() );
+			$text = $languageNameUtils->getLanguageName( $nt->getInterwiki() );
 
 			$s .= Html::element( 'a',
 				[ 'href' => $nt->getFullURL(), 'title' => $nt->getText(), 'class' => 'external' ],
