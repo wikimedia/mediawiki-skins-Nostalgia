@@ -1,7 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Yupik"
+		]
 	},
+	"nostalgia-deletethispage": "Sihko dán siiddu",
 	"nostalgia-newmessageslink": "ođđa dieđut",
 	"nostalgia-newmessagesdifflink": "maŋimus rievdadus"
 }
