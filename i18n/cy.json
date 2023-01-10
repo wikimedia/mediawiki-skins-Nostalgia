@@ -4,7 +4,17 @@
 			"Afalau"
 		]
 	},
+	"nostalgia-desc": "Dyma gwedd sy'n dangos Wicipedia fel yr oedd yn 2001",
 	"skinname-nostalgia": "Hiraeth",
+	"nostalgia-articlepage": "Gweld tudalen gynnwys",
+	"nostalgia-create-this-page": "Creu'r dudalen hon",
+	"nostalgia-deletethispage": "Dileu'r dudalen hon",
+	"nostalgia-editthispage": "Golygu'r dudalen hon",
 	"nostalgia-newmessageslink": "Negeseuon newydd",
-	"nostalgia-newmessagesdifflink": "y newid diweddaraf"
+	"nostalgia-newmessagesdifflink": "y newid diweddaraf",
+	"nostalgia-projectpage": "Gweld tudalen brosiect",
+	"nostalgia-protectthispage": "Diogelu'r dudalen hon",
+	"nostalgia-talkpage": "Trafod y dudalen hon",
+	"nostalgia-unprotectthispage": "Newid diogelwch y dudalen hon",
+	"nostalgia-userpage": "Gweld tudalen defnyddiwr"
 }
