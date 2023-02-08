@@ -7,7 +7,7 @@
 	},
 	"nostalgia-desc": "Una skin per mostrare come Wikipedia appariva nel 2001",
 	"skinname-nostalgia": "Nostalgia",
-	"nostalgia.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano la skin Nostalgia */",
+	"nostalgia.css": "/* Gli stili CSS inseriti qui vengono caricati dagli utenti che usano il tema Nostalgia */",
 	"nostalgia.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano la skin Nostalgia */",
 	"nostalgia-articlepage": "Visualizza la voce",
 	"nostalgia-create-this-page": "Crea questa pagina",
