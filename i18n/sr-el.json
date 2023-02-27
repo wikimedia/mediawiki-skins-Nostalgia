@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Kizule"
 		]
 	},
 	"nostalgia-desc": "Tema koja prikazuje kako je Vikipedija izgledala 2001.",
 	"skinname-nostalgia": "Nostalgija",
-	"nostalgia.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Nostalgija“ */",
-	"nostalgia.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Nostalgija“ */",
-	"nostalgia-articlepage": "Pogledaj stranicu sa sadržajem",
+	"nostalgia.css": "/* Sav CSS postavljen ovde će se učitati svim korisnicima teme „Nostalgija“ */",
+	"nostalgia.js": "/* Sav Javaskript postavljen ovde će se učitati svim korisnicima teme „Nostalgija“ */",
+	"nostalgia-articlepage": "Prikaži stranicu sadržaja",
 	"nostalgia-create-this-page": "Napravi ovu stranicu",
 	"nostalgia-deletethispage": "Izbriši ovu stranicu",
 	"nostalgia-editthispage": "Uredi ovu stranicu",
