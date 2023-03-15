@@ -1,8 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Kareyac"
+		]
 	},
 	"skinname-nostalgia": "Հայրենաբաղձություն",
+	"nostalgia-create-this-page": "Ստեղծել այս էջ",
 	"nostalgia-newmessageslink": "Նոր հաղորդագրություն",
 	"nostalgia-newmessagesdifflink": "վերջին փոփոխությունը"
 }
