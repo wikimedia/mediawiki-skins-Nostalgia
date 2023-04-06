@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Proabscorp!"
+		]
 	},
-	"nostalgia-newmessageslink": "नया संदेश",
+	"nostalgia-newmessageslink": "नैका संदेश",
 	"nostalgia-newmessagesdifflink": "पिछला बदलाव"
 }
