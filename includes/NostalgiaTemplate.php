@@ -26,7 +26,6 @@ use BaseTemplate;
 use Html;
 use Linker;
 use MediaWiki\MediaWikiServices;
-use MWException;
 use SpecialPage;
 use Title;
 use UploadBase;
@@ -322,7 +321,6 @@ class NostalgiaTemplate extends BaseTemplate {
 
 	/**
 	 * @return string
-	 * @throws MWException
 	 */
 	private function otherLanguages() {
 		global $wgHideInterlanguageLinks;
