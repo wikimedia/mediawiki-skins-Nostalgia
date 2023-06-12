@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
 	"nostalgia-deletethispage": "Sihko dán siiddu",
 	"nostalgia-newmessageslink": "ođđa dieđut",
-	"nostalgia-newmessagesdifflink": "maŋimus rievdadus"
+	"nostalgia-newmessagesdifflink": "maŋemus rievdadus"
 }
