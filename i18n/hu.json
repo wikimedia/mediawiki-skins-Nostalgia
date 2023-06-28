@@ -2,13 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Dj",
-			"Máté"
+			"Máté",
+			"Krisztina"
 		]
 	},
 	"nostalgia-desc": "Ez a felület azt mutatja be, milyen volt a Wikipédia 2001-ben",
 	"skinname-nostalgia": "Nosztalgia",
 	"nostalgia.css": "/* Az ide elhelyezett CSS hatással lesz a Nosztalgia felület használóira */",
 	"nostalgia.js": "/* A Nosztalgia felületet használó szerkesztők számára betöltendő JavaScriptek */",
+	"nostalgia-create-this-page": "Lap létrehozása",
+	"nostalgia-deletethispage": "Lap törlése",
+	"nostalgia-editthispage": "Lap szerkesztése",
 	"nostalgia-newmessageslink": "új üzenet vár",
 	"nostalgia-newmessagesdifflink": "az utolsó üzenetet"
 }
