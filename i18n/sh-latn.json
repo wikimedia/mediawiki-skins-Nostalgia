@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"nostalgia-desc": "Tema koja prikazuje kako je Wikipedia izgledala 2001.",
+	"nostalgia-articlepage": "Pogl. sadržajna stranica",
+	"nostalgia-create-this-page": "Stvori ovu stranicu",
+	"nostalgia-deletethispage": "Izbriši ovu stranicu",
+	"nostalgia-editthispage": "Uredi ovu stranicu",
+	"nostalgia-newmessageslink": "novih promjena",
+	"nostalgia-newmessagesdifflink": "posljednja promjena",
+	"nostalgia-projectpage": "Pregled projektne stranicu",
+	"nostalgia-protectthispage": "Zaštiti ovu stranicu",
+	"nostalgia-talkpage": "Razgovor o ovoj stranici",
+	"nostalgia-unprotectthispage": "Izmijeni zaštitu za ovu stranicu",
+	"nostalgia-userpage": "Pregled korisničke stranice"
+}
