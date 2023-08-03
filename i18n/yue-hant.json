@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"nostalgia-desc": "顯示2001年版維基百科嘅外觀",
+	"skinname-nostalgia": "懷舊",
+	"nostalgia.css": "/* 響呢度放 CSS 碼去改用戶用嘅懷舊畫面 */",
+	"nostalgia.js": "/* 響每一次個頁面載入時，用懷舊畫面嘅用戶都會載入呢度任何嘅JavaScript */",
+	"nostalgia-create-this-page": "開呢版",
+	"nostalgia-deletethispage": "刪呢版",
+	"nostalgia-editthispage": "改呢版",
+	"nostalgia-newmessageslink": "新信息",
+	"nostalgia-newmessagesdifflink": "上次更改",
+	"nostalgia-protectthispage": "保護呢版",
+	"nostalgia-talkpage": "討論呢版",
+	"nostalgia-unprotectthispage": "改呢版保護",
+	"nostalgia-userpage": "睇用戶頁"
+}
