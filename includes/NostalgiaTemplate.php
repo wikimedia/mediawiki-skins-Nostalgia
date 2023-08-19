@@ -26,8 +26,8 @@ use BaseTemplate;
 use Html;
 use Linker;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use SpecialPage;
-use Title;
 use UploadBase;
 use XmlSelect;
 
