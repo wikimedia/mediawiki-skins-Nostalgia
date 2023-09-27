@@ -381,7 +381,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		array_unshift( $pages, $factory->getPage( 'SpecialPages' ) );
 		/** @var SpecialPage[] $pages */
 		foreach ( $pages as $obj ) {
-			$select->addOption( $obj->getDescription(),
+			$select->addOption( $obj->getDescription()->text(),
 				$obj->getPageTitle()->getPrefixedDBkey() );
 		}
 
