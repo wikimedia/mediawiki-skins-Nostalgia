@@ -27,6 +27,7 @@ use Html;
 use Linker;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
+use RawMessage;
 use SpecialPage;
 use UploadBase;
 use XmlSelect;
@@ -381,7 +382,12 @@ class NostalgiaTemplate extends BaseTemplate {
 		array_unshift( $pages, $factory->getPage( 'SpecialPages' ) );
 		/** @var SpecialPage[] $pages */
 		foreach ( $pages as $obj ) {
-			$select->addOption( $obj->getDescription(),
+			$desc = $obj->getDescription();
+			if ( is_string( $desc ) ) {
+				// T343849: returning a string from ::getDescription() is deprecated.
+				$desc = ( new RawMessage( '$1' ) )->rawParams( $desc );
+			}
+			$select->addOption( $desc->text(),
 				$obj->getPageTitle()->getPrefixedDBkey() );
 		}
 
