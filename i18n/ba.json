@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sagan"
+			"Sagan",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"nostalgia-desc": "2001 йылғы Википедия биҙәлеше",
-	"nostalgia-newmessageslink": "яңы хәбәр",
+	"nostalgia-desc": "Википедияның 2001 йылғы биҙәлеше",
+	"nostalgia-newmessageslink": "яңы хәбәрҙәр",
 	"nostalgia-newmessagesdifflink": "һуңғы үҙгәртеү"
 }
