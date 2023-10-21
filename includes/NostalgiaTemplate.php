@@ -475,7 +475,7 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$undelete = $skin->getUndeleteLink();
 
-		if ( !empty( $undelete ) ) {
+		if ( $undelete !== '' ) {
 			$s[] = $undelete;
 		}
 
