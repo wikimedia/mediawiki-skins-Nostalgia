@@ -23,12 +23,12 @@
 namespace MediaWiki\Skin\Nostalgia;
 
 use BaseTemplate;
-use Html;
-use Linker;
+use MediaWiki\Html\Html;
+use MediaWiki\Language\RawMessage;
+use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
-use RawMessage;
-use SpecialPage;
 use UploadBase;
 use XmlSelect;
 

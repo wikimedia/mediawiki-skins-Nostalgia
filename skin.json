@@ -31,7 +31,7 @@
 	},
 	"ResourceModules": {
 		"ext.nostalgia": {
-			"class": "ResourceLoaderSkinModule",
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
 			"styles": {
 				"0": "oldshared.css",
 				"1": "screen.css",
