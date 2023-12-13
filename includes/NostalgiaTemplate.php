@@ -466,7 +466,7 @@ class NostalgiaTemplate extends BaseTemplate {
 				[],
 				[ 'diff' => 'cur' ]
 			);
-			$s[] = '<strong>' . $skin->msg( 'youhavenewmessages' )
+			$s[] = '<strong>' . $skin->msg( 'new-messages' )
 				->rawParams( $tl, $dl )->escaped() . '</strong>';
 			# disable caching
 			$out->setCdnMaxage( 0 );
