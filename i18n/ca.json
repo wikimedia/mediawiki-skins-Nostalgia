@@ -1,8 +1,20 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"SMP"
+		]
 	},
+	"nostalgia-desc": "Una aparença per mostrar com es veia la Viquipèdia el 2001",
 	"skinname-nostalgia": "Nostàlgia",
+	"nostalgia-articlepage": "Mostra el contingut de la pàgina",
+	"nostalgia-create-this-page": "Crea la pàgina",
+	"nostalgia-deletethispage": "Esborra la pàgina",
+	"nostalgia-editthispage": "Modifica la pàgina",
 	"nostalgia-newmessageslink": "nous missatges",
-	"nostalgia-newmessagesdifflink": "últims canvis"
+	"nostalgia-newmessagesdifflink": "últims canvis",
+	"nostalgia-projectpage": "Mostra la pàgina del projecte",
+	"nostalgia-protectthispage": "Protegeix la pàgina",
+	"nostalgia-talkpage": "Discussió de la pàgina",
+	"nostalgia-unprotectthispage": "Canvia la protecció de la pàgina",
+	"nostalgia-userpage": "Mostra la pàgina d'usuari"
 }
