@@ -4,11 +4,14 @@
 			"Yupik"
 		]
 	},
+	"nostalgia-articlepage": "Čuäʹjet siiskâžseeid",
 	"nostalgia-create-this-page": "Raaj tän seeid",
 	"nostalgia-deletethispage": "Jaukkâd tän seeid",
 	"nostalgia-editthispage": "Muuʹtt tän seeid",
 	"nostalgia-newmessageslink": "ođđ saaǥǥ",
 	"nostalgia-projectpage": "Čuäʹjet projeʹkttseeid",
 	"nostalgia-protectthispage": "Suõjjâd tän seeid",
-	"nostalgia-talkpage": "Saǥstõõl tän seeidast"
+	"nostalgia-talkpage": "Saǥstõõl tän seeidast",
+	"nostalgia-unprotectthispage": "Muuʹtt tän seeid suõjjeemtaaʹzz",
+	"nostalgia-userpage": "Čuäʹjet õõʹnniseeid"
 }
