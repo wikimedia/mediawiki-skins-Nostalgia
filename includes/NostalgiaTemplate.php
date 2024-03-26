@@ -441,7 +441,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			}
 		}
 
-		if ( $action == 'history' || isset( $diff ) || isset( $oldid ) ) {
+		if ( $action == 'history' || $diff !== null || $oldid !== null ) {
 			$s[] .= Linker::linkKnown(
 				$title,
 				$skin->msg( 'currentrev' )->escaped()
