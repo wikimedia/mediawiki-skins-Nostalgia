@@ -5,13 +5,14 @@
 			"Liuxinyu970226",
 			"SunAfterRain",
 			"Sunny00217",
-			"Winston Sung"
+			"Winston Sung",
+			"Cookai1205"
 		]
 	},
 	"nostalgia-desc": "顯示維基百科在 2001 年期間模樣的外觀",
 	"skinname-nostalgia": "懷舊",
-	"nostalgia.css": "/* 这里放置的CSS将影响使用怀旧皮肤的用户 / 此處的 CSS 將影響使用懷舊面板的用戶 */",
-	"nostalgia.js": "/* 此處的JavaScript將載入於使用懷舊面板的用戶 */",
+	"nostalgia.css": "/* 此處所有的 CSS 都會在使用者使用懷舊外觀時載入 */",
+	"nostalgia.js": "/* 此處所有的 JavaScript 都會在使用者使用懷舊外觀時載入 */",
 	"nostalgia-articlepage": "檢視內容頁面",
 	"nostalgia-create-this-page": "建立此頁面",
 	"nostalgia-deletethispage": "刪除此頁面",
