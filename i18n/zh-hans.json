@@ -6,7 +6,8 @@
 			"Reasno",
 			"Sunny00217",
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"LittlePaw365"
 		]
 	},
 	"nostalgia-desc": "显示维基百科在2001年的样子的皮肤",
@@ -15,12 +16,12 @@
 	"nostalgia.js": "/* 这里的任何JavaScript将为使用怀旧皮肤的用户加载 */",
 	"nostalgia-articlepage": "查看内容页面",
 	"nostalgia-create-this-page": "创建本页",
-	"nostalgia-deletethispage": "删除本页",
+	"nostalgia-deletethispage": "删除该页",
 	"nostalgia-editthispage": "编辑本页",
 	"nostalgia-newmessageslink": "新消息",
 	"nostalgia-newmessagesdifflink": "最后更改",
 	"nostalgia-projectpage": "查看项目页面",
-	"nostalgia-protectthispage": "保护本页",
+	"nostalgia-protectthispage": "保护此页",
 	"nostalgia-talkpage": "讨论本页",
 	"nostalgia-unprotectthispage": "更改本页的保护",
 	"nostalgia-userpage": "查看用户页面"
