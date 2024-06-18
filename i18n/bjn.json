@@ -1,7 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ezagren"
+		]
 	},
 	"nostalgia-newmessageslink": "pasan hanyar",
-	"nostalgia-newmessagesdifflink": "paubahan pauncitnya"
+	"nostalgia-newmessagesdifflink": "paubahan pauncitnya",
+	"nostalgia-userpage": "Janaki laman pamakai"
 }
