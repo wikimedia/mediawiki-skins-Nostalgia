@@ -1,8 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Don Alessandro"
+		]
 	},
 	"skinname-nostalgia": "Nostalgiya",
 	"nostalgia-newmessageslink": "beyanatıñız",
-	"nostalgia-newmessagesdifflink": "muzakere saifeñizniñ soñki deñiştirilmesi"
+	"nostalgia-newmessagesdifflink": "soñki deñiştirme"
 }
