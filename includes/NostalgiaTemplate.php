@@ -29,8 +29,8 @@ use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
+use MediaWiki\Xml\XmlSelect;
 use UploadBase;
-use XmlSelect;
 
 /**
  * @todo document
