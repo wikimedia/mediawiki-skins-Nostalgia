@@ -1,10 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Tow"
 		]
 	},
 	"nostalgia-desc": "ਇੱਕ ਚਮੜੀ ਇਹ ਦਿਖਾਉਣ ਲਈ ਕਿ ਵਿਕੀਪੀਡੀਆ 2001 ਵਿਚ ਕਿਵੇੰ ਦਿਖਦਾ ਸੀ",
+	"nostalgia-articlepage": "ਸਮੱਗਰੀ ਸਫ਼ਾ ਵੇਖੋ",
+	"nostalgia-create-this-page": "ਇਹ ਸਫ਼ਾ ਬਣਾਓ",
+	"nostalgia-deletethispage": "ਇਹ ਸਫ਼ਾ ਮਿਟਾਓ",
+	"nostalgia-editthispage": "ਇਹ ਸਫ਼ਾ ਸੋਧੋ",
 	"nostalgia-newmessageslink": "ਨਵੇਂ ਸੁਨੇਹੇ",
-	"nostalgia-newmessagesdifflink": "ਆਖ਼ਰੀ ਤਬਦੀਲੀ"
+	"nostalgia-newmessagesdifflink": "ਆਖ਼ਰੀ ਤਬਦੀਲੀ",
+	"nostalgia-projectpage": "ਪ੍ਰੋਜੈਕਟ ਸਫ਼ਾ ਵੇਖੋ",
+	"nostalgia-protectthispage": "ਇਹ ਸਫ਼ਾ ਸੁਰੱਖਿਅਤ ਕਰੋ",
+	"nostalgia-talkpage": "ਇਸ ਸਫ਼ੇ ਬਾਰੇ ਚਰਚਾ ਕਰੋ",
+	"nostalgia-unprotectthispage": "ਇਸ ਸਫ਼ੇ ਦੀ ਸੁਰੱਖਿਆ ਬਦਲੋ",
+	"nostalgia-userpage": "ਵਰਤੋਂਕਾਰ ਸਫ਼ਾ ਵੇਖੋ"
 }
