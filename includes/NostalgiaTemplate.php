@@ -22,11 +22,11 @@
 
 namespace MediaWiki\Skin\Nostalgia;
 
-use BaseTemplate;
 use MediaWiki\Html\Html;
 use MediaWiki\Language\RawMessage;
 use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Skin\BaseTemplate;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use MediaWiki\Xml\XmlSelect;
