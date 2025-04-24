@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Julio Nepote"
+			"Julio Nepote",
+			"HackerPunki"
 		]
 	},
-	"nostalgia-newmessageslink": "nuevus mensahis",
+	"nostalgia-newmessageslink": "nueus messagis",
 	"nostalgia-newmessagesdifflink": "muación última"
 }
