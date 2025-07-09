@@ -1,13 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"nostalgia-desc": "يو پوښ چې دا څرگندوي چې په 2001 کال کې ويکيپېډيا څنگه ښکارېده",
 	"skinname-nostalgia": "نوستالژي",
 	"nostalgia.css": "/* د CSS هره بڼه چې دلته ځای پر ځای کېږي هغه به د نوستالجيا د پوښ ټولو کارنانو لپاره کار کوي */",
 	"nostalgia.js": "/* د جاوا هر يو سکرېپټ چې دلته ځای پر ځای کېږي هغه به د نوستالجيا د پوښ ټولو کارنانو لپاره کار کوي */",
+	"nostalgia-articlepage": "منځپانگې مخ ښودل",
+	"nostalgia-create-this-page": "دا مخ جوړول",
+	"nostalgia-deletethispage": "دا مخ ړنگول",
+	"nostalgia-editthispage": "دا مخ سمول",
 	"nostalgia-newmessageslink": "نوي پيغامونه",
-	"nostalgia-newmessagesdifflink": "وروستی بدلون"
+	"nostalgia-newmessagesdifflink": "وروستی بدلون",
+	"nostalgia-projectpage": "د پروژې مخ کتل",
+	"nostalgia-protectthispage": "دا مخ ژغورل",
+	"nostalgia-talkpage": "دا مخ شنل",
+	"nostalgia-unprotectthispage": "د دې مخ ژغورنه بدلول",
+	"nostalgia-userpage": "کارن مخ کتل"
 }
