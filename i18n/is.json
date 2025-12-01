@@ -8,6 +8,15 @@
 	"skinname-nostalgia": "Fortíðarþrá (Nostalgia)",
 	"nostalgia.css": "/* Allt CSS sem sett er hér mun  hafa áhrif á alla notendur Nostalgia-skinnsins. */",
 	"nostalgia.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur Nostalgia-skinnsins. */",
+	"nostalgia-articlepage": "Skoða efnissíðuna",
+	"nostalgia-create-this-page": "Búa til þessa síðu",
+	"nostalgia-deletethispage": "Eyða þessari síðu",
+	"nostalgia-editthispage": "Breyta þessari síðu",
 	"nostalgia-newmessageslink": "ný skilaboð",
-	"nostalgia-newmessagesdifflink": "síðasta breyting"
+	"nostalgia-newmessagesdifflink": "síðasta breyting",
+	"nostalgia-projectpage": "Skoða verkefnissíðu",
+	"nostalgia-protectthispage": "Vernda þessa síðu",
+	"nostalgia-talkpage": "Ræða um þessa síðu",
+	"nostalgia-unprotectthispage": "Breyta verndun síðunnar",
+	"nostalgia-userpage": "Skoða síðu notanda"
 }
