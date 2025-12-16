@@ -1,12 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arlin"
+			"Arlin",
+			"Sahran"
 		]
 	},
+	"nostalgia-desc": "2001-يىلى Wikipedia نىڭ قانداق ئىكەنلىكىنى كۆرسىتىدىغان تېرە",
 	"skinname-nostalgia": "Nostalgia",
 	"nostalgia.css": "/* CSS placed here will affect users of the Nostalgia skin */",
 	"nostalgia.js": "/* Any JavaScript here will be loaded for users using the Nostalgia skin */",
+	"nostalgia-articlepage": "مەزمۇن بېتىنى كۆرسەت",
+	"nostalgia-create-this-page": "بۇ بەتنى قۇر",
+	"nostalgia-deletethispage": "بۇ بەتنى ئۆچۈر",
+	"nostalgia-editthispage": "بۇ بەتنى تەھرىرلە",
 	"nostalgia-newmessageslink": "يېڭى ئۇچۇر",
-	"nostalgia-newmessagesdifflink": "ئاخىرقى ئۆزگەرتىش"
+	"nostalgia-newmessagesdifflink": "ئاخىرقى ئۆزگەرتىش",
+	"nostalgia-projectpage": "قۇرۇلۇش بېتىنى كۆرسەت",
+	"nostalgia-protectthispage": "بۇ بەتنى قوغدا",
+	"nostalgia-talkpage": "بۇ بەتنىڭ مۇنازىرىسى",
+	"nostalgia-unprotectthispage": "بۇ بەتنى قوغداشنى ئۆزگەرت",
+	"nostalgia-userpage": "ئىشلەتكۈچى بېتىنى كۆرسەت"
 }
