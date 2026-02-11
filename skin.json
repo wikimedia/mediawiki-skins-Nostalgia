@@ -19,7 +19,12 @@
 					"styles": [
 						"ext.nostalgia"
 					],
-					"bodyOnly": true
+					"bodyOnly": true,
+					"menus": [
+						"user-menu",
+						"views",
+						"actions"
+					]
 				}
 			]
 		}
