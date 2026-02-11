@@ -20,11 +20,7 @@
 						"ext.nostalgia"
 					],
 					"bodyOnly": true,
-					"menus": [
-						"user-menu",
-						"views",
-						"actions"
-					]
+					"menus": []
 				}
 			]
 		}
