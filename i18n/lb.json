@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kaffi",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"nostalgia-desc": "En Ausgesinn fir ze weise wéi Wikipedia 2001 ausgesinn huet",
@@ -16,8 +17,8 @@
 	"nostalgia-newmessageslink": "nei Messagen",
 	"nostalgia-newmessagesdifflink": "Lescht Ännerung",
 	"nostalgia-projectpage": "Projetssäit weisen",
-	"nostalgia-protectthispage": "Dës Säit spären",
+	"nostalgia-protectthispage": "Dës Säit protegéieren",
 	"nostalgia-talkpage": "Dës Säit diskutéieren",
-	"nostalgia-unprotectthispage": "D'Spär vun dëser Säit änneren",
+	"nostalgia-unprotectthispage": "Protektioun vun dëser Säit änneren",
 	"nostalgia-userpage": "Benotzersäit weisen"
 }
