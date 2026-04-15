@@ -378,7 +378,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		$select = new XmlSelect( 'title' );
 		$factory = MediaWikiServices::getInstance()->getSpecialPageFactory();
-		$pages = $factory->getUsablePages( $skin->getUser() );
+		$pages = $factory->getUsablePages( $skin->getUser(), $skin->getContext() );
 		array_unshift( $pages, $factory->getPage( 'SpecialPages' ) );
 		/** @var SpecialPage[] $pages */
 		foreach ( $pages as $obj ) {
