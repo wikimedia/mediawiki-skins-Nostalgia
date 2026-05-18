@@ -1,6 +1,19 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Kallmemel"
+		]
 	},
-	"nostalgia-newmessageslink": "mensahe nobo"
+	"nostalgia-desc": "Un diseño pa mustra kon Wikipedia tabata na 2001",
+	"nostalgia-articlepage": "Mira índise",
+	"nostalgia-create-this-page": "Krea e página aki",
+	"nostalgia-deletethispage": "Eliminá página",
+	"nostalgia-editthispage": "Editá e página aki",
+	"nostalgia-newmessageslink": "mensahe nobo",
+	"nostalgia-newmessagesdifflink": "Lastu kambio",
+	"nostalgia-projectpage": "Wak página di proyekto",
+	"nostalgia-protectthispage": "Protehá e página aki",
+	"nostalgia-talkpage": "Diskutí e página aki",
+	"nostalgia-unprotectthispage": "Kambia protekshon di página",
+	"nostalgia-userpage": "Wak página di usadó"
 }
