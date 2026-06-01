@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Karduelis",
 			"MuratTheTurkish",
 			"Rapsar"
@@ -9,6 +10,8 @@
 	},
 	"nostalgia-desc": "Vikipedi’nin 2001’de nasıl göründüğünü gösteren bir görünüm",
 	"skinname-nostalgia": "Nostaljik",
+	"nostalgia.css": "/* All CSS here will be loaded for users of the Nostalgia skin */",
+	"nostalgia.js": "/* All JavaScript here will be loaded for users of the Nostalgia skin */",
 	"nostalgia-articlepage": "İçerik sayfasını görüntüle",
 	"nostalgia-create-this-page": "Bu sayfayı oluştur",
 	"nostalgia-deletethispage": "Bu sayfayı sil",
