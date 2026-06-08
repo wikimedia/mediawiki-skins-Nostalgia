@@ -2,12 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Rudko"
+			"Rudko",
+			"Wizzard"
 		]
 	},
+	"nostalgia-desc": "Téma vzhľadu ukazujúca, ako vyzerala Wikipédia v roku 2001",
 	"skinname-nostalgia": "Nostalgia",
-	"nostalgia.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Nostalgia */",
-	"nostalgia.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Nostalgia */",
+	"nostalgia.css": "/* CSS umiestnené tu sa načíta používateľom témy vzhľadu Nostalgia */",
+	"nostalgia.js": "/* JavaScript umiestnený tu sa načíta používateľom témy vzhľadu Nostalgia */",
+	"nostalgia-articlepage": "Zobraziť obsahovú stránku",
+	"nostalgia-create-this-page": "Vytvoriť túto stránku",
+	"nostalgia-deletethispage": "Odstrániť túto stránku",
+	"nostalgia-editthispage": "Upraviť túto stránku",
 	"nostalgia-newmessageslink": "nové správy",
-	"nostalgia-newmessagesdifflink": "posledná zmena"
+	"nostalgia-newmessagesdifflink": "posledná zmena",
+	"nostalgia-projectpage": "Zobraziť stránku projektu",
+	"nostalgia-protectthispage": "Chrániť túto stránku",
+	"nostalgia-talkpage": "Diskutovať o tejto stránke",
+	"nostalgia-unprotectthispage": "Zmeniť ochranu tejto stránky",
+	"nostalgia-userpage": "Zobraziť používateľskú stránku"
 }
