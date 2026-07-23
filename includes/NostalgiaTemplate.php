@@ -182,8 +182,8 @@ class NostalgiaTemplate extends BaseTemplate {
 		} else {
 			/* show user page and user talk links */
 			$user = $skin->getUser();
-			$s .= $sep . Linker::link( $user->getUserPage(), $skin->msg( 'mypage' )->escaped() );
-			$s .= $sep . Linker::link( $user->getTalkPage(), $skin->msg( 'mytalk' )->escaped() );
+			$s .= $sep . $linkRenderer->makeLink( $user->getUserPage(), $skin->msg( 'mypage' )->plain() );
+			$s .= $sep . $linkRenderer->makeLink( $user->getTalkPage(), $skin->msg( 'mytalk' )->plain() );
 
 			$userHasNewMessages = MediaWikiServices::getInstance()
 				->getTalkPageNotificationManager()->userHasNewMessages( $user );
@@ -193,9 +193,9 @@ class NostalgiaTemplate extends BaseTemplate {
 			/* show watchlist link */
 			$s .= $sep . Linker::specialLink( 'Watchlist' );
 			/* show my contributions link */
-			$s .= $sep . Linker::link(
+			$s .= $sep . $linkRenderer->makeLink(
 				SpecialPage::getSafeTitleFor( 'Contributions', $this->data['username'] ),
-				$skin->msg( 'mycontris' )->escaped() );
+				$skin->msg( 'mycontris' )->plain() );
 			/* show my preferences link */
 			$s .= $sep . Linker::specialLink( 'Preferences' );
 			/* show upload file link */
@@ -410,6 +410,7 @@ class NostalgiaTemplate extends BaseTemplate {
 		$user = $skin->getUser();
 		$lang = $skin->getLanguage();
 		$request = $skin->getRequest();
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 
 		$oldid = $request->getVal( 'oldid' );
 		$diff = $request->getVal( 'diff' );
@@ -442,9 +443,9 @@ class NostalgiaTemplate extends BaseTemplate {
 		}
 
 		if ( $action == 'history' || $diff !== null || $oldid !== null ) {
-			$s[] .= Linker::linkKnown(
+			$s[] .= $linkRenderer->makeLink(
 				$title,
-				$skin->msg( 'currentrev' )->escaped()
+				$skin->msg( 'currentrev' )->plain()
 			);
 		}
 
@@ -453,16 +454,16 @@ class NostalgiaTemplate extends BaseTemplate {
 		# do not show "You have new messages" text when we are viewing our
 		# own talk page
 		if ( $userHasNewMessages && !$title->equals( $user->getTalkPage() ) ) {
-			$tl = Linker::linkKnown(
+			$tl = $linkRenderer->makeLink(
 				$user->getTalkPage(),
-				$skin->msg( 'nostalgia-newmessageslink' )->escaped(),
+				$skin->msg( 'nostalgia-newmessageslink' )->plain(),
 				[],
 				[ 'redirect' => 'no' ]
 			);
 
-			$dl = Linker::linkKnown(
+			$dl = $linkRenderer->makeLink(
 				$user->getTalkPage(),
-				$skin->msg( 'nostalgia-newmessagesdifflink' )->escaped(),
+				$skin->msg( 'nostalgia-newmessagesdifflink' )->plain(),
 				[],
 				[ 'diff' => 'cur' ]
 			);
@@ -532,14 +533,14 @@ class NostalgiaTemplate extends BaseTemplate {
 			$user = $skin->getUser();
 			$permManager = MediaWikiServices::getInstance()->getPermissionManager();
 			if ( $permManager->quickUserCan( 'edit', $user, $title ) && $title->exists() ) {
-				$t = $skin->msg( 'nostalgia-editthispage' )->escaped();
+				$t = $skin->msg( 'nostalgia-editthispage' )->plain();
 			} elseif ( $permManager->quickUserCan( 'create', $user, $title ) && !$title->exists() ) {
-				$t = $skin->msg( 'nostalgia-create-this-page' )->escaped();
+				$t = $skin->msg( 'nostalgia-create-this-page' )->plain();
 			} else {
-				$t = $skin->msg( 'viewsource' )->escaped();
+				$t = $skin->msg( 'viewsource' )->plain();
 			}
 
-			$s = Linker::linkKnown(
+			$s = MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 				$title,
 				$t,
 				[],
@@ -560,9 +561,9 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		if ( $title->getArticleID() && ( !$diff ) &&
 			$skin->getUser()->isAllowed( 'delete' ) ) {
-			$t = $skin->msg( 'nostalgia-deletethispage' )->escaped();
+			$t = $skin->msg( 'nostalgia-deletethispage' )->plain();
 
-			$s = Linker::linkKnown(
+			$s = MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 				$title,
 				$t,
 				[],
@@ -589,14 +590,14 @@ class NostalgiaTemplate extends BaseTemplate {
 			$restrictionStore->listApplicableRestrictionTypes( $title )
 		) {
 			if ( $restrictionStore->isProtected( $title ) ) {
-				$text = $skin->msg( 'nostalgia-unprotectthispage' )->escaped();
+				$text = $skin->msg( 'nostalgia-unprotectthispage' )->plain();
 				$query = [ 'action' => 'unprotect' ];
 			} else {
-				$text = $skin->msg( 'nostalgia-protectthispage' )->escaped();
+				$text = $skin->msg( 'nostalgia-protectthispage' )->plain();
 				$query = [ 'action' => 'protect' ];
 			}
 
-			$s = Linker::linkKnown(
+			$s = MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 				$title,
 				$text,
 				[],
@@ -621,20 +622,20 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		if ( $skin->getOutput()->isArticleRelated() ) {
 			if ( MediaWikiServices::getInstance()->getWatchlistManager()->isWatched( $skin->getUser(), $title ) ) {
-				$text = $skin->msg( 'unwatchthispage' )->escaped();
+				$text = $skin->msg( 'unwatchthispage' )->plain();
 				$query = [
 					'action' => 'unwatch',
 				];
 				$id = 'mw-unwatch-link' . $this->mWatchLinkNum;
 			} else {
-				$text = $skin->msg( 'watchthispage' )->escaped();
+				$text = $skin->msg( 'watchthispage' )->plain();
 				$query = [
 					'action' => 'watch',
 				];
 				$id = 'mw-watch-link' . $this->mWatchLinkNum;
 			}
 
-			$s = Linker::linkKnown(
+			$s = MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 				$title,
 				$text,
 				[
@@ -656,13 +657,14 @@ class NostalgiaTemplate extends BaseTemplate {
 	private function moveThisPage() {
 		$skin = $this->getSkin();
 		$title = $skin->getTitle();
-		$permManager = MediaWikiServices::getInstance()->getPermissionManager();
+		$services = MediaWikiServices::getInstance();
+		$permManager = $services->getPermissionManager();
 		$user = $skin->getUser();
 
 		if ( $permManager->quickUserCan( 'move', $user, $title ) ) {
-			return Linker::linkKnown(
+			return $services->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'Movepage' ),
-				$skin->msg( 'movethispage' )->escaped(),
+				$skin->msg( 'movethispage' )->plain(),
 				[],
 				[ 'target' => $title->getPrefixedDBkey() ]
 			);
@@ -677,9 +679,9 @@ class NostalgiaTemplate extends BaseTemplate {
 	 */
 	private function historyLink() {
 		$skin = $this->getSkin();
-		return Linker::link(
+		return MediaWikiServices::getInstance()->getLinkRenderer()->makeLink(
 			$skin->getTitle(),
-			$skin->msg( 'history' )->escaped(),
+			$skin->msg( 'history' )->plain(),
 			[ 'rel' => 'archives' ],
 			[ 'action' => 'history' ]
 		);
@@ -690,9 +692,9 @@ class NostalgiaTemplate extends BaseTemplate {
 	 */
 	private function whatLinksHere() {
 		$skin = $this->getSkin();
-		return Linker::linkKnown(
+		return MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 			SpecialPage::getTitleFor( 'Whatlinkshere', $skin->getTitle()->getPrefixedDBkey() ),
-			$skin->msg( 'whatlinkshere' )->escaped()
+			$skin->msg( 'whatlinkshere' )->plain()
 		);
 	}
 
@@ -701,9 +703,9 @@ class NostalgiaTemplate extends BaseTemplate {
 	 */
 	private function userContribsLink() {
 		$skin = $this->getSkin();
-		return Linker::linkKnown(
+		return MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 			SpecialPage::getTitleFor( 'Contributions', $skin->getTitle()->getDBkey() ),
-			$skin->msg( 'contributions' )->escaped()
+			$skin->msg( 'contributions' )->plain()
 		);
 	}
 
@@ -712,9 +714,9 @@ class NostalgiaTemplate extends BaseTemplate {
 	 */
 	private function emailUserLink() {
 		$skin = $this->getSkin();
-		return Linker::linkKnown(
+		return MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 			SpecialPage::getTitleFor( 'Emailuser', $skin->getTitle()->getDBkey() ),
-			$skin->msg( 'emailuser' )->escaped()
+			$skin->msg( 'emailuser' )->plain()
 		);
 	}
 
@@ -727,10 +729,10 @@ class NostalgiaTemplate extends BaseTemplate {
 			return $skin->msg( 'parentheses', $skin->msg( 'notanarticle' )->text() )->escaped();
 		}
 
-		return Linker::linkKnown(
+		return MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 			SpecialPage::getTitleFor( 'Recentchangeslinked',
 				$skin->getTitle()->getPrefixedDBkey() ),
-			$skin->msg( 'recentchangeslinked-toolbox' )->escaped()
+			$skin->msg( 'recentchangeslinked-toolbox' )->plain()
 		);
 	}
 
@@ -745,7 +747,7 @@ class NostalgiaTemplate extends BaseTemplate {
 			return '';
 		}
 
-		$linkOptions = [];
+		$linkKnown = false;
 
 		if ( $title->isTalkPage() ) {
 			$link = $title->getSubjectPage();
@@ -763,7 +765,7 @@ class NostalgiaTemplate extends BaseTemplate {
 					$text = $skin->msg( 'imagepage' );
 					# Make link known if image exists, even if the desc. page doesn't.
 					if ( MediaWikiServices::getInstance()->getRepoGroup()->findFile( $link ) ) {
-						$linkOptions[] = 'known';
+						$linkKnown = true;
 					}
 					break;
 				case NS_MEDIAWIKI:
@@ -786,7 +788,13 @@ class NostalgiaTemplate extends BaseTemplate {
 			$text = $skin->msg( 'nostalgia-talkpage' );
 		}
 
-		return Linker::link( $link, $text->escaped(), [], [], $linkOptions );
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
+
+		if ( $linkKnown ) {
+			return $linkRenderer->makeKnownLink( $link, $text->plain(), [], [] );
+		} else {
+			return $linkRenderer->makeLink( $link, $text->plain(), [], [] );
+		}
 	}
 
 	/**
@@ -795,16 +803,18 @@ class NostalgiaTemplate extends BaseTemplate {
 	private function getUploadLink() {
 		global $wgUploadNavigationUrl;
 
+		$services = MediaWikiServices::getInstance();
+
 		if ( $wgUploadNavigationUrl ) {
-			# Using an empty class attribute to avoid automatic setting of "external" class
-			return Linker::makeExternalLink( $wgUploadNavigationUrl,
-				$this->getSkin()->msg( 'upload' )->text(),
-				true, '', [ 'class' => '' ] );
+			# Manually construct the HTML due to not being sure where the global resolves
+			return Html::rawElement( 'a',
+				[ 'href' => $services->getUrlUtils()->expand( $wgUploadNavigationUrl ) ],
+				$this->getSkin()->msg( 'upload' )->escaped() );
 		}
 
-		return Linker::linkKnown(
+		return $services->getLinkRenderer()->makeKnownLink(
 			SpecialPage::getTitleFor( 'Upload' ),
-			$this->getSkin()->msg( 'upload' )->escaped()
+			$this->getSkin()->msg( 'upload' )->plain()
 		);
 	}
 }
