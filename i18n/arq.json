@@ -1,7 +1,19 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Bachounda"
+		]
 	},
+	"nostalgia-desc": "واجهة باش تورّي كيفاش كانت ويكيبيديا في 2001",
+	"nostalgia-articlepage": "شوف الباجة تاع المحتاوا",
+	"nostalgia-create-this-page": "اصنع هاذ الصفحه",
+	"nostalgia-deletethispage": "امحي هاد الـصفحه",
+	"nostalgia-editthispage": "بدّل هاد الـصفحه",
 	"nostalgia-newmessageslink": "براوات جديده",
-	"nostalgia-newmessagesdifflink": "التبديل التالى"
+	"nostalgia-newmessagesdifflink": "التبديل التالى",
+	"nostalgia-projectpage": "شوف صفحت المشروع",
+	"nostalgia-protectthispage": "احمي هاد الصفحه",
+	"nostalgia-talkpage": "ناقش على هاد الصفحه",
+	"nostalgia-unprotectthispage": "بدّل الحماية تاع هالصفحة",
+	"nostalgia-userpage": "شوف صفحة المستخدم"
 }
