@@ -504,12 +504,10 @@ class NostalgiaTemplate extends BaseTemplate {
 
 		$s = [];
 
-		if ( !$out->isPrintable() ) {
-			$printurl = htmlspecialchars( $skin->getTitle()->getLocalURL(
-				$request->appendQueryValue( 'printable', 'yes' ) ) );
-			$s[] = "<a href=\"$printurl\" rel=\"alternate\">"
-				. $skin->msg( 'printableversion' )->escaped() . '</a>';
-		}
+		$printurl = htmlspecialchars( $skin->getTitle()->getLocalURL(
+			$request->appendQueryValue( 'printable', 'yes' ) ) );
+		$s[] = "<a href=\"$printurl\" rel=\"alternate\">"
+			. $skin->msg( 'printableversion' )->escaped() . '</a>';
 
 		if ( $out->isSyndicated() ) {
 			foreach ( $out->getSyndicationLinks() as $format => $link ) {
